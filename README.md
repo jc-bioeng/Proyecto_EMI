@@ -1,6 +1,6 @@
 # Proyecto EMI
 
-Prototipo de trazabilidad RFID UHF pasivo para equipos biomedicos. I1 en desarrollo conforme a DEC-022. El bootstrap utiliza Java 21, Maven, SQLite/JDBC, Flyway y JUnit 5. No integra hardware RFID ni cierra P1.
+Prototipo de trazabilidad RFID UHF pasivo para equipos biomedicos. I1 en desarrollo conforme a DEC-022: bootstrap, tres entidades y esquema relacional disponibles. Los casos de uso y comandos de negocio siguen pendientes. El bootstrap utiliza Java 21, Maven, SQLite/JDBC, Flyway y JUnit 5. No integra hardware RFID ni cierra P1.
 
 Consultar [fuentes de verdad](docs/FUENTES_DE_VERDAD.md), [reglas de desarrollo](AGENTS.md) y [arquitectura](docs/desarrollo/arquitectura.md). Las referencias institucionales permanecen locales y excluidas de Git; no se distribuyen al clonar.
 
