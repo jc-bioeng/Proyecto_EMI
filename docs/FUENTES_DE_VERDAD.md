@@ -10,6 +10,8 @@ Este inventario organiza las referencias entregadas por el usuario. No modifica 
 | 2 | `control_local/Arquitecto_Proyecto_Documento_Maestro_v1.8_ACTUAL.pdf` | 1.8 ACTUAL | Dirección del proyecto, diseño y estado vigente. |
 | 3 | `control_local/Matriz_Requisitos_Proyecto_EMI_v1.8_ACTUAL.pdf` | 1.8 ACTUAL | Requisitos, prioridades, estados, evidencia y gates. |
 | 4 | `control_local/Registro_Decisiones_Proyecto_EMI_v1.8_ACTUAL.pdf` | 1.8 ACTUAL | Decisiones vigentes y registro histórico preservado. |
+| 4 | `control_local/decisiones_individuales/DEC-022_Adenda_Registro_Decisiones_Proyecto_EMI_2026-09-05.pdf` | DEC-022; 2026-09-05; aprobada | Adenda controlada del stack inicial; complementa el Registro y está pendiente de consolidación al finalizar P1. |
+| 5 | `soporte/Informe_Cierre_P0_Proyecto_EMI_2026-09-03.docx` | 1.0; 2026-09-03 | Evidencia histórica del cierre P0 y transición a Diseño; elaborado sobre control v1.6. |
 | 5 | `soporte/Informe_Tecnico_Avance_P1_v0.1_2026-09-05.pdf` | 0.1; 2026-09-05 | Evidencia auxiliar del avance técnico P1; no certifica por sí solo su cierre. |
 | 5 | `soporte/Checklist_P1_v0.1_ACTUALIZABLE.xlsx` | 0.1 actualizable | Seguimiento operativo auxiliar P1. |
 | 6 | `anexos/Transcripcion_Entrevista_Trazabilidad_Biomedica (1).docx` | Sin versión explícita en el nombre | Evidencia contextual; no amplía automáticamente el MVP. |

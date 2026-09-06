@@ -33,6 +33,9 @@ Fuera del alcance: sustitución o integración automática con AM, localización
 
 ## Documentos y Git
 
+- Un commit debe representar un incremento coherente y verificable; evitar commits que mezclen bootstrap, modelo, lógica y pruebas sin necesidad.
+- No modificar `AGENTS.md` ni `docs/FUENTES_DE_VERDAD.md` automáticamente salvo solicitud explícita del usuario.
+
 - No modificar las referencias de `docs/control_local/`, `docs/soporte/` o `docs/anexos/` sin solicitud específica. No actualizar automáticamente documentos ACTUAL, ni convertir/renombrar formatos.
 - Mantener esas tres carpetas excluidas de Git. No usar `git add -f` para incorporarlas ni copiar su contenido sensible a documentación versionable.
 - Documentación técnica nueva: `docs/desarrollo/`. Registrar supuestos y decisiones pendientes como tales.
@@ -41,7 +44,7 @@ Fuera del alcance: sustitución o integración automática con AM, localización
 
 ## Decisiones individuales durante P1
 
-- Incorporar las decisiones entregadas en `docs/control_local/decisiones_individuales/`, conservando nombre y contenido; verificar las copias y actualizar `docs/FUENTES_DE_VERDAD.md` con ID, título, fecha, estado, relaciones y conflictos.
+- Incorporar las decisiones entregadas en `docs/control_local/decisiones_individuales/`, conservando nombre y contenido; verificar las copias. Actualizar `docs/FUENTES_DE_VERDAD.md` con ID, título, fecha, estado, relaciones y conflictos solo cuando el usuario lo solicite explícitamente.
 - Consultar Registro ACTUAL y adendas conjuntamente. No confundir una decisión aprobada con autorización operativa para ejecutar todo lo mencionado en el archivo.
 - El usuario consolidará cuando se esté terminando P1. No regenerar los documentos ACTUAL por cada adenda; realizar el consolidado cuando el usuario indique que corresponde.
 - Validar que los IDs no colisionen. No renumerar originales, borrar historia ni elevar recomendaciones provisionales a decisiones aprobadas sin evidencia.

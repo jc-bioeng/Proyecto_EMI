@@ -18,6 +18,8 @@
 
 # Java / Maven (conservar un futuro Maven Wrapper)
 target/
+.mvn/timing.properties
+dependency-reduced-pom.xml
 *.class
 hs_err_pid*
 
