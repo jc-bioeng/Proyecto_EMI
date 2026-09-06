@@ -1,34 +1,37 @@
 # Proyecto EMI
 
-Prototipo de trazabilidad RFID UHF pasivo para equipos biomédicos. Este repositorio se encuentra en preparación documental: todavía no contiene código, dependencias, base de datos ni pruebas. I1 requiere autorización posterior del usuario.
+Prototipo de trazabilidad RFID UHF pasivo para equipos biomedicos. I1 en desarrollo conforme a DEC-022. El bootstrap utiliza Java 21, Maven, SQLite/JDBC, Flyway y JUnit 5. No integra hardware RFID ni cierra P1.
 
-Consultar [fuentes de verdad](docs/FUENTES_DE_VERDAD.md) y [reglas de desarrollo](AGENTS.md). Los documentos originales permanecen locales en `docs/control_local`, `docs/soporte` y `docs/anexos`, excluidos de Git. No estarán disponibles al clonar el repositorio.
+Consultar [fuentes de verdad](docs/FUENTES_DE_VERDAD.md), [reglas de desarrollo](AGENTS.md) y [arquitectura](docs/desarrollo/arquitectura.md). Las referencias institucionales permanecen locales y excluidas de Git; no se distribuyen al clonar.
 
-## Enlace manual con una cuenta personal
+## Compilar y probar en Windows
 
-Git local y la cuenta del alojamiento son independientes. Este repositorio se inicializa en `main`, sin remoto ni commit inicial. No se cambia la identidad Git del usuario.
-
-En PowerShell, con Git disponible, sustituir los valores de ejemplo:
+Se requiere un JDK 21. Maven Wrapper descarga Maven 3.9.11; la primera ejecucion necesita acceso a Maven Central. En PowerShell, ajustar JAVA_HOME a la instalacion propia:
 
 ```powershell
-Set-Location C:\Proyecto_EMI
-git config --local user.name "TU NOMBRE"
-git config --local user.email "TU CORREO DE COMMITS"
-git status --short --ignored
-git add .gitignore AGENTS.md README.md docs/FUENTES_DE_VERDAD.md
-git diff --cached --stat
-git diff --cached
-git commit -m "Preparar fuentes documentales e instrucciones del proyecto"
+$env:JAVA_HOME = 'C:\Program Files\Eclipse Adoptium\jdk-21.0.12.101-hotspot'
+$env:Path = "$env:JAVA_HOME\bin;$env:Path"
+.\mvnw.cmd verify
+java -jar target/trazabilidad-0.1.0-SNAPSHOT.jar data/emi.db
 ```
 
-La identidad de autor no inicia sesión en una cuenta. Para GitHub, crear manualmente un repositorio vacío en la cuenta personal, sin README, licencia ni gitignore iniciales. Después reemplazar USUARIO y REPOSITORIO por los propios:
+La configuracion de esas variables afecta solo esta sesion. Maven exige Java 21 y rechaza Java 8. El JAR incluye dependencias; el equipo de ejecucion necesita Java 21, sin Maven.
+
+El arranque migra la base antes de usarla. La base debe residir en disco local, fuera del control de versiones. Antes de actualizar una instalacion con datos, detener la aplicacion y respaldar la base y sus archivos auxiliares existentes. No ejecutar migraciones concurrentemente. Flyway clean esta deshabilitado.
+
+## Enlace manual con la cuenta personal
+
+Git local y la cuenta del alojamiento son independientes. La identidad existente se conserva. El usuario controla el remoto y la publicacion; estos pasos no son necesarios para ejecutar el proyecto.
+
+Crear un repositorio remoto vacio en la cuenta personal y reemplazar USUARIO y REPOSITORIO:
 
 ```powershell
-git remote add origin https://github.com/USUARIO/REPOSITORIO.git
 git remote -v
+# Si no existe origin:
+git remote add origin https://github.com/USUARIO/REPOSITORIO.git
+git status --short --ignored
+git log --oneline -5
 git push -u origin main
 ```
 
-Completar la autenticación personal cuando Git la solicite; no guardar tokens dentro del repositorio ni de la URL. Puede usarse en su lugar la URL SSH de la cuenta si ya está configurada.
-
-Antes de publicar, revisar el contenido del commit. `.gitignore` excluye las referencias locales, pero no elimina información que se haya incorporado previamente al historial o copiado a otro archivo.
+Completar la autenticacion cuando Git la solicite. No guardar tokens en archivos ni URLs del repositorio. Revisar los commits antes de publicar: gitignore no retira informacion ya versionada. `docs/control_local/`, `docs/soporte/` y `docs/anexos/` estan excluidas.
