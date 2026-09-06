@@ -1,0 +1,43 @@
+# Referencias institucionales: disponibles localmente, no publicar.
+/docs/control_local/
+/docs/soporte/
+/docs/anexos/
+
+# Datos, respaldos y salidas locales
+/data/
+/backups/
+/logs/
+/tmp/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+
+# Java / Maven (conservar un futuro Maven Wrapper)
+target/
+*.class
+hs_err_pid*
+
+# Configuración privada y credenciales
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx
+/config/local.properties
+
+# IDE y sistema operativo
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
