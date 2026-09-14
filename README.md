@@ -1,5 +1,17 @@
 # Proyecto EMI
 
+## Incremento I5
+
+I5 CERRADO técnicamente: última lectura, último evento e historiales por equipo con asociación histórica de etiquetas. Consulte el [diseño, API Java, V5 y 169 pruebas de I5](docs/desarrollo/incremento_i5.md). Las consultas preservan la evidencia y no generan eventos. Última lectura != último evento != estado físico actual. Evidencia SOFTWARE / SIMULACION; RF-004 implementado en software como recomendación técnica, sin modificar el control ACTUAL ni cerrar el MVP.
+
+## Incremento I4
+
+I4 CERRADO técnicamente: motor de eventos y deduplicación sobre lecturas persistidas con contexto elegible. Consulte el [diseño, API Java, 134 pruebas y límites de I4](docs/desarrollo/incremento_i4.md). Guardar una lectura no genera un evento; el procesamiento es explícito. Evidencia SOFTWARE / SIMULACION, sin cierre del MVP ni RF_REAL físico.
+
+## Estado técnico posterior: I3
+
+I3 implementa persistencia de `SesionOperacion` y `LecturaRFID`. Consulte el [diseño, uso Java, pruebas y trazabilidad de I3](docs/desarrollo/incremento_i3.md). Las secciones I1 siguientes se conservan como antecedentes; para el control formal vigente prevalece `docs/FUENTES_DE_VERDAD.md` (v1.9.2, I1/I2 cerrados). I3 no cierra el MVP ni acredita RF_REAL.
+
 Prototipo de trazabilidad RFID UHF pasivo para equipos biomedicos. I1 IMPLEMENTADO Y VERIFICADO TÉCNICAMENTE conforme a DEC-022: bootstrap, tres entidades y esquema relacional disponibles. Los siete casos de uso de asociacion y sus comandos de consola estan implementados y verificados. El bootstrap utiliza Java 21, Maven, SQLite/JDBC, Flyway y JUnit 5. No integra hardware RFID ni cierra P1.
 
 Consultar [fuentes de verdad](docs/FUENTES_DE_VERDAD.md), [reglas de desarrollo](AGENTS.md) y [arquitectura](docs/desarrollo/arquitectura.md). Las referencias institucionales permanecen locales y excluidas de Git; no se distribuyen al clonar.
