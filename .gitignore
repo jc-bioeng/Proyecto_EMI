@@ -43,3 +43,13 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 ~$*
+
+# Producción editorial: conservar intermediarios locales y versionar solo la entrega final
+/presentation/build/
+/presentation/output/
+/output/
+!/output/
+/output/*
+!/output/Proyecto_EMI_Avance_Asesor.pptx
+!/output/Proyecto_EMI_Avance_Asesor.pdf
+/src/presentation/node_modules/
