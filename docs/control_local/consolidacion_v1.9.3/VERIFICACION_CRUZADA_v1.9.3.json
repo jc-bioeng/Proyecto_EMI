@@ -1,0 +1,44 @@
+{
+  "date": "13/09/2026",
+  "version": "1.9.3",
+  "documents": {
+    "Maestro": {
+      "pages": 10,
+      "all_content_present": true,
+      "header_version_date": true
+    },
+    "Matriz": {
+      "pages": 10,
+      "all_content_present": true,
+      "header_version_date": true
+    },
+    "Registro": {
+      "pages": 8,
+      "all_content_present": true,
+      "header_version_date": true
+    }
+  },
+  "requirements": 29,
+  "changed_states": [
+    "AC-004",
+    "RF-003",
+    "RF-004",
+    "DAT-001",
+    "VAL-003"
+  ],
+  "state_tables_equal": true,
+  "DEC001_023_and_DEC023_card_unchanged": true,
+  "existing_surefire_reports": 18,
+  "suite": {
+    "tests": 169,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "initial_files_unchanged": 136,
+  "unrelated_generated_file_changed_during_task": [
+    "C:\\Proyecto_EMI\\presentation\\build\\powerpoint_text_bounds.json"
+  ],
+  "visual_QA": "28 páginas renderizadas desde Word y revisadas; título, saltos, tablas y encabezados corregidos y reexportados. LibreOffice ausente; render_docx.py diagnosticado y sustituido por Word + rasterización.",
+  "rerun_maven": false
+}

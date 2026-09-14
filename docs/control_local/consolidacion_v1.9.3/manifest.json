@@ -1,0 +1,603 @@
+{
+  "version": "1.9.3",
+  "date": "13/09/2026",
+  "antecedent": "1.9.2",
+  "phase": "DISEÑO",
+  "new_DEC": null,
+  "suite": [
+    169,
+    0,
+    0,
+    0
+  ],
+  "history_preserved": [
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\EmiApplication.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\EmiApplication.java",
+      "sha256": "962408230b54bdca993e4b73e70d3681d7b39879ee59c1ca2b8294e7a23cf591"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\ErrorAplicacion.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\ErrorAplicacion.java",
+      "sha256": "acb5f96f9d8f79fbd4bb99160c93701e2c4d446a6b1d409dca7e508a15e62a03"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\ResultadoProcesamiento.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\ResultadoProcesamiento.java",
+      "sha256": "da9b926bbc89e71d6cd5a99ed2bc32fb851d17931d0339897527d6acd3d5e34e"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI1.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI1.java",
+      "sha256": "caf12154f709bb76449ad063cf88915e73dc73f50d92cc77e6656a8575aef846"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI3.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI3.java",
+      "sha256": "f6dcd45a84dedb3edba3434b401dd188c2ea9cf56496772d5352c92d843d02ba"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI4.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI4.java",
+      "sha256": "d4f10331957262cc06de4dc55ca25e1dbd246e5b7f4f483381e9081b640443bc"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI5.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI5.java",
+      "sha256": "09474334573d408cd726792f412bf61d946e3920a39d514713e80d6ed4e17f71"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\AsignacionEtiqueta.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\AsignacionEtiqueta.java",
+      "sha256": "17ca42478619957480eba673b85a1bcb728a4d345a5de7e8eba893a1612ea74e"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\Equipo.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\Equipo.java",
+      "sha256": "88636e807bf9376b95e0455895ba8c582205c7ff3f4d6fb31bae2707edd84841"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\EstadoEtiqueta.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\EstadoEtiqueta.java",
+      "sha256": "35d3c477e80812015d869311c94d3fdd6d51f023be62f53b620c3afe0d807d13"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\EstadoSesion.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\EstadoSesion.java",
+      "sha256": "80f6ce41bbe712234a4d8cf68bb7fe35814ecd154aeaca31375aeda6a035646b"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\EtiquetaRFID.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\EtiquetaRFID.java",
+      "sha256": "fecc6c00ebe25dab6f86521b230347cc148a972de5b583059c91582b536aa27d"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\EventoOperativo.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\EventoOperativo.java",
+      "sha256": "37d262ea78034873755694171c91f178231ff894e3d9a495c4327d14394f304d"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\EvidenciaEvento.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\EvidenciaEvento.java",
+      "sha256": "2b1a21e0862a814c4acfe9d464fe720922927b775c6107d337155f9c5a299e8e"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\LecturaEntradaRFID.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\LecturaEntradaRFID.java",
+      "sha256": "69b874b950b0c485f69a5b9a916b4bb55cf69bbee9b2134350379a6ef48c60db"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\LecturaRFID.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\LecturaRFID.java",
+      "sha256": "6ef1b474fe82c9ab6699d96e32ac3fd13a07698a4bec262350a905cad5907cb7"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\OrigenDatos.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\OrigenDatos.java",
+      "sha256": "52d8b507c9f24bc170367053963ef06b864694e18cdc7e6c9fb693dd985098d7"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\SesionOperacion.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\SesionOperacion.java",
+      "sha256": "8fd80099a695fc512c9cac272098a13bdd3a023895fbf6693368301ec6be4f9a"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\TipoEvento.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\TipoEvento.java",
+      "sha256": "489fd3afa2632d2546a54663e2f3d6cb254bf4eac1af427f6566975cf80af9c0"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\TipoOperacion.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\dominio\\TipoOperacion.java",
+      "sha256": "cfb95c3aedfa305ce97a3999ad8df64a67bff7987cbfb80123bbb1d3e06a2071"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\entrada\\ConsolaEmi.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\entrada\\ConsolaEmi.java",
+      "sha256": "8df7a113008f18f2113ac17d233d742d02faaca363a8626a06ee42ea6d141541"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\consultas\\EventoConContexto.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\consultas\\EventoConContexto.java",
+      "sha256": "81930a71b6c159c742c6a02ac829d3c94685e2c0c98d3f5b635c846b2448faa4"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\consultas\\LecturaAtribuida.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\consultas\\LecturaAtribuida.java",
+      "sha256": "c0d80098dde1601880b1f69d2756b8c3690c0513e1f0eeeb09971c10c3cec948"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\puertos\\FuenteLecturasRFID.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\puertos\\FuenteLecturasRFID.java",
+      "sha256": "c94126d670d34e67994a1d538007f486c5ab91aaa600423465f79f0640cc5573"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\puertos\\RepositorioI1.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\puertos\\RepositorioI1.java",
+      "sha256": "b87c26b8f9a05b8f35d043357652d72a6660883d5017d473094a810f8ff04cdc"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\puertos\\RepositorioI3.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\puertos\\RepositorioI3.java",
+      "sha256": "a8433a9bc75f7e47d0183f8d4af862ee6666d8144800e999e7744a7a4c9fb536"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\puertos\\RepositorioI4.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\puertos\\RepositorioI4.java",
+      "sha256": "6a700eb737cffdd2dac7070152c15969ae15ddca2aa2b4177f28a8b568bb4e1e"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\puertos\\RepositorioI5.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\puertos\\RepositorioI5.java",
+      "sha256": "9bc5e48ea8b4871ac49fac2a85a8cbf7dc4cba28a40ca9eb70bd2978d6ac9d58"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\puertos\\UnidadDeTrabajo.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\aplicacion\\puertos\\UnidadDeTrabajo.java",
+      "sha256": "eedc138fa6a9baec27aebe832a06783aad28f23d3339fff601ca68fe8e515080"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\BaseDatos.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\BaseDatos.java",
+      "sha256": "6c31319a9267861cdf0433f42cae7cd3f29995155afc230be2f7bc676c21ecb2"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\JdbcRepositorioI1.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\JdbcRepositorioI1.java",
+      "sha256": "fc9b0342927e31b2f92532cfc0245d811d7bda2a612c32f114aeca0bd2b0acad"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\JdbcRepositorioI3.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\JdbcRepositorioI3.java",
+      "sha256": "45cad397dbb2b39e2db5f913dbd312d03731887c6a5f0e6a3ecfd4afc2151e3e"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\JdbcRepositorioI4.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\JdbcRepositorioI4.java",
+      "sha256": "862d232891ce99afa68a9cb25f76737b552d552e32717959701e0a6146d31afe"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\JdbcRepositorioI5.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\JdbcRepositorioI5.java",
+      "sha256": "96f6d4c9d6066eee239cf2848d1df99704955e3797ba6c19291ec47ed426b2b9"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\JdbcUnidadDeTrabajo.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\JdbcUnidadDeTrabajo.java",
+      "sha256": "0fe336e551ee6486754d380a3fdb81d5b64e8b90addd0acfdab0b2bc190e11f1"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\rfid\\FuenteSimulada.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\java\\co\\emi\\trazabilidad\\infraestructura\\rfid\\FuenteSimulada.java",
+      "sha256": "b66a864f26fbf6281f1e8cbf8718641d2218387645b8ca02b50ea612500f5398"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\resources\\db\\migration\\V1__inicializar_persistencia.sql",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\resources\\db\\migration\\V1__inicializar_persistencia.sql",
+      "sha256": "5b800bf5bf394fecd576aeb21ebad79293ca1672cb3e1c7cddeb61b6e1b0da1d"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\resources\\db\\migration\\V2__crear_entidades_i1.sql",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\resources\\db\\migration\\V2__crear_entidades_i1.sql",
+      "sha256": "4590f422e54350a3658b99e2047cc4b5640b1c1ab99fcd1a4cd7f10f88d987a8"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\resources\\db\\migration\\V3__persistir_sesiones_y_lecturas.sql",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\resources\\db\\migration\\V3__persistir_sesiones_y_lecturas.sql",
+      "sha256": "b9aa31170874a4a37eff900d4c25924a5148ef44c0d7bdd89235fa00725e73b4"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\resources\\db\\migration\\V4__persistir_eventos_y_respaldo.sql",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\resources\\db\\migration\\V4__persistir_eventos_y_respaldo.sql",
+      "sha256": "3a5518e4b7b88545d07984fa9005f4f1dda31d0539ae2a3b9aa7c0dd3bd774d0"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\main\\resources\\db\\migration\\V5__indexar_consultas_por_equipo.sql",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\main\\resources\\db\\migration\\V5__indexar_consultas_por_equipo.sql",
+      "sha256": "4fa69855379bf74881a34b2315661e3a550a70cf5a8f6b276e82b2cec283ccc2"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\AislamientoI4Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\AislamientoI4Test.java",
+      "sha256": "9b16a141bae288691b6133e9f9e94259f572690198c52ad25db6862e2b8eedeb"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\AislamientoI5Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\AislamientoI5Test.java",
+      "sha256": "8d7e3ee6079c4537db8866d2f0b04f3cecf040023f76b86f9d76575dc736ec2f"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\ConsultasI5Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\ConsultasI5Test.java",
+      "sha256": "c7d3a9efab3f9ce26a5170dfacce6e770d0a5db241011511d34c2a54e0b28595"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI1Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI1Test.java",
+      "sha256": "b7ebad28c29636c912b4bf19867faa57bf593fed043efcbc4abb579e750448b1"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI3Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI3Test.java",
+      "sha256": "a7bd3c50fc259462825386089e28f0de9bcffafafb5cd451e21428e085357add"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI4Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI4Test.java",
+      "sha256": "2c4a389b2bc96d17b959c330396b6212e863e23ad9dd81ffd6e28ca0ea906d9a"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI5Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\aplicacion\\ServicioI5Test.java",
+      "sha256": "b7f274630be27c096f95a55b1e57c5346bb9aab6c111fa7488996c17487e89f6"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\dominio\\LecturaEntradaRFIDTest.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\dominio\\LecturaEntradaRFIDTest.java",
+      "sha256": "38939c8c21ed73cceae9d161b6a636ee0a8944d9d29197b2929177635abe7d68"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\dominio\\ModeloI3Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\dominio\\ModeloI3Test.java",
+      "sha256": "420f9ca84b3253ecd9a86984b1b7fd6239c71b7989d57f2624ff19747b46ffc5"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\dominio\\ModeloI4Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\dominio\\ModeloI4Test.java",
+      "sha256": "3e2f74aad4e2cf4d7fd726e7b9937c6f28ba2f4d1d228748acd39f20339401fd"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\entrada\\ConsolaEmiTest.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\entrada\\ConsolaEmiTest.java",
+      "sha256": "95d212d81f13378e39df4cc559f80b7d5caa21c8bfd48da20fe8b744e6b594b0"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\BaseDatosTest.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\BaseDatosTest.java",
+      "sha256": "8d3aacb363358bc5bf3f1ed408c40f6df7ce062f2d6ffb51d379444652079dec"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\EsquemaI1Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\EsquemaI1Test.java",
+      "sha256": "ad0889b9ccb9bd86d9db31eb3c0e2a25bbd1b9eb063402c22fb98e006790bbc6"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\EsquemaI3Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\EsquemaI3Test.java",
+      "sha256": "c3692d7d9b3eb18983bb0f66ccb6421ff4dbc6afb7c01a56099fde2cc4b1dbe1"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\EsquemaI4Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\EsquemaI4Test.java",
+      "sha256": "56c270122ac961270bc0ec776ea6c6140f745058f8f6d696b43ee5f21696c1f1"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\EsquemaI5Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\persistencia\\EsquemaI5Test.java",
+      "sha256": "e650340d61a15922d4101cbd58f70032f16d890f409d1a399f585d2689095525"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\rfid\\AislamientoI2Test.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\rfid\\AislamientoI2Test.java",
+      "sha256": "5c3bd1cf8d722ba6ee24c5c3ca216fea958dc12870ed056b3e12a31ff6380233"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\rfid\\FuenteSimuladaTest.java",
+      "preserved_path": "C:\\Proyecto_EMI\\src\\test\\java\\co\\emi\\trazabilidad\\infraestructura\\rfid\\FuenteSimuladaTest.java",
+      "sha256": "04980cf53f1081f98296437a950b7a564ea2b1a3132878f2b495899f8381838b"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\Arquitecto_Proyecto_Documento_Maestro_v1.9.2_ACTUAL.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Arquitecto_Proyecto_Documento_Maestro_v1.9.2_ACTUAL.pdf",
+      "sha256": "58ea6a6701908317bd24474da65b3f9e924caf9b2d46e041b72171bb55be3404"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\Matriz_Requisitos_Proyecto_EMI_v1.9.2_ACTUAL.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Matriz_Requisitos_Proyecto_EMI_v1.9.2_ACTUAL.pdf",
+      "sha256": "3511de35796da873ccca60b4a50b923aa91b1ea4afbef8130dbf43cde9376a20"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\Propuesta_Juan_Cortes_20262.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\Propuesta_Juan_Cortes_20262.pdf",
+      "sha256": "1c5fdc97d18a6b3616c321e7ec17e3bad070eb71b1e9b35a0d2accb0fa135f11"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\Registro_Decisiones_Proyecto_EMI_v1.9.2_ACTUAL.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Registro_Decisiones_Proyecto_EMI_v1.9.2_ACTUAL.pdf",
+      "sha256": "16e0873dcbf252152dfe5a111516040d6a20c29d20bac2eebb2018c71de67205"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\decisiones_individuales\\DEC-022_Adenda_Registro_Decisiones_Proyecto_EMI_2026-09-05.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\decisiones_individuales\\DEC-022_Adenda_Registro_Decisiones_Proyecto_EMI_2026-09-05.pdf",
+      "sha256": "6bd582e52fbf46d6cfeb502c7e3e419152c31322d4aa155ddb31d9878804baed"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Arquitecto_Proyecto_Documento_Maestro_v1.8.1_ACTUAL.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Arquitecto_Proyecto_Documento_Maestro_v1.8.1_ACTUAL.pdf",
+      "sha256": "96e4fdde6a89756abcc636c9ca3499d961d12fb29dd3d3b2a07e4c283a5158fe"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Arquitecto_Proyecto_Documento_Maestro_v1.8.2_ACTUAL.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Arquitecto_Proyecto_Documento_Maestro_v1.8.2_ACTUAL.pdf",
+      "sha256": "ea06903afbe6269ac9a6c01cf9cab1e777364a8a87fa9eff9eb356909829b52b"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Arquitecto_Proyecto_Documento_Maestro_v1.8.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Arquitecto_Proyecto_Documento_Maestro_v1.8.pdf",
+      "sha256": "d2e02e281c90835f69437e79fd14c33cf727b66a00f95eca899e93876a786823"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Arquitecto_Proyecto_Documento_Maestro_v1.9.1_ACTUAL.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Arquitecto_Proyecto_Documento_Maestro_v1.9.1_ACTUAL.pdf",
+      "sha256": "3abcca3310d1d356589ec1e491bdca38fa9963ef8cba88c0636eccb8426316f5"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Matriz_Requisitos_Proyecto_EMI_v1.8.1_ACTUAL.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Matriz_Requisitos_Proyecto_EMI_v1.8.1_ACTUAL.pdf",
+      "sha256": "911ece87230bae62f2e6684243c8200e9c0e1bd50ccde7812e92cdfaa1bcfb50"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Matriz_Requisitos_Proyecto_EMI_v1.8.2_ACTUAL.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Matriz_Requisitos_Proyecto_EMI_v1.8.2_ACTUAL.pdf",
+      "sha256": "b4ccf7a291e2c7b8ad17ade1047d676dd5127a9b6076e7cb3c54352781a97060"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Matriz_Requisitos_Proyecto_EMI_v1.8.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Matriz_Requisitos_Proyecto_EMI_v1.8.pdf",
+      "sha256": "011cb5de269ae197aba01cf7f66150401315f9fab7977a58fcaa6f7bddd1ab50"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Matriz_Requisitos_Proyecto_EMI_v1.9.1_ACTUAL.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Matriz_Requisitos_Proyecto_EMI_v1.9.1_ACTUAL.pdf",
+      "sha256": "760bb1fe1d9137bd0f3a21aff984c0464eb7043b830a0fe4ade71397642ddbe7"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Registro_Decisiones_Proyecto_EMI_v1.8.1_ACTUAL.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Registro_Decisiones_Proyecto_EMI_v1.8.1_ACTUAL.pdf",
+      "sha256": "bb4f3169497b976b75db940764ef1856fec85a1dfaa0e2a2ad0cdecb05e5b2d4"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Registro_Decisiones_Proyecto_EMI_v1.8.2_ACTUAL.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Registro_Decisiones_Proyecto_EMI_v1.8.2_ACTUAL.pdf",
+      "sha256": "efcc5c69ce799e87ad0ab1b4c300f34c6ddec12cfc168eec2861cf9a9565dcc8"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Registro_Decisiones_Proyecto_EMI_v1.8.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Registro_Decisiones_Proyecto_EMI_v1.8.pdf",
+      "sha256": "7df691fc6cf9b8e7524454386f056e319e50df657046621f36e86c66a1a6ef8f"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Registro_Decisiones_Proyecto_EMI_v1.9.1_ACTUAL.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\Registro_Decisiones_Proyecto_EMI_v1.9.1_ACTUAL.pdf",
+      "sha256": "a5e5c9b13fc2463045e2a8aade707bad44417071f9429589e0c672c4dbcfee3e"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\soporte\\Checklist_P1_v0.1_ACTUALIZABLE.xlsx",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\soporte\\Checklist_P1_v0.1_ACTUALIZABLE.xlsx",
+      "sha256": "a381881b0815ebb1fe8001dbd07d871938db9deee0d76a7b8fde02beb1eddde4"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\soporte\\Informe_Cierre_P0_Proyecto_EMI_2026-09-03.docx",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\soporte\\Informe_Cierre_P0_Proyecto_EMI_2026-09-03.docx",
+      "sha256": "4e307367177ed42f4984abc6a74422eb2a04aadb51099a6ba3104b898f0bef78"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\soporte\\Informe_Hallazgos_Operativos_AM_RFID_EMI_2026-09-09.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\soporte\\Informe_Hallazgos_Operativos_AM_RFID_EMI_2026-09-09.pdf",
+      "sha256": "a73dcbfe3fea988cd4463889ab6c81f73e9dbae050fbb40d20a48e722762582a"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\soporte\\Informe_Tecnico_Avance_I1_Proyecto_EMI_v0.1_2026-09-06.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\soporte\\Informe_Tecnico_Avance_I1_Proyecto_EMI_v0.1_2026-09-06.pdf",
+      "sha256": "40a6d4354514f6533f4da29c44690f889a10f750fe3b15ff409fc28bf316e5e0"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\soporte\\Informe_Tecnico_Avance_P1_v0.1_2026-09-05.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\soporte\\Informe_Tecnico_Avance_P1_v0.1_2026-09-05.pdf",
+      "sha256": "158ee06e0bf5e93f07a0ca42488234065ce4bdfea8aa7616f529ddb77b4b8231"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\soporte\\Informe_Tecnico_Cierre_I1_Proyecto_EMI_v0.2_2026-09-06.pdf",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\soporte\\Informe_Tecnico_Cierre_I1_Proyecto_EMI_v0.2_2026-09-06.pdf",
+      "sha256": "b9fa3aaa39e33f72609bbea4c5565185ae4393948727a4018a64473e7f726d7b"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\anexos\\Transcripcion_Entrevista_Trazabilidad_Biomedica (1).docx",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\anexos\\Transcripcion_Entrevista_Trazabilidad_Biomedica (1).docx",
+      "sha256": "aa69f0fed5b1524689171b6620e026ade76334ae37ce3569accf3eb40ff666d4"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\desarrollo\\arquitectura.md",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\desarrollo\\arquitectura.md",
+      "sha256": "4885abbbdcd5ddbccf936c27b9535b3deefa85a329d3f324fae273cbe6246edf"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\desarrollo\\casos_de_uso_i1.md",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\desarrollo\\casos_de_uso_i1.md",
+      "sha256": "04d2c6eab87da0f18fa3c92cac12cc851227bab5598a8e4fe597265e76f982f2"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\desarrollo\\incremento_i3.md",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\desarrollo\\incremento_i3.md",
+      "sha256": "f60b821a06dd63af07d0e0b768dccec94c8d933253b556b5b771ff5d31a17d35"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\desarrollo\\incremento_i4.md",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\desarrollo\\incremento_i4.md",
+      "sha256": "43fee7bae0c768434d1edbead8ef1e70685341c17841eb269f4b432c0ce33c8b"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\desarrollo\\incremento_i5.md",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\desarrollo\\incremento_i5.md",
+      "sha256": "0c977c6101c839982b9e35c6a3f9a6aa80ab625ff4941baf3aab3b6ab12fa7bf"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\desarrollo\\modelo_datos.md",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\desarrollo\\modelo_datos.md",
+      "sha256": "0e83218c47f8e1786b49f90db828b9b37acbda9a24f69e878d66304847bc8cd4"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\presentation\\deck_spec.md",
+      "preserved_path": "C:\\Proyecto_EMI\\presentation\\deck_spec.md",
+      "sha256": "3f9aa8bc26cc1e041ccc82034aa981cf37e54746b53cffd0423070f77cffaa80"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\presentation\\evidence_matrix.md",
+      "preserved_path": "C:\\Proyecto_EMI\\presentation\\evidence_matrix.md",
+      "sha256": "070dfa3bbe956ba668856b34e62e560d94b579cd5c431536b6507d66be72b3b5"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\presentation\\presentation_brief.md",
+      "preserved_path": "C:\\Proyecto_EMI\\presentation\\presentation_brief.md",
+      "sha256": "011ab4798b3b8845dfc089837ae25cfc8a6d542d4ab9fe18cedcca56f2991a18"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\presentation\\production_revision.md",
+      "preserved_path": "C:\\Proyecto_EMI\\presentation\\production_revision.md",
+      "sha256": "b9fc69d1a724f6db2870f7896422efe555d3e340f030e31826a437be7e797b35"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\presentation\\qa_report.md",
+      "preserved_path": "C:\\Proyecto_EMI\\presentation\\qa_report.md",
+      "sha256": "5c92d160a168060b1952af5023113517078c8dba297456b179f68baaec008b21"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\presentation\\repository_inventory.json",
+      "preserved_path": "C:\\Proyecto_EMI\\presentation\\repository_inventory.json",
+      "sha256": "5ae105c0c2eb29172f4b86701f6fc05cc2a47982fbd95ff02405178ebf1e6ba8"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\presentation\\source_manifest.json",
+      "preserved_path": "C:\\Proyecto_EMI\\presentation\\source_manifest.json",
+      "sha256": "d16903fd27775a855e0ede642cd728df2131772dea666305b7e4eebb2db64a7f"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\presentation\\source_review.md",
+      "preserved_path": "C:\\Proyecto_EMI\\presentation\\source_review.md",
+      "sha256": "d722477bbf7273c9527e74bc0397abd4755868f4ebca4d55e03dfca86b62fc3c"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\presentation\\speaker_notes.md",
+      "preserved_path": "C:\\Proyecto_EMI\\presentation\\speaker_notes.md",
+      "sha256": "dabfad2f4a8148733ae45ae374cd04aac966dbf9bd0e45bcdedf12af2bcf93bb"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\presentation\\storyboard.md",
+      "preserved_path": "C:\\Proyecto_EMI\\presentation\\storyboard.md",
+      "sha256": "f4b898e8a01542d771562f07237a27e1ed1c148d90f44049bc47595499147242"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\presentation\\visual_assets_plan.md",
+      "preserved_path": "C:\\Proyecto_EMI\\presentation\\visual_assets_plan.md",
+      "sha256": "9cc52032db6f1f2a15f23055265a6b9951fb3fcb92af1e5bff36c9735d00e203"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\presentation\\historico\\storyboard_v0.1_15_slides.md",
+      "preserved_path": "C:\\Proyecto_EMI\\presentation\\historico\\storyboard_v0.1_15_slides.md",
+      "sha256": "e8a6482131f78ba32cb08d5c7c362f12bde96cd7af6ff5c00661bf6de716e818"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\pom.xml",
+      "preserved_path": "C:\\Proyecto_EMI\\pom.xml",
+      "sha256": "02944709a9e91fe8f14accd828bdf502ed9a526a5a0a5fca450a7ef3b847072b"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\AGENTS.md",
+      "preserved_path": "C:\\Proyecto_EMI\\AGENTS.md",
+      "sha256": "023498df82b876f1341f1fd352c434efe456f950208b1cbedabe07fcee9a81ae"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\README.md",
+      "preserved_path": "C:\\Proyecto_EMI\\README.md",
+      "sha256": "d4e8cbaab92aca62ec67a75715b8d376b5d49839981ad6fc1a682d53bdd3dac2"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\.gitignore",
+      "preserved_path": "C:\\Proyecto_EMI\\.gitignore",
+      "sha256": "1f200c2141150c3b0bc7e11dcbd182d1b615cb2303c6243abb79aea2919d7fe4"
+    },
+    {
+      "source_path": "C:\\Proyecto_EMI\\docs\\FUENTES_DE_VERDAD.md",
+      "preserved_path": "C:\\Proyecto_EMI\\docs\\control_local\\historico\\FUENTES_DE_VERDAD_v1.9.2_pre_consolidacion_2026-09-13.md",
+      "sha256": "076d1a3016da76275f3b6fc060b2067bab85c98dd33bb76b8c2f270474b46e6d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "C:\\Proyecto_EMI\\docs\\control_local\\Arquitecto_Proyecto_Documento_Maestro_v1.9.3_ACTUAL.docx",
+      "sha256": "17ee71bba70dfd16c05b06ad22c0e91d81705114e74e1ded00c6a0415289491c",
+      "bytes": 53501
+    },
+    {
+      "path": "C:\\Proyecto_EMI\\docs\\control_local\\Arquitecto_Proyecto_Documento_Maestro_v1.9.3_ACTUAL.pdf",
+      "sha256": "6a5d6090d9d9a7ca511f213a167cf1953803233294f011a31ed33d35a99a5a93",
+      "bytes": 401647
+    },
+    {
+      "path": "C:\\Proyecto_EMI\\docs\\control_local\\INFORME_CONSOLIDACION_v1.9.3.md",
+      "sha256": "0109394a7671e3b13a54a76b90b6a160e3154bb7b61be5f730dbf4165d83f7f9",
+      "bytes": 24892
+    },
+    {
+      "path": "C:\\Proyecto_EMI\\docs\\control_local\\Matriz_Requisitos_Proyecto_EMI_v1.9.3_ACTUAL.docx",
+      "sha256": "289cf0472d83d9d51b3c49f9ebbd6215d41bd21da058e7150d81e670d57d4199",
+      "bytes": 52338
+    },
+    {
+      "path": "C:\\Proyecto_EMI\\docs\\control_local\\Matriz_Requisitos_Proyecto_EMI_v1.9.3_ACTUAL.pdf",
+      "sha256": "d92713b71b84b1852b8a93006a1f0c01beafb925b46789459a5d95319956d999",
+      "bytes": 410026
+    },
+    {
+      "path": "C:\\Proyecto_EMI\\docs\\control_local\\Registro_Decisiones_Proyecto_EMI_v1.9.3_ACTUAL.docx",
+      "sha256": "1cfa4655fed11284ddce5319f0361906a361d76edba85673a86b762c6bcce57e",
+      "bytes": 49534
+    },
+    {
+      "path": "C:\\Proyecto_EMI\\docs\\control_local\\Registro_Decisiones_Proyecto_EMI_v1.9.3_ACTUAL.pdf",
+      "sha256": "a6c0060b9b28094836689d4037cc6f761b83513c05e32f7094b744447922e68f",
+      "bytes": 380861
+    }
+  ],
+  "current_index": {
+    "path": "C:\\Proyecto_EMI\\docs\\FUENTES_DE_VERDAD.md",
+    "sha256": "6b3595329796a5a9801f22879850097d4e0a51b42aadd57a2dd3af690bc77f7f"
+  },
+  "content_QA": "VERIFICACION_CRUZADA_v1.9.3.json",
+  "sources": [
+    {
+      "path": "C:\\Proyecto_EMI\\docs\\desarrollo\\incremento_i3.md",
+      "sha256": "f60b821a06dd63af07d0e0b768dccec94c8d933253b556b5b771ff5d31a17d35"
+    },
+    {
+      "path": "C:\\Proyecto_EMI\\docs\\desarrollo\\incremento_i4.md",
+      "sha256": "43fee7bae0c768434d1edbead8ef1e70685341c17841eb269f4b432c0ce33c8b"
+    },
+    {
+      "path": "C:\\Proyecto_EMI\\docs\\desarrollo\\incremento_i5.md",
+      "sha256": "0c977c6101c839982b9e35c6a3f9a6aa80ab625ff4941baf3aab3b6ab12fa7bf"
+    }
+  ],
+  "render": "Word export + PDFium rasterization, 28 pages reviewed",
+  "scope": "Consolidación documental, sin ejecutar Maven ni modificar software"
+}

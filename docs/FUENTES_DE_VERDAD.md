@@ -1,150 +1,138 @@
 # Fuentes de verdad del Proyecto EMI
 
-Versión de inventario/contexto: 1.9.2
+Versión de inventario y control interno: **v1.9.3 ACTUAL**.
 
-Fecha de actualización de rutas: 10 de septiembre de 2026
-
-Base de control interno vigente: **v1.9.2 ACTUAL**, consolidada por autorización del usuario del 09/09/2026. La Propuesta aprobada sigue siendo la línea base formal sin cambios.
+Fecha de consolidación: **13/09/2026**. Antecedente inmediato: **v1.9.2 del 09/09/2026**, conservado íntegro en `control_local/historico/`.
 
 ## Jerarquía documental vigente
 
-1. `control_local/Propuesta_Juan_Cortes_20262.pdf` — línea base formal aprobada.
-2. `control_local/Arquitecto_Proyecto_Documento_Maestro_v1.9.2_ACTUAL.pdf` — control interno vigente.
-3. `control_local/Matriz_Requisitos_Proyecto_EMI_v1.9.2_ACTUAL.pdf` — requisitos, estados, evidencia y gates vigentes.
-4. `control_local/Registro_Decisiones_Proyecto_EMI_v1.9.2_ACTUAL.pdf` — decisiones vigentes e histórico preservado.
-5. Documentos de soporte.
-6. Anexos y evidencia contextual.
+1. `control_local/Propuesta_Juan_Cortes_20262.pdf` — línea base formal aprobada, sin cambios.
+2. `control_local/Arquitecto_Proyecto_Documento_Maestro_v1.9.3_ACTUAL.pdf`.
+3. `control_local/Matriz_Requisitos_Proyecto_EMI_v1.9.3_ACTUAL.pdf`.
+4. `control_local/Registro_Decisiones_Proyecto_EMI_v1.9.3_ACTUAL.pdf`.
+5. Informes técnicos I3, I4 e I5, como evidencia subordinada de estado técnico.
+6. Documentación de desarrollo, código y pruebas.
+7. Anexos y evidencia auxiliar.
 
-Ante contradicción, aplicar este orden y registrar el impacto. No editar silenciosamente la línea base ni los documentos de control.
+Los tres documentos ACTUAL constituyen una consolidación única. Sus versiones editables son los archivos `.docx` con el mismo nombre base, versión y contenido. Los PDF se exportaron desde esos DOCX con Word y se revisaron visualmente. La autorización corresponde a la consolidación documental post-I5 solicitada por el usuario; no introduce funcionalidades ni cambia la Propuesta.
 
-Los tres PDF v1.9.2 se consolidaron desde v1.9.1 y la propuesta autorizada, con revisión de contenido y presentación. Están en `control_local/`. Los originales v1.9.1 permanecen en `C:/Users/jjcor/Downloads/` y sus copias verificadas por SHA-256 están en `control_local/historico/` con el mismo nombre. El usuario trasladó las versiones anteriores a `control_local/historico/`; se verificó allí la presencia de v1.8, v1.8.1, v1.8.2 y v1.9.1 de los tres documentos. Aunque algunos nombres conservan el sufijo ACTUAL, son históricos y no prevalecen sobre v1.9.2.
+Ante contradicción, aplicar la autoridad superior y registrar el efecto. Los nombres históricos que conservan ACTUAL no les dan vigencia. Para tareas de presentación se conserva la precedencia editorial especial ya documentada en AGENTS.md, sin reescribir su histórico por esta tarea.
 
-## Estado vigente
+## Estado ejecutivo vigente
 
-- Fase formal: **Diseño**.
-- P0: **CERRADO**.
-- P1: **EN CURSO**.
-- P2: **EN CURSO**.
-- P3: **PENDIENTE**.
-- I1: **CERRADO como incremento técnico/documental**.
-- I2: **CERRADO técnicamente** (SOFTWARE / SIMULACION).
-- MVP completo: **NO cerrado**.
-- Fase formal de Pruebas: **PENDIENTE**.
-- Piloto: **PENDIENTE**.
-- Evidencia RF_REAL: **PENDIENTE**.
+| Elemento | Estado y límite |
+| --- | --- |
+| Propuesta | APROBADA / congelada |
+| Fase formal | DISEÑO |
+| Construcción software | Núcleo del MVP implementado; MVP completo NO CERRADO |
+| P0 | CERRADO; no reabrir |
+| I1 | CERRADO; 32 pruebas SOFTWARE |
+| I2 | CERRADO técnicamente; 57 pruebas totales SOFTWARE / SIMULACION |
+| I3 | CERRADO técnicamente; 82 pruebas totales SOFTWARE / SIMULACION |
+| I4 | CERRADO técnicamente; 134 pruebas totales SOFTWARE / SIMULACION |
+| I5 | CERRADO técnicamente; 169 pruebas totales SOFTWARE / SIMULACION |
+| Suite vigente | 169 pruebas, 0 fallos, 0 errores, 0 omitidas |
+| P1 | EN CURSO |
+| P2 | EN CURSO |
+| P3 | PENDIENTE |
+| RF_REAL | PENDIENTE; sin evidencia física |
+| Pruebas formales | PENDIENTES |
+| Piloto | PENDIENTE / condicionado |
+| Validación final | PENDIENTE |
+| DEC-024 | NO CREADA |
 
-## I1 cerrado
+Los totales 32 -> 57 -> 82 -> 134 -> 169 no se suman entre sí. Esta consolidación coteja informes y 18 XML Surefire existentes: no es una nueva ejecución de Maven ni el cierre de la fase formal de Pruebas.
 
-I1 cubre:
+## Evaluación de fase y decisiones
 
-- persistencia y migraciones;
-- `Equipo`;
-- `EtiquetaRFID`;
-- `AsignacionEtiqueta`;
-- crear equipo;
-- crear etiqueta;
-- asociar;
-- consultar asociación vigente;
-- buscar equipo por EPC;
-- corregir conservando historial;
-- consultar historial;
-- atomicidad, rollback y concurrencia;
-- entrada temporal por consola.
+Se mantiene DISEÑO como fase formal y se reconoce explícitamente el software del MVP en construcción. La Propuesta p.6 define Diseño con arquitectura física, lógica y operativa; P2 no acredita aún cierre físico ni aprobación de regla operativa, actores, punto y condiciones. I1-I5 demuestran construcción lógica, sin cerrar esos entregables.
 
-Evidencia de cierre:
+Se revisó DEC-018 en el Registro histórico v1.8.2 p.11: «Al cerrar Diseño / iniciar MVP». No establece una transición automática por número de incrementos. P1 no se convierte en una prohibición de seguir programando: DEC-009/017 permiten avanzar con simulación. No se formaliza el gate ni se crea DEC-024. Una formalización futura deberá justificar cualquier condición transversal nueva; no se aprueba ni reserva ahora esa numeración.
 
-- 32 pruebas;
-- 0 fallos;
-- 0 errores;
-- 0 omitidas;
-- V1/V2 intactas;
-- corrección en una transacción y un único instante UTC;
-- rollback completo demostrado mediante fallo real posterior al cierre;
-- concurrencia, historial ordenado y búsqueda por EPC vigente verificados;
-- JAR ejecutando los siete flujos sobre una base nueva.
+DEC-001 a DEC-023 preservan identidad, estado y significado. I3 ejecuta DEC-014/015/022; I4 ejecuta DEC-014/015; I5 materializa RF-004 conforme a la arquitectura vigente. Mantener DEC-022: Java 21 LTS + Maven + JDBC + SQLite + Flyway + JUnit 5. No cambian objetivos, alcance, metodología, cronograma, presupuesto, integración AM, piloto o validación.
 
-## Estados de requisitos afectados
+## Estados de requisitos
 
-- `RF-001`: **IMPLEMENTADO**.
-- `DAT-003`: **EN DESARROLLO**. El submodelo I1 está implementado; faltan las entidades posteriores del modelo mínimo del MVP.
-- `TEC-002`: **EN DESARROLLO**. `FuenteLecturasRFID` y `FuenteSimulada` implementadas y probadas; segunda fuente compatible pendiente.
-- `TEC-001`: **EN DESARROLLO**. SDK inspeccionado; unidad/firmware/configuración y RF_REAL pendientes.
-- `RF-002`, `DAT-001`, `DAT-002`: **EN DESARROLLO** por materialización parcial de I2, según Matriz v1.9.1.
-- `OPE-002`: **Must / Aprobado**; `RF-006` y `RSK-001`: **Should / Aprobado**. Las nuevas condiciones no cambian estos estados ni prioridades.
-- No cambiar otros requisitos por el cierre de I1.
+La Matriz v1.9.3 conserva los 29 identificadores, criterios y prioridades. Cambios de estado: AC-004 y RF-003 pasan a EN DESARROLLO; RF-004 y DAT-001 pasan a IMPLEMENTADO en SOFTWARE; VAL-003 pasa a EN DESARROLLO con criterio software verificado. Los demás estados se conservan.
 
-## Decisiones
+| ID | Estado vigente |
+| --- | --- |
+| AC-001 | CERRADO |
+| AC-002 | CERRADO |
+| AC-003 | CERRADO |
+| AC-004 | EN DESARROLLO |
+| AC-005 | APROBADO |
+| RF-001 | IMPLEMENTADO |
+| RF-002 | EN DESARROLLO |
+| RF-003 | EN DESARROLLO |
+| RF-004 | IMPLEMENTADO |
+| RF-005 | APROBADO |
+| RF-006 | APROBADO |
+| RF-007 | APROBADO |
+| TEC-001 | EN DESARROLLO |
+| TEC-002 | EN DESARROLLO |
+| DAT-001 | IMPLEMENTADO |
+| DAT-002 | EN DESARROLLO |
+| DAT-003 | EN DESARROLLO |
+| VAL-001 | APROBADO |
+| VAL-002 | APROBADO |
+| VAL-003 | EN DESARROLLO — criterio software verificado |
+| VAL-004 | APROBADO |
+| VAL-005 | APROBADO |
+| VAL-006 | APROBADO |
+| OPE-001 | APROBADO |
+| OPE-002 | APROBADO |
+| ECO-001 | APROBADO |
+| ECO-002 | APROBADO |
+| RSK-001 | APROBADO |
+| RSK-002 | APROBADO |
 
-El Registro v1.9.2 conserva DEC-001 a DEC-023, sin nueva DEC.
+VAL-003 adopta la convención B: criterio lógico verificado por I4, comprobación integrada en Pruebas formales pendiente. No se añade RF_REAL como condición del criterio de cero duplicados; la Propuesta permite evidencia simulada para lógica. La taxonomía anterior no definía una reserva explícita de Implementado para Validación; se deja la convención explicada en los tres documentos.
 
-Antecedente v1.8.2: conservaba DEC-001 a DEC-022.
+## Arquitectura y evidencia construidas
 
-Antecedente de cierre I1 (v1.8.2): no se creó DEC-023 por ese cierre; es una actualización de estado sustentada en evidencia, no un cambio de alcance, arquitectura, metodología, cronograma, presupuesto, piloto o validación.
+- I1: Equipo, EtiquetaRFID, AsignacionEtiqueta e historial de asociación; V1/V2.
+- I2: FuenteLecturasRFID, FuenteSimulada, LecturaEntradaRFID y OrigenDatos, independientes de SDK.
+- I3: SesionOperacion y LecturaRFID persistidas, metadata, tiempos, origen y relación lectura-sesión; V3. Repeticiones preservadas, incluidas lecturas sin evento.
+- I4: EventoOperativo, asociación histórica EPC-equipo y evento_lectura; V4. Procesamiento explícito, deduplicación solo de eventos, idempotencia, concurrencia y rollback. 20 callbacks simulados -> 20 lecturas -> 1 evento -> 20 respaldos. Reejecución sin nuevo evento.
+- I5: última lectura, último evento e historiales por equipo; asociación histórica y reasignaciones respetadas, consultas sin escritura. V5 añade exclusivamente dos índices.
 
-Decisiones críticas:
+Lectura RFID cruda != Evento operativo != Verificación != Sustitución temporal != Contingencia.
 
-- DEC-015: modelo lógico mínimo + historial equipo-etiqueta.
-- DEC-016: baseline Must congelada.
-- DEC-017: interfaz común `FuenteLecturasRFID`.
-- DEC-019: RC522/MFRC522 excluido como lector UHF del MVP y como evidencia RF_REAL.
-- DEC-020: documentos auxiliares redundantes subordinados.
-- DEC-021: P1 permanece abierto hasta lectura EPC UHF reproducible desde hardware autorizado.
-- DEC-022: Java 21 LTS + Maven + JDBC + SQLite + Flyway + JUnit 5.
-- DEC-023: evidencia operativa tardía de AM/remodelación como insumo de P2, sin reabrir P0 ni cambiar línea base.
+SIMULACION != RF_REAL. Deduplicar eventos no borra lecturas. Última lectura != último evento != estado físico actual del equipo. Una consulta histórica no es localización en tiempo real ni acredita disponibilidad física. El valor OrigenDatos.RF_REAL construido en tests no es evidencia RF_REAL. Antena no determina INGRESO/SALIDA; la dirección procede del contexto de sesión.
 
-No se crea DEC-024: estas adiciones desarrollan DEC-008, DEC-012, DEC-014 y DEC-023, preservando DEC-005, DEC-016 y DEC-021.
+## Próxima acción y pendientes
 
-## Documentos actuales
+**RF-005 — Verificación de esperados vs detectados**, APROBADO hasta iniciar implementación real. Después: sustitución temporal RF-007, contingencia RF-006, cierre del MVP, Pruebas controladas, Piloto y Validación. El adaptador real sigue condicionado a P1; no se implementa por esta consolidación. No reabrir I1-I5 sin defecto demostrado.
 
-### Control
+P1 EN CURSO: UHF autorizado, unidad/firmware, runtime/SDK funcional, configuración y EPC físico reproducible. P2 EN CURSO: único punto, actores/roles, geometría, rutas, red, energía, permisos y regla operativa final. P3 PENDIENTE: después de prepruebas RF_REAL y antes del piloto. No se fijan nuevos umbrales.
 
-- `control_local/Arquitecto_Proyecto_Documento_Maestro_v1.9.2_ACTUAL.pdf`
-- `control_local/Matriz_Requisitos_Proyecto_EMI_v1.9.2_ACTUAL.pdf`
-- `control_local/Registro_Decisiones_Proyecto_EMI_v1.9.2_ACTUAL.pdf`
+Cronograma aprobado de 24 semanas intacto: Caracterización 1-4, Requisitos 5-6, Diseño 7-9, MVP 10-15, Pruebas 16-18, Piloto 19-21, Validación/cierre 22-24. Se reconoce deuda de ejecución; no se reescribe el plan ni se cuantifica retraso sin conciliar calendario oficial. Presupuesto COP $43.724.342; desembolso personal $0.
 
-### Soporte
+## Fuentes de evidencia y control de la consolidación
 
-- `soporte/Informe_Hallazgos_Operativos_AM_RFID_EMI_2026-09-09.pdf` — evidencia auxiliar AM/remodelación y P2; copia íntegra del archivo aportado, incorporada el 10/09/2026.
+- `desarrollo/incremento_i3.md`: cierre del 12/09/2026, 82/0/0/0.
+- `desarrollo/incremento_i4.md`: implementación del 12/09/2026 y cierre documental del 13/09/2026, 134/0/0/0; sección Evidencia de VAL-003.
+- `desarrollo/incremento_i5.md`: cierre del 13/09/2026, 169/0/0/0; escenario RF-004.
+- `control_local/INFORME_CONSOLIDACION_v1.9.3.md`: diagnóstico previo, inconsistencias, revisión de cada requisito, tabla Antes/Después y verificación cruzada.
+- `control_local/consolidacion_v1.9.3/VERIFICACION_CRUZADA_v1.9.3.json`: cotejos de contenido y estado.
+- `control_local/consolidacion_v1.9.3/manifest.json`: SHA-256, archivos de entrada y salida, preservación histórica.
 
-- `soporte/Informe_Cierre_P0_Proyecto_EMI_2026-09-03.docx`
-- `soporte/Informe_Tecnico_Avance_P1_v0.1_2026-09-05.pdf`
-- `soporte/Checklist_P1_v0.1_ACTUALIZABLE.xlsx`
-- `soporte/Informe_Tecnico_Cierre_I1_Proyecto_EMI_v0.2_2026-09-06.pdf`
+## Histórico preservado
 
-### Histórico
+Los tres PDF v1.9.2 se trasladan íntegros a `control_local/historico/`, conservando nombre y contenido:
 
-El inventario anterior era v1.8.2 (06/09/2026). Tras el traslado realizado por el usuario, las rutas históricas verificadas el 10/09/2026 son:
+- `Arquitecto_Proyecto_Documento_Maestro_v1.9.2_ACTUAL.pdf`.
+- `Matriz_Requisitos_Proyecto_EMI_v1.9.2_ACTUAL.pdf`.
+- `Registro_Decisiones_Proyecto_EMI_v1.9.2_ACTUAL.pdf`.
 
-- `control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.8.1_ACTUAL.pdf`
-- `control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.8.2_ACTUAL.pdf`
-- `control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.8.pdf`
-- `control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.9.1_ACTUAL.pdf`
-- `control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.8.1_ACTUAL.pdf`
-- `control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.8.2_ACTUAL.pdf`
-- `control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.8.pdf`
-- `control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.9.1_ACTUAL.pdf`
-- `control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.8.1_ACTUAL.pdf`
-- `control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.8.2_ACTUAL.pdf`
-- `control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.8.pdf`
-- `control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.9.1_ACTUAL.pdf`
+El índice previo se conserva íntegro en `control_local/historico/FUENTES_DE_VERDAD_v1.9.2_pre_consolidacion_2026-09-13.md`. Las versiones v1.8, v1.8.1, v1.8.2 y v1.9.1 continúan en el histórico. v1.9 se cita como antecedente, pero no se localizó un archivo independiente; no se confunde con v1.9.1. DEC-018 está en el Registro histórico v1.8.2 p.11, cuyo contenido conserva encabezados v1.8 y referencias v1.7. No se corrige esa discrepancia histórica por inferencia.
 
-Las versiones v1.8, v1.8.1, v1.8.2 y v1.9.1 de Maestro, Matriz y Registro están en esa carpeta. Los únicos documentos de control ACTUAL en `control_local/` son v1.9.2, junto con la Propuesta aprobada. Se mantienen nombres y contenido de los históricos; el sufijo ACTUAL de una versión anterior no determina vigencia. El Registro exige conservar v1.9 como antecedente, pero no se encontró un archivo v1.9 en este inventario: no se confunde con v1.9.1 ni se inventa su ruta.
+El índice histórico conserva las rutas y el contexto anterior completos. AGENTS.md, README, documentación histórica y materiales de presentación preexistentes pueden describir v1.9.2 o estados previos; no sustituyen los documentos ACTUAL v1.9.3. La presente tarea no los reescribe.
 
-La antigua `Matriz_Requisitos_Proyecto_EMI_v1.8.1_ACTUALIZACION_CONTROLADA.pdf` está reemplazada por la Matriz completa y, si se conserva, debe quedar como artefacto histórico no vigente.
+## Condiciones heredadas que siguen vigentes
 
-La adenda individual DEC-022 debe conservarse como fuente histórica de consolidación.
-
-## Próximo incremento lógico
-
-Antecedente de secuencia v1.8.2, ya materializado y cerrado en I2:
-
-`FuenteLecturasRFID` → `FuenteSimulada`
-
-Siguiente paso: diseño dirigido de persistencia `LecturaRFID` y su relación con `SesionOperacion` antes de programar I3; no invertir ni adelantar la secuencia:
-
-`LecturaRFID` → `SesionOperacion` → eventos/deduplicación → historial operativo → verificación → sustitución temporal → contingencia → adaptador UHF real cuando P1 lo habilite.
-
-La condición anterior de inspeccionar el SDK ya se cumplió como análisis estático. El adaptador U300 permanece pendiente; no se integra por esta actualización.
+Las siguientes condiciones proceden del índice anterior y continúan vigentes; su conservación no transforma evidencia preliminar en confirmada ni aprueba implementación adicional.
 
 ## P1 — inspección completada y trabajo pendiente
 
@@ -181,19 +169,6 @@ No borrar versiones históricas.
 `control_local/`, `soporte/` y `anexos/` permanecen excluidos de Git salvo decisión expresa distinta.
 
 La propuesta aprobada sigue siendo la línea base formal.
-
-## I2 y SDK — evidencia consolidada en v1.9.1
-
-Maestro §§2, 4, 5, 9–10; Matriz §§1, 3–5; Registro §§3–7:
-
-- I2 cerrado: `FuenteLecturasRFID`, `FuenteSimulada`, `LecturaEntradaRFID` y `OrigenDatos`; EPC literal, timestamp de generación/recepción, origen y metadata opcional. Repeticiones preservadas; no persistencia `LecturaRFID` ni eventos.
-- 57 pruebas documentadas, 0 fallos, 0 errores, 0 omitidas; 32 previas de I1 + 25 nuevas. Se registra evidencia existente, no una ejecución nueva en esta tarea documental.
-- SDK `ReaderAPI20250926.jar`, Javadoc y demo A4 inspeccionados. Ethernet: `RFIDWithUHFNetworkA4.init(String,int)`; serial: `RFIDWithUHFSerialPortA4.init(String)` (RXTX condicionado).
-- Inventario: `setInventoryCallback -> startInventoryTag -> UHFTAGInfo -> stopInventory`. EPC, RSSI, antena, TID, USER, PC y timestamp host identificados según ruta. `stopInventory/free` no acreditan parada física fiable.
-- Compatibilidad Java 21 estática parcial; prueba funcional, dependencias efectivas, unidad/firmware U300, región/configuración y licencia/redistribución pendientes. No incorporar tipos Chainway al contrato EMI.
-- Siguiente tarea P1: prueba funcional aislada con stack vigente; después, EPC UHF RF_REAL reproducible con hardware autorizado y configuración documentada. No repetir inspección general sin pregunta técnica nueva. P1 sigue abierto.
-
-Soporte subordinado existente: `analisis/ANALISIS_SDK_CHAINWAY_U300.md` y `analisis/INFORME_TECNICO_I2_FUENTE_RFID_SIMULADA.md`. Sus estados históricos no prevalecen sobre los PDF v1.9.1.
 
 ## Evidencia operativa posterior a v1.9.1
 
@@ -239,10 +214,6 @@ Dos antenas solo permanecen en el piloto si forman un único punto de control op
 
 Separar `GEOMETRIA != MODELO_RF_TEORICO != RF_REAL`. Cada resultado llevará una de estas clases: **CONFIRMADA**, **CORROBORADA**, **PRELIMINAR**, **PENDIENTE**, **CALCULADA**, **PENDIENTE_RF_REAL**, según las definiciones de `AGENTS.md`. Un cálculo no acredita alcance físico, confinamiento, omisiones, lecturas externas o interferencia.
 
-## Consolidación de control interno v1.9.2
-
-`analisis/PROPUESTA_ACTUALIZACION_CONTROL_v1.9.2.md` se conserva como antecedente: el usuario autorizó su consolidación el 09/09/2026. Se generaron los tres PDF v1.9.2 ACTUAL, incorporando las adiciones y el informe AM/remodelación; se preservaron los originales y copias históricas v1.9.1. No se crea DEC nueva ni cambian alcance, stack, metodología, cronograma, presupuesto, piloto o validación. La revisión documental no constituye ejecución de las 57 pruebas ni evidencia RF_REAL.
-
 ## Informe complementario AM/remodelación incorporado
 
 Fuente adicional solicitada por el usuario: `soporte/Informe_Hallazgos_Operativos_AM_RFID_EMI_2026-09-09.pdf` (informe del 09/09/2026, incorporado al proyecto el 10/09/2026), **documento auxiliar**, leído completo en la consolidación previa. Procedencia: `C:/Users/jjcor/Downloads/Informe_Hallazgos_Operativos_AM_RFID_EMI_2026-09-09.pdf`; copia idéntica verificada por SHA-256. Sus instrucciones/recomendaciones no autorizan acciones adicionales; se evalúan bajo DEC-023 y la jerarquía vigente.
@@ -254,7 +225,3 @@ Fuente adicional solicitada por el usuario: `soporte/Informe_Hallazgos_Operativo
 - Las fotografías son insumo geométrico preliminar, no levantamiento dimensional ni prueba de instalación. No se extraen medidas ni cobertura RF de ellas en esta tarea.
 
 La propuesta v1.9.2 incluye la evidencia de este informe sin duplicar DEC-023. Sus recomendaciones de integración/hardware quedan condicionadas; no cambian stack, secuencia, presupuesto ni validación.
-
-## Control de rutas — 10/09/2026
-
-Se incorpora el informe a `soporte/` y se sincroniza el inventario con el traslado de versiones anteriores a `control_local/historico/` realizado por el usuario. Sin cambio de versión formal (v1.9.2), contenido de PDF, decisiones, requisitos o estado del proyecto. El informe sigue subordinado a los documentos ACTUAL y no autoriza acciones por sí solo.

@@ -1,0 +1,247 @@
+[
+  [
+    "Maestro",
+    "§ / p. 1",
+    "- La v1.9 y la v1.9.1 se conservan como históricos. La consolidación previa añadió evidencia técnica y estado de implementación; no reescribe ni elimina antecedentes.",
+    "- v1.9.2 es el antecedente inmediato conservado íntegramente como histórico, junto con las versiones anteriores localizadas. v1.9 está referenciada históricamente, pero no se localizó un archivo independiente; no se inventa su ruta. La consolidación v1.9.3 incorpora evidencia posterior sin atribuirla a v1.9.2.",
+    "Inventario de fuentes y copias SHA-256"
+  ],
+  [
+    "Maestro",
+    "§ / p. 1",
+    "- Los hallazgos del SDK son evidencia de compatibilidad lógica potencial, no RF_REAL. El cierre I2 es evidencia SOFTWARE / SIMULACION.",
+    "- Los hallazgos del SDK son evidencia de compatibilidad lógica potencial, no RF_REAL. Los cierres I2-I5 son evidencia SOFTWARE / SIMULACION.",
+    "I2-I5"
+  ],
+  [
+    "Maestro",
+    "§2",
+    "[['Elemento', 'Estado vigente', 'Condición'], ['Propuesta', 'APROBADA / congelada', 'Línea base formal sin cambios.'], ['P0 Requisitos->Diseño', 'CERRADO 03/09/2026', 'Baseline Must congelada.'], ['Fase formal', 'DISEÑO', 'No volver a diagnóstico general.'], ['I1 asociación/persistencia', 'CERRADO', '32 pruebas; RF-001 Implementado.'], ['I2 fuente común/simulación', 'CERRADO técnicamente', 'FuenteLecturasRFID + FuenteSimulada + LecturaEntradaRFID; 57 pruebas totales, 0 fallos/errores/omitidas.'], ['P1 hardware UHF', 'EN CURSO', 'SDK A4 inspeccionado; cierre exige EPC UHF RF_REAL reproducible desde hardware autorizado.'], ['P2 punto/arquitectura física', 'EN CURSO', 'Recepción/dotación mejor definidas; punto piloto aún no congelado.'], ['P3 criterios de aceptación', 'PENDIENTE', 'Después de prepruebas, antes del piloto.'], ['Piloto', 'PENDIENTE / condicionado', 'Un único punto autorizado; nunca antes de Pruebas.']]",
+    "Estado común post-I5; 169/0/0/0; Diseño; P1/P2 en curso; P3 pendiente.",
+    "I3-I5 y análisis del gate"
+  ],
+  [
+    "Maestro",
+    "§ / p. 2",
+    "- Las repeticiones de EPC se preservan en la entrada. La deduplicación permanece en un incremento posterior.",
+    "- Las repeticiones EPC se preservan en entrada y persistencia. I4 materializó deduplicación exclusivamente en eventos; las lecturas originales no se eliminan.",
+    "I3 Verificación; I4 Evidencia VAL-003"
+  ],
+  [
+    "Maestro",
+    "§ / p. 2",
+    "- Pipeline vigente: Fuente -> LecturaEntradaRFID -> persistencia LecturaRFID -> asociación EPC-equipo -> sesión/contexto -> motor de eventos/deduplicación -> Evento/Verificación/Sustitución/Contingencia.",
+    "- Pipeline materializado: FuenteLecturasRFID -> LecturaEntradaRFID -> LecturaRFID -> asociación histórica EPC-equipo -> SesionOperacion/contexto -> motor explícito de eventos y deduplicación -> EventoOperativo -> consultas históricas. La sesión proporciona contexto al motor; esta secuencia lógica no implica crear la sesión después de cada lectura. I3 permite lectura sin sesión, que se conserva sin justificar movimiento. Verificación, Sustitución temporal y Contingencia siguen pendientes.",
+    "I3 Diseño; I4 Diseño; I5 Diseño"
+  ],
+  [
+    "Maestro",
+    "§ / p. 3",
+    "Las repeticiones de EPC se conservan en la entrada; la deduplicación y la consolidación de eventos permanecen en su capa e incremento previstos. Estas reglas no modifican ahora OrigenDatos ni materializan nuevas entidades persistidas; RF-006 conserva prioridad Should y estado Aprobado hasta evidencia de software y pruebas.",
+    "Las repeticiones se conservan. I4 ya materializó la deduplicación y consolidación en la capa de eventos. La contingencia continúa como diseño conceptual: estas reglas no añaden un valor manual a OrigenDatos ni una entidad de contingencia persistida; RF-006 conserva Should / APROBADO.",
+    "I4; Matriz v1.9.2 §7"
+  ],
+  [
+    "Maestro",
+    "§ / p. 5",
+    "- I2 queda cerrado técnicamente y no debe reabrirse salvo defecto demostrado.",
+    "- I1-I5 están cerrados técnicamente en su alcance; no se reabren salvo defecto demostrado. El núcleo implementado no equivale a MVP completo.",
+    "I1-I5"
+  ],
+  [
+    "Maestro",
+    "§ / p. 5",
+    "- Antes de programar I3, realizar diseño dirigido de persistencia de LecturaRFID y resolver su relación con SesionOperacion para evitar migraciones que deban rehacerse.",
+    "- Próxima acción software: RF-005 — Verificación de esperados vs detectados; después sustitución temporal y contingencia. El diseño y la persistencia LecturaRFID/SesionOperacion ya se materializaron en I3, seguidos por I4 e I5.",
+    "I3-I5, deuda y siguiente incremento"
+  ],
+  [
+    "Maestro",
+    "§ / p. 5",
+    "- Después: prepruebas -> P3 -> Pruebas -> Piloto -> Validación.",
+    "- Completar el MVP y efectuar Pruebas controladas antes del Piloto y la Validación. Para la ruta física: prepruebas RF_REAL -> P3 -> ensayos/piloto condicionado, con P1/P2 satisfechos según corresponda.",
+    "Propuesta pp.6-8; gates vigentes"
+  ],
+  [
+    "Maestro",
+    "§ / p. 6",
+    "11. Control de cambios v1.9.2",
+    "11. Antecedente preservado del control de cambios v1.9.2",
+    "Preservación temporal"
+  ],
+  [
+    "Maestro",
+    "§ / p. 6",
+    "Fuentes de esta consolidación",
+    "Fuentes históricas de la consolidación v1.9.2",
+    "Preservación temporal"
+  ],
+  [
+    "Matriz",
+    "§ / p. 1",
+    "- Por evidencia I2, RF-002, DAT-001 y DAT-002 pasan de Aprobado a En desarrollo: existe materialización parcial, no cumplimiento integral.",
+    "- Antecedente I2 en v1.9.2: RF-002, DAT-001 y DAT-002 estaban En desarrollo por materialización parcial. En v1.9.3, DAT-001 pasa a IMPLEMENTADO por I3-I4; RF-002 y DAT-002 continúan EN DESARROLLO.",
+    "I3-I4"
+  ],
+  [
+    "Matriz",
+    "§2 AC-004",
+    "Aprobado; MVP + pruebas.",
+    "EN DESARROLLO; I1-I5: núcleo software construido; funciones restantes y pruebas pendientes. SOFTWARE / SIMULACION. Evidencia incluida en suite total 169/0/0/0. No cierra MVP.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§2 RF-001",
+    "Implementado; I1: 32 pruebas; historial/rollback/concurrenci a.",
+    "IMPLEMENTADO; I1: asociación e historial equipo-etiqueta, rollback y concurrencia. Suite I1 de 32 pruebas SOFTWARE; no es historial operativo de I5.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§2 RF-002",
+    "En desarrollo; I2 captura/entrega simulada implementada; persistencia LecturaRFID pendiente.",
+    "EN DESARROLLO; I2-I4: fuente simulada, captura, persistencia, recuperación y consumo explícito. SOFTWARE / SIMULACION; evidencia incluida en suite total 169/0/0/0. Fuente real pendiente.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§2 RF-003",
+    "Aprobado; Sesión/contexto; dirección no inferida por lectura aislada.",
+    "EN DESARROLLO; I3-I4: tiempos, sesión, punto textual, actor/contexto, tipo de evento y respaldo. SOFTWARE / SIMULACION; evidencia incluida en suite total 169/0/0/0. P2 debe confirmar roles, punto y semántica institucional.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§2 RF-004",
+    "Aprobado; MVP.",
+    "IMPLEMENTADO; I5: última lectura, último evento e historiales por equipo con asociación histórica. SOFTWARE / SIMULACION; escenario RF-004 y suite I5 de 35 pruebas nuevas. Implementado en SOFTWARE; no equivale a estado físico actual ni RF_REAL.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§2 RF-005",
+    "Aprobado; Verificación previa a confirmación.",
+    "APROBADO; Siguiente incremento software: esperados vs detectados. Sin implementación iniciada; prioridad Should. El tipo de sesión VERIFICACION no implementa esta función.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§2 RF-006",
+    "Aprobado; Ruta alternativa/falla de lectura. Contingencia mínima y activos fuera de ruta: §7.",
+    "APROBADO; Diseño conceptual de contingencia mínima y activos fuera de ruta (§7); sin implementación. Prioridad Should. Nunca crear lectura RFID ficticia.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§2 RF-007",
+    "Aprobado; MVP.",
+    "APROBADO; Must pendiente: abrir/cerrar sustitución temporal con equipo, origen, destino, responsable, motivo, fecha/hora y devolución.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§2 TEC-001",
+    "En desarrollo; SDK A4 inspeccionado; U300/firmware/configuración y EPC RF_REAL pendientes. Confirmación de antenas/configuración y RF_REAL: §7.",
+    "EN DESARROLLO; Inspección estática A4 conservada; unidad/firmware, runtime, configuración y EPC UHF físico reproducible desde hardware autorizado pendientes. No hay RF_REAL. Condiciones detalladas en §7.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§2 TEC-002",
+    "En desarrollo; FuenteLecturasRFID + FuenteSimulada implementadas/probadas; segunda fuente compatible pendiente.",
+    "EN DESARROLLO; I2: FuenteLecturasRFID y FuenteSimulada probadas en SOFTWARE / SIMULACION (25 pruebas nuevas de I2, no exclusivas del requisito). Falta segunda implementación real/compatible; consumo I3-I5 no la sustituye.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§2 DAT-001",
+    "En desarrollo; I2 separa entrada cruda; relación persistida lectura- evento pendiente.",
+    "IMPLEMENTADO; I3-I4: LecturaRFID separada de EventoOperativo, vínculo auditable y deduplicación solo de eventos. I5 conserva separación al consultar. SOFTWARE / SIMULACION; evidencia incluida en suite total 169/0/0/0. Sin validación física.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§2 DAT-002",
+    "En desarrollo; OrigenDatos implementado; SIMULACION probado; RF_REAL y estructuras posteriores pendientes.",
+    "EN DESARROLLO; I2-I5: origen SIMULACION/RF_REAL preservado por lectura y auditable por respaldo, incluidos conjuntos mixtos. SOFTWARE / SIMULACION; evidencia incluida en suite total 169/0/0/0. RF_REAL sintético no es evidencia física; estructuras posteriores pendientes.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§2 DAT-003",
+    "En desarrollo; I1 + LecturaEntradaRFID materializados; entidades persistidas posteriores pendientes.",
+    "EN DESARROLLO; I1-I5: modelo materializado hasta V5; faltan Verificación, Sustitución temporal y Contingencia. SOFTWARE / SIMULACION; evidencia incluida en suite total 169/0/0/0. V5 añade solo índices.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§2 VAL-003",
+    "Aprobado; I2 preserva repeticiones; deduplicación se prueba después.",
+    "EN DESARROLLO; Criterio software verificado por I4: 20 callbacks -> 20 lecturas -> 1 evento -> 20 respaldos; reejecución y concurrencia sin duplicado. SOFTWARE / SIMULACION; evidencia incluida en suite total 169/0/0/0. Pruebas formales pendientes; convención B explicitada.",
+    "Informes I3-I5 / evidencia específica"
+  ],
+  [
+    "Matriz",
+    "§ / p. 4",
+    "3. Actualización de evidencia por SDK e I2",
+    "3. Antecedente de evidencia SDK e I2 en v1.9.1",
+    "Preservación temporal"
+  ],
+  [
+    "Matriz",
+    "§ / p. 4",
+    "4. Evidencia de cierre I2",
+    "4. Evidencia histórica de cierre I2",
+    "57 es el total histórico I2, no el vigente"
+  ],
+  [
+    "Matriz",
+    "§ / p. 6",
+    "8. Integridad de la actualización v1.9.2",
+    "8. Antecedente de integridad de la actualización v1.9.2",
+    "Preservación temporal"
+  ],
+  [
+    "Matriz",
+    "§ / p. 6",
+    "Fuentes de esta consolidación",
+    "Fuentes históricas de la consolidación v1.9.2",
+    "Preservación temporal"
+  ],
+  [
+    "Registro",
+    "§ / p. 1",
+    "- La v1.9 permanece como histórico y la v1.8.2 como registro histórico detallado de DEC-001 a DEC-022.",
+    "- v1.9.2 se conserva íntegra como antecedente inmediato; v1.8.2 conserva el registro histórico detallado de DEC-001 a DEC-022. v1.9 se menciona como antecedente en el control anterior, pero no se localizó un archivo independiente.",
+    "Inventario de fuentes"
+  ],
+  [
+    "Registro",
+    "§ / p. 1",
+    "- La v1.9.2 conserva identidad, estado y significado de DEC-001 a DEC-023.",
+    "- v1.9.3 conserva íntegramente el índice y la ficha DEC-023 de v1.9.2, sin cambiar identidad, estado ni significado de DEC-001 a DEC-023.",
+    "Cotejo literal de las tablas"
+  ],
+  [
+    "Registro",
+    "§ / p. 3",
+    "5. Por qué no se crea DEC-024",
+    "5. Antecedente de no creación de DEC-024 en v1.9.1",
+    "Preservación temporal"
+  ],
+  [
+    "Registro",
+    "§ / p. 4",
+    "9. Evaluación de suficiencia de decisiones vigentes",
+    "9. Evaluación histórica de suficiencia en v1.9.2",
+    "Preservación temporal"
+  ],
+  [
+    "Registro",
+    "§ / p. 4",
+    "Fuentes de esta consolidación",
+    "Fuentes históricas de la consolidación v1.9.2",
+    "Preservación temporal"
+  ]
+]

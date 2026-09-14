@@ -1,0 +1,880 @@
+[
+  {
+    "kind": "h",
+    "text": "1. Regla de autoridad e integridad",
+    "page": 1
+  },
+  {
+    "kind": "p",
+    "text": "- Orden de autoridad: Propuesta aprobada 20262 -> Documento Maestro ACTUAL -> Matriz ACTUAL -> Registro de Decisiones ACTUAL -> anexos, informes, checklists y entrevistas.",
+    "page": 1
+  },
+  {
+    "kind": "p",
+    "text": "- v1.9.2 es el antecedente inmediato conservado íntegramente como histórico, junto con las versiones anteriores localizadas. v1.9 está referenciada históricamente, pero no se localizó un archivo independiente; no se inventa su ruta. La consolidación v1.9.3 incorpora evidencia posterior sin atribuirla a v1.9.2.",
+    "page": 1
+  },
+  {
+    "kind": "p",
+    "text": "- Los hallazgos del SDK son evidencia de compatibilidad lógica potencial, no RF_REAL. Los cierres I2-I5 son evidencia SOFTWARE / SIMULACION.",
+    "page": 1
+  },
+  {
+    "kind": "p",
+    "text": "- No se reabre P0. El diagnóstico adicional solo se admite para resolver decisiones que bloqueen Diseño, MVP, Pruebas o Piloto.",
+    "page": 1
+  },
+  {
+    "kind": "h",
+    "text": "2. Estado ejecutivo vigente",
+    "page": 2
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Elemento",
+        "Estado vigente",
+        "Evidencia o límite"
+      ],
+      [
+        "Propuesta",
+        "APROBADA / congelada",
+        "Línea base 20262 íntegra"
+      ],
+      [
+        "Fase formal",
+        "DISEÑO",
+        "Software del MVP en construcción; gate no formalizado"
+      ],
+      [
+        "P0",
+        "CERRADO",
+        "03/09/2026; no se reabre"
+      ],
+      [
+        "I1",
+        "CERRADO",
+        "32 pruebas; SOFTWARE"
+      ],
+      [
+        "I2",
+        "CERRADO técnicamente",
+        "57 totales; SOFTWARE / SIMULACION"
+      ],
+      [
+        "I3",
+        "CERRADO técnicamente",
+        "82 totales; SOFTWARE / SIMULACION"
+      ],
+      [
+        "I4",
+        "CERRADO técnicamente",
+        "134 totales; SOFTWARE / SIMULACION"
+      ],
+      [
+        "I5",
+        "CERRADO técnicamente",
+        "169 totales; SOFTWARE / SIMULACION"
+      ],
+      [
+        "Suite vigente",
+        "169/0/0/0",
+        "Pruebas / fallos / errores / omitidas"
+      ],
+      [
+        "MVP completo",
+        "NO CERRADO",
+        "RF-005, RF-006, RF-007 y fuente real pendientes"
+      ],
+      [
+        "P1",
+        "EN CURSO",
+        "EPC UHF físico reproducible desde hardware autorizado"
+      ],
+      [
+        "P2",
+        "EN CURSO",
+        "Diseño físico y operativo por congelar"
+      ],
+      [
+        "P3",
+        "PENDIENTE",
+        "Después de prepruebas RF_REAL y antes del piloto"
+      ],
+      [
+        "RF_REAL",
+        "PENDIENTE",
+        "Sin evidencia física"
+      ],
+      [
+        "Pruebas formales",
+        "PENDIENTES",
+        "La suite automatizada no cierra la fase"
+      ],
+      [
+        "Piloto",
+        "PENDIENTE / condicionado",
+        "Un único punto autorizado, después de Pruebas"
+      ],
+      [
+        "Validación final",
+        "PENDIENTE",
+        "Sin anticipar resultado favorable"
+      ],
+      [
+        "DEC-024",
+        "NO CREADA",
+        "DEC-001 a DEC-023 conservadas"
+      ]
+    ],
+    "widths": [
+      27,
+      35,
+      38
+    ]
+  },
+  {
+    "kind": "h",
+    "text": "3. Alcance y resultado obligatorio",
+    "page": 2
+  },
+  {
+    "kind": "p",
+    "text": "- Desarrollar y validar un prototipo RFID UHF pasivo para apoyar la trazabilidad de equipos biomédicos administrados por EMI Medellín.",
+    "page": 2
+  },
+  {
+    "kind": "p",
+    "text": "- El MVP funcional conserva asociación equipo-RFID, captura, eventos, historial, verificación, contingencia y sustituciones temporales según la Matriz ACTUAL.",
+    "page": 2
+  },
+  {
+    "kind": "p",
+    "text": "- El piloto físico sigue limitado a un único punto autorizado y a la configuración realmente ensayada.",
+    "page": 2
+  },
+  {
+    "kind": "p",
+    "text": "- No incluye despliegue institucional, sustitución de AM, integración automática no autorizada, RTLS/localización en tiempo real, medicamentos/insumos ni compra masiva.",
+    "page": 2
+  },
+  {
+    "kind": "h",
+    "text": "3.1 Camillas y localización activa",
+    "page": 2
+  },
+  {
+    "kind": "p",
+    "text": "La posible estrategia institucional futura de GPS/localización activa de camillas para recuperación en hospitales se registra exclusivamente como contexto preliminar y mejora futura FUERA DEL ALCANCE del Proyecto EMI. No se incorpora GPS, RTLS o localización activa al MVP, piloto, arquitectura, requisitos ni presupuesto.",
+    "page": 2
+  },
+  {
+    "kind": "h",
+    "text": "4. Arquitectura lógica vigente",
+    "page": 2
+  },
+  {
+    "kind": "p",
+    "text": "Regla central. Lectura RFID cruda != Evento operativo != Verificación != Sustitución temporal != Contingencia. Una lectura es evidencia; el evento requiere sesión/contexto y deduplicación.",
+    "page": 2
+  },
+  {
+    "kind": "p",
+    "text": "- FuenteLecturasRFID desacopla la lógica del hardware. I2 materializó el puerto común y FuenteSimulada sin dependencia de Chainway.",
+    "page": 2
+  },
+  {
+    "kind": "p",
+    "text": "- LecturaEntradaRFID materializada: EPC literal, Instant de recepción/generación, origen_datos y metadata opcional.",
+    "page": 2
+  },
+  {
+    "kind": "p",
+    "text": "- Origen de evidencia obligatorio: SIMULACION o RF_REAL. FuenteSimulada produce únicamente SIMULACION.",
+    "page": 2
+  },
+  {
+    "kind": "p",
+    "text": "- Las repeticiones EPC se preservan en entrada y persistencia. I4 materializó deduplicación exclusivamente en eventos; las lecturas originales no se eliminan.",
+    "page": 2
+  },
+  {
+    "kind": "p",
+    "text": "- Pipeline materializado: FuenteLecturasRFID -> LecturaEntradaRFID -> LecturaRFID -> asociación histórica EPC-equipo -> SesionOperacion/contexto -> motor explícito de eventos y deduplicación -> EventoOperativo -> consultas históricas. La sesión proporciona contexto al motor; esta secuencia lógica no implica crear la sesión después de cada lectura. I3 permite lectura sin sesión, que se conserva sin justificar movimiento. Verificación, Sustitución temporal y Contingencia siguen pendientes.",
+    "page": 2
+  },
+  {
+    "kind": "h",
+    "text": "4.1 Contingencia mínima de diseño",
+    "page": 3
+  },
+  {
+    "kind": "p",
+    "text": "La estrategia mínima de diseño del MVP es: Lectura -> Verificación -> Reintento -> Contingencia manual -> Confirmación. La omisión inicial no genera automáticamente un evento final de falla. Cuando un activo esperado no sea detectado, se permitirá un reintento controlado cuando corresponda; si persiste la omisión, se registrará contingencia manual con equipo, actor/usuario, fecha/hora, sesión/contexto, motivo y condición de origen manual explícito.",
+    "page": 3
+  },
+  {
+    "kind": "p",
+    "text": "Para activos fuera de ruta se usará directamente Manual/Contingencia -> Confirmación. Nunca se creará una lectura RFID ficticia para justificar un movimiento. Se preferirá seleccionar código institucional/equipo a escribir EPC hexadecimal. No se incorporará lector manual ni tercer SDK al MVP sin autorización explícita.",
+    "page": 3
+  },
+  {
+    "kind": "p",
+    "text": "Las repeticiones se conservan. I4 ya materializó la deduplicación y consolidación en la capa de eventos. La contingencia continúa como diseño conceptual: estas reglas no añaden un valor manual a OrigenDatos ni una entidad de contingencia persistida; RF-006 conserva Should / APROBADO.",
+    "page": 3
+  },
+  {
+    "kind": "h",
+    "text": "4.2 Modelo materializado hasta V5"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Materialización",
+        "Entidades o estructuras",
+        "Límite"
+      ],
+      [
+        "I1 / V1-V2",
+        "Equipo, EtiquetaRFID, AsignacionEtiqueta",
+        "Asociación e historial equipo-etiqueta"
+      ],
+      [
+        "I2",
+        "FuenteLecturasRFID, FuenteSimulada, LecturaEntradaRFID, OrigenDatos",
+        "Contrato propio; no SDK en dominio"
+      ],
+      [
+        "I3 / V3",
+        "SesionOperacion, LecturaRFID, lectura_rfid_metadata",
+        "Una sesión 0..N lecturas; una lectura 0..1 sesión"
+      ],
+      [
+        "I4 / V4",
+        "EventoOperativo y evento_lectura",
+        "Evento 1..N respaldos; lectura 0..1 evento; asociación histórica explícita"
+      ],
+      [
+        "I5 / V5",
+        "Dos índices para consultas por EPC/tiempo y equipo/tiempo",
+        "Sin nuevas tablas, columnas ni reglas de negocio"
+      ],
+      [
+        "Pendiente",
+        "Verificación, Sustitución temporal, Contingencia",
+        "DAT-003 incompleto; no crear entidades en esta tarea"
+      ]
+    ],
+    "widths": [
+      22,
+      42,
+      36
+    ]
+  },
+  {
+    "kind": "p",
+    "text": "El núcleo implementado incluye asociación, fuente simulada, sesiones, lecturas, eventos, deduplicación y consultas. Faltan RF-005 Verificación, RF-006 Contingencia, RF-007 Sustitución temporal y adaptador real TEC-002/P1 condicionado. La API de sesiones VERIFICACION no implementa la comparación de esperados y detectados."
+  },
+  {
+    "kind": "p",
+    "text": "I4 conserva eventos y vínculos inmutables; admisión retrospectiva con sesión cerrada y anulación/reversión requieren diseño explícito. I5 muestra lo persistido por timestamp e identidad histórica; no ofrece disponibilidad ni localización. No se prohíbe nueva asociación con etiqueta INACTIVA sin aprobación explícita."
+  },
+  {
+    "kind": "h",
+    "text": "5. SDK Chainway / P1 - evidencia consolidada",
+    "page": 3
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Hallazgo",
+        "Estado",
+        "Impacto"
+      ],
+      [
+        "Ruta Ethernet",
+        "RFIDWithUHFNetworkA4 + init(String,int) identificada",
+        "Viabilidad lógica; no prueba U300 físico."
+      ],
+      [
+        "Ruta serial",
+        "RFIDWithUHFSerialPortA4 + init(String) identificada",
+        "Alternativa; RXTX condicionado."
+      ],
+      [
+        "Inventario EPC",
+        "setInventoryCallback -> startInventoryTag -> UHFTAGInfo -> stopInventory",
+        "Permite diseñar wrapper futuro."
+      ],
+      [
+        "Datos",
+        "EPC, RSSI, antena, TID, USER, PC y timestamp host disponibles según ruta A4",
+        "Metadata opcional; no inferir desempeño RF."
+      ],
+      [
+        "Lifecycle",
+        "stopInventory/free no deben interpretarse como acuse físico fiable",
+        "El adaptador futuro necesita estado/cierre propio."
+      ],
+      [
+        "Java 21",
+        "Compatibilidad estática parcial",
+        "Prueba funcional pendiente; no cambia DEC-022."
+      ],
+      [
+        "Modelo/firmware U300",
+        "PENDIENTE",
+        "Debe confirmarse con unidad autorizada."
+      ],
+      [
+        "RF_REAL",
+        "PENDIENTE",
+        "P1 no cerrado."
+      ]
+    ],
+    "page": 3
+  },
+  {
+    "kind": "p",
+    "text": "- La inspección del SDK se considera completada como análisis estático. No repetir una revisión general sin una pregunta técnica nueva.",
+    "page": 3
+  },
+  {
+    "kind": "p",
+    "text": "- ReaderAPI.jar y clases Chainway no forman parte del contrato de dominio/aplicación EMI.",
+    "page": 3
+  },
+  {
+    "kind": "h",
+    "text": "6. AM y P2 - condición vigente",
+    "page": 3
+  },
+  {
+    "kind": "p",
+    "text": "- AM dispone de catálogo/campo 'Ubicación Física'; su semántica dinámica y regla institucional de actualización siguen pendientes.",
+    "page": 3
+  },
+  {
+    "kind": "p",
+    "text": "- No se autoriza escritura automática desde el MVP. DEC-005 continúa vigente.",
+    "page": 3
+  },
+  {
+    "kind": "p",
+    "text": "- Recepción y salida/dotación siguen siendo candidatos para el único punto piloto; P2 debe congelar solo uno.",
+    "page": 3
+  },
+  {
+    "kind": "p",
+    "text": "- Confinamiento, alcance, lecturas externas/omitidas e interferencia solo se validan con RF_REAL.",
+    "page": 3
+  },
+  {
+    "kind": "h",
+    "text": "6.1 Cobertura y nomenclatura",
+    "page": 3
+  },
+  {
+    "kind": "p",
+    "text": "Cobertura del circuito instrumentable. Información operativa preliminar indica que la mayoría de equipos del circuito de dotación/reingreso atravesaría el área candidata a instrumentación RFID. Usar raqui como término operativo único y férula espinal como denominación corregida, sin duplicar categorías por sinónimos.",
+    "page": 3
+  },
+  {
+    "kind": "p",
+    "text": "Camillas, sillas camilla, raqui, corto espinal y férula espinal se identifican preliminarmente como activos con ruta fuera del punto o pendiente de confirmación. Bala central de oxígeno, flujómetros, reguladores de bala central y termohigrómetros de ambulancia presentan condiciones de instalación o remoción rutinaria potencialmente ineficiente o innecesaria. Debe corroborarse con Farmacia/Biomédica si la bala central se cambia allí y si el desmontaje de estos activos es necesario y viable. Estas afirmaciones no constituyen todavía hechos institucionales cerrados.",
+    "page": 3
+  },
+  {
+    "kind": "p",
+    "text": "El MVP no afirmará cobertura automática de activos que no atraviesen el punto instrumentado. EN_RUTA_RFID, FUERA_RUTA_RFID y RUTA_PENDIENTE_CONFIRMAR son categorías conceptuales para el análisis operativo; no autorizan nuevos campos o tablas. Las conclusiones físicas del piloto se limitarán a los activos, trayectorias y configuración realmente ensayados. Los activos fuera de ruta usarán gestión manual/contingencia explícita.",
+    "page": 4
+  },
+  {
+    "kind": "h",
+    "text": "6.2 Arquitectura candidata y actor",
+    "page": 4
+  },
+  {
+    "kind": "p",
+    "text": "Se considera como hipótesis P2 una antena asociada a banda transportadora y otra a puerta/salida, potencialmente conectadas al mismo lector/hub UHF. Esta disposición solo permanecerá dentro del piloto si se demuestra y autoriza que forma un único punto de control operativo: misma operación/piloto, arquitectura de control única, límites físicos documentados, roles de antena definidos y ausencia o control de solapamientos relevantes. No autoriza pilotear recepción y salida como puntos distintos. La ubicación, modelo final, puertos, potencia, orientación y configuración siguen pendientes de confirmación.",
+    "page": 4
+  },
+  {
+    "kind": "p",
+    "text": "Una antena no equivale a un evento. Su identificador aporta contexto y no determina automáticamente INGRESO/SALIDA; la dirección requiere sesión/contexto y reglas operativas validadas.",
+    "page": 4
+  },
+  {
+    "kind": "p",
+    "text": "Farmacia se perfila preliminarmente como actor principal para operar sesiones. La ventanilla está corroborada en DEC-023, pero no acredita responsabilidades operativas: P2 debe confirmar quién inicia, confirma, corrige y ejecuta contingencia y cuándo interviene Biomédica.",
+    "page": 4
+  },
+  {
+    "kind": "h",
+    "text": "6.3 Evidencia AM/remodelación",
+    "page": 4
+  },
+  {
+    "kind": "p",
+    "text": "El Informe_Hallazgos_Operativos_AM_RFID_EMI_2026-09-09.pdf se incorpora como evidencia auxiliar de DEC-023. Documenta el catálogo y campo Ubicación Física en AM y su presencia en ficha maestra y orden de trabajo; su semántica dinámica y regla institucional de actualización siguen pendientes. No se autoriza escritura automática desde el MVP ni implementación de integración AM por este hallazgo; se mantiene DEC-005.",
+    "page": 4
+  },
+  {
+    "kind": "p",
+    "text": "El informe aporta fotografías de ventanilla, picking y referencia a torre RFID y describe recepción/reingreso, preparación y dotación/salida. Estos insumos orientan P2, sin sustituir plano dimensional o medición. La jaula de Faraday reportada, el lector manual y la segunda antena siguen preliminares o pendientes: no prueban infraestructura disponible, confinamiento ni desempeño RF_REAL. La confirmación de roles y rutas efectivas queda abierta. Deben controlarse la detección demasiado tardía y el reingreso por rutas diferentes, permitiendo verificación/corrección antes de confirmar.",
+    "page": 4
+  },
+  {
+    "kind": "h",
+    "text": "7. Hardware P1/P2 - estado compacto",
+    "page": 4
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Recurso",
+        "Rol",
+        "Estado vigente",
+        "Decisión"
+      ],
+      [
+        "DTB-C42M",
+        "Etiqueta UHF EPC C1G2",
+        "13 reportadas; EPC/pruebas pendientes",
+        "Candidata."
+      ],
+      [
+        "Chainway U300",
+        "Lector UHF fijo",
+        "SDK A4 inspeccionado; unidad/firmware/configuración/RF_RE AL pendientes",
+        "Candidato principal provisional."
+      ],
+      [
+        "Chainway R3S",
+        "Lector UHF estación",
+        "Identificado; pendiente",
+        "Alternativa."
+      ],
+      [
+        "Times-7 A9044M",
+        "Antena mesa/estación",
+        "Identificada; pendiente",
+        "Condicionada a geometría P2."
+      ],
+      [
+        "Times-7 A8065 Combo",
+        "Antena puerta/paso",
+        "Identificada; pendiente",
+        "Condicionada a geometría P2."
+      ],
+      [
+        "Chainway C72",
+        "Lector portátil",
+        "Identificado; pendiente",
+        "POSPONER como arquitectura principal."
+      ],
+      [
+        "MFRC522/RC522",
+        "HF 13,56 MHz",
+        "Banco auxiliar",
+        "EXCLUIDO como lector UHF/RF_REAL."
+      ]
+    ],
+    "page": 4
+  },
+  {
+    "kind": "h",
+    "text": "8. Riesgos y controles prioritarios",
+    "page": 5
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Riesgo",
+        "Control",
+        "Gate"
+      ],
+      [
+        "Diseñar contra geometría preliminar",
+        "No congelar antena/punto hasta confirmar P2 y hardware real.",
+        "P2"
+      ],
+      [
+        "Confundir SDK con desempeño físico",
+        "Mantener análisis SDK separado de RF_REAL.",
+        "P1/Pruebas"
+      ],
+      [
+        "Callback/lifecycle del SDK",
+        "Wrapper futuro debe aislar hilo, errores y parada local.",
+        "Integración"
+      ],
+      [
+        "Java 21 no probado funcionalmente",
+        "Prueba software aislada antes de integrar hardware.",
+        "P1"
+      ],
+      [
+        "Semántica AM incorrecta",
+        "No escribir 'Ubicación Física' sin significado/autorización.",
+        "Interoperabilidad"
+      ],
+      [
+        "Ruta de reingreso distinta",
+        "Confirmar paso obligatorio o usar contingencia.",
+        "P2/Piloto"
+      ]
+    ],
+    "page": 5
+  },
+  {
+    "kind": "h",
+    "text": "9. Ruta inmediata",
+    "page": 5
+  },
+  {
+    "kind": "p",
+    "text": "- I1-I5 están cerrados técnicamente en su alcance; no se reabren salvo defecto demostrado. El núcleo implementado no equivale a MVP completo.",
+    "page": 5
+  },
+  {
+    "kind": "p",
+    "text": "- Próxima acción software: RF-005 — Verificación de esperados vs detectados; después sustitución temporal y contingencia. El diseño y la persistencia LecturaRFID/SesionOperacion ya se materializaron en I3, seguidos por I4 e I5.",
+    "page": 5
+  },
+  {
+    "kind": "p",
+    "text": "- En paralelo, P1 continúa hacia prueba funcional del SDK con stack vigente y luego EPC UHF RF_REAL reproducible desde hardware autorizado.",
+    "page": 5
+  },
+  {
+    "kind": "p",
+    "text": "- Cerrar P2 mediante confirmación dirigida del único punto, ruta, geometría, actores, red/energía, hardware y permisos.",
+    "page": 5
+  },
+  {
+    "kind": "p",
+    "text": "- Completar el MVP y efectuar Pruebas controladas antes del Piloto y la Validación. Para la ruta física: prepruebas RF_REAL -> P3 -> ensayos/piloto condicionado, con P1/P2 satisfechos según corresponda.",
+    "page": 5
+  },
+  {
+    "kind": "h",
+    "text": "9.1 Profundidad obligatoria de P2",
+    "page": 5
+  },
+  {
+    "kind": "p",
+    "text": "El análisis especializado P2 debe usar planos y fichas técnicas, documentar fuentes, unidades, supuestos e incertidumbre y cubrir: sistema de coordenadas; escala; dimensiones; alturas y altura libre; materiales, muros/divisiones y mobiliario/metal; banda transportadora; puerta; ventanilla; trayectorias, distancias y orientación de etiquetas; posiciones candidatas de antena; altura, orientación/inclinación; polarización; patrón; banda/frecuencia RF; pérdidas de cable/conectores; presupuesto de enlace teórico; huella teórica; solapamientos; zonas ciegas; energía/red; restricciones constructivas y de montaje; y plan de prepruebas RF_REAL.",
+    "page": 5
+  },
+  {
+    "kind": "p",
+    "text": "La secuencia será Plano -> coordenadas -> trayectorias -> posiciones de antena -> patrón/polarización -> pérdidas -> presupuesto de enlace teórico -> huella aproximada -> solapamientos/zonas ciegas -> configuraciones candidatas -> prepruebas RF_REAL. Si faltan dimensiones, fichas o parámetros se declararán pendientes, sin inventarlos. El plan de prepruebas especificará configuración y escenarios, verdad de terreno y observación de lecturas correctas, omitidas y externas, orientación, metal y múltiples etiquetas. P3 fijará los umbrales después de prepruebas y antes del piloto; no se cambian los criterios vigentes de validación.",
+    "page": 5
+  },
+  {
+    "kind": "p",
+    "text": "GEOMETRIA != MODELO_RF_TEORICO != RF_REAL. Los cálculos seleccionan candidatos y orientan prepruebas; no demuestran desempeño físico, confinamiento, cobertura, omisiones o interferencia. Clasificar cada afirmación como CONFIRMADA (plano/ficha/medición/observación directa o aprobación identificable), CORROBORADA (fuentes independientes coincidentes), PRELIMINAR (reporte sin verificación), PENDIENTE (evidencia insuficiente), CALCULADA (resultado matemático con supuestos) o PENDIENTE_RF_REAL (requiere ensayo físico RFID).",
+    "page": 5
+  },
+  {
+    "kind": "h",
+    "text": "10. Antecedente preservado: control de cambios v1.9.1",
+    "page": 5
+  },
+  {
+    "kind": "p",
+    "text": "- Se incorpora el cierre técnico de I2: FuenteLecturasRFID, FuenteSimulada, LecturaEntradaRFID y OrigenDatos.",
+    "page": 5
+  },
+  {
+    "kind": "p",
+    "text": "- La suite queda en 57 pruebas, 0 fallos, 0 errores y 0 omitidas; 32 pruebas previas de I1 permanecen intactas.",
+    "page": 5
+  },
+  {
+    "kind": "p",
+    "text": "- Se incorpora la inspección estática del SDK Chainway A4 y sus riesgos, sin declarar RF_REAL ni cierre P1.",
+    "page": 5
+  },
+  {
+    "kind": "p",
+    "text": "- No se crea una nueva decisión; DEC-023 sigue siendo la última decisión aprobada.",
+    "page": 5
+  },
+  {
+    "kind": "p",
+    "text": "- v1.9 se conserva como histórico; no se cambia la propuesta aprobada.",
+    "page": 6
+  },
+  {
+    "kind": "h",
+    "text": "11. Antecedente preservado del control de cambios v1.9.2",
+    "page": 6
+  },
+  {
+    "kind": "p",
+    "text": "Se integran nomenclatura raqui/férula espinal, límites de cobertura, activos fuera de ruta, contingencia mínima, hipótesis condicionada de dos antenas, actor pendiente y profundidad geométrica/RF. Se incorpora como soporte el informe AM/remodelación. No se crean requisitos, DEC, entidades o hardware; no se modifica el orden de incrementos. Se preservan I1/I2 cerrados y los estados vigentes de P1/P2/P3. Las 57 pruebas son evidencia previa documentada, no ejecución nueva.",
+    "page": 6
+  },
+  {
+    "kind": "h",
+    "text": "Fuentes históricas de la consolidación v1.9.2",
+    "page": 6
+  },
+  {
+    "kind": "p",
+    "text": "Base: Arquitecto_Proyecto_Documento_Maestro_v1.9.1_ACTUAL.pdf (09/09/2026), conservada íntegra como histórico. Adiciones: PROPUESTA_ACTUALIZACION_CONTROL_v1.9.2.md, autorizada por el usuario el 09/09/2026; ACTUALIZACION_GPT_ARQUITECTO_EMI_v1.9.1.md; AGENTS_ADICIONES_v1.9.1.md; FUENTES_DE_VERDAD_ADICIONES_v1.9.1.md; P2_ADICIONES_DOCUMENTALES_PROPUESTAS_v1.9.2.md.",
+    "page": 6
+  },
+  {
+    "kind": "p",
+    "text": "Evidencia auxiliar: Informe_Hallazgos_Operativos_AM_RFID_EMI_2026-09-09.pdf, §§1-8, pp.2-9; ANALISIS_SDK_CHAINWAY_U300.md; INFORME_TECNICO_I2_FUENTE_RFID_SIMULADA.md. Prevalece Propuesta aprobada -> Maestro ACTUAL -> Matriz ACTUAL -> Registro ACTUAL -> soporte -> anexos. Los reportes repetidos no equivalen a corroboración independiente.",
+    "page": 6
+  },
+  {
+    "kind": "h",
+    "text": "12. Consolidación técnica posterior a I5"
+  },
+  {
+    "kind": "h",
+    "text": "Evidencia de los cierres técnicos"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Incremento",
+        "Pruebas nuevas",
+        "Total al cierre",
+        "Resultado"
+      ],
+      [
+        "I1",
+        "32",
+        "32",
+        "0 fallos / 0 errores / 0 omitidas"
+      ],
+      [
+        "I2",
+        "25",
+        "57",
+        "0 fallos / 0 errores / 0 omitidas"
+      ],
+      [
+        "I3",
+        "25",
+        "82",
+        "0 fallos / 0 errores / 0 omitidas"
+      ],
+      [
+        "I4",
+        "52",
+        "134",
+        "0 fallos / 0 errores / 0 omitidas"
+      ],
+      [
+        "I5",
+        "35",
+        "169",
+        "0 fallos / 0 errores / 0 omitidas"
+      ]
+    ],
+    "widths": [
+      19,
+      21,
+      21,
+      39
+    ]
+  },
+  {
+    "kind": "p",
+    "text": "Los valores 32, 57, 82, 134 y 169 son totales acumulados por cierre; no se suman entre sí. Suite vigente: 169 pruebas, 0 fallos, 0 errores y 0 omitidas. I3: clean verify del 12/09/2026 20:57:38 -05:00; I4: 12/09/2026 22:10:55 -05:00; I5: 13/09/2026 12:11:58 -05:00. Son resultados documentados de desarrollo del MVP, no nuevas ejecuciones de esta consolidación ni cierre de la fase formal de Pruebas."
+  },
+  {
+    "kind": "p",
+    "text": "I3 materializa SesionOperacion y LecturaRFID, metadata, timestamps y relación lectura-sesión mediante V3. Conserva repeticiones, precisión de la lectura y origen SIMULACION/RF_REAL por lectura. Lecturas sin sesión o recibidas con sesión cerrada permanecen como evidencia cruda; su conservación no las vuelve elegibles para movimiento. Fuente: docs/desarrollo/incremento_i3.md, Diseño adoptado antes de V3 y Verificación."
+  },
+  {
+    "kind": "p",
+    "text": "I4 materializa EventoOperativo, procesamiento explícito y relación auditable EventoOperativo ↔ LecturaRFID por evento_lectura. Usa asociación histórica EPC-equipo y UNIQUE(sesion_id, equipo_id, tipo_evento); un nuevo movimiento equivalente requiere otra sesión. Ese supuesto técnico debe contrastarse con la regla operativa P2. Sesión VERIFICACION o EPC desconocido no generan movimiento identificado; INGRESO/SALIDA procede del contexto de sesión, nunca de antena/RF. Idempotencia, concurrencia, SQL directo y rollback están documentados. Fuente: docs/desarrollo/incremento_i4.md, Diseño congelado, Persistencia y Verificación reproducible."
+  },
+  {
+    "kind": "p",
+    "text": "VAL-003: 20 callbacks simulados -> 20 LecturaRFID -> 0 eventos antes de invocar el motor -> 1 EventoOperativo -> 20 respaldos. La reejecución no crea otro evento; las pruebas concurrentes conservan unicidad. Evidencia SOFTWARE / SIMULACION. Prueba identificable: ServicioI4Test.veinteCallbacksConservanVeinteLecturasYUnEventoSoloAlInvocarMotor; informe I4, Evidencia de VAL-003."
+  },
+  {
+    "kind": "p",
+    "text": "I5 implementa última lectura, último evento e historiales por equipo; respeta asociación histórica y cambios/reasignaciones de etiquetas. Las lecturas atribuibles sin evento permanecen visibles. Consultar no invoca el motor ni escribe; V5 contiene solo dos índices. El escenario RF-004 conserva cuatro lecturas y dos eventos: última lectura 12:05 y último evento SALIDA 12:00, con cambio histórico A -> B; la lectura posterior al cierre no crea movimiento. Fuente: docs/desarrollo/incremento_i5.md, Evidencia RF-004 solicitada; ServicioI5Test.rf004EscenarioCompletoDosEtiquetasCuatroLecturasYDosEventos."
+  },
+  {
+    "kind": "p",
+    "text": "Lectura RFID cruda != Evento operativo != Verificación != Sustitución temporal != Contingencia. SIMULACION != RF_REAL. Las repeticiones RFID se conservan: deduplicar eventos no significa borrar lecturas. Una lectura cruda puede conservarse sin convertirse en evento. Última lectura != último evento != estado físico actual del equipo. Una consulta histórica no constituye localización en tiempo real; una lectura no demuestra disponibilidad física. Una prueba que construye OrigenDatos.RF_REAL en software NO constituye evidencia física RF_REAL."
+  },
+  {
+    "kind": "h",
+    "text": "Estados de requisitos revisados"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Requisito",
+        "Estado v1.9.3",
+        "Alcance o deuda"
+      ],
+      [
+        "AC-004",
+        "EN DESARROLLO",
+        "Consultar evidencia específica en la Matriz v1.9.3 §2"
+      ],
+      [
+        "RF-001",
+        "IMPLEMENTADO",
+        "Consultar evidencia específica en la Matriz v1.9.3 §2"
+      ],
+      [
+        "RF-002",
+        "EN DESARROLLO",
+        "Consultar evidencia específica en la Matriz v1.9.3 §2"
+      ],
+      [
+        "RF-003",
+        "EN DESARROLLO",
+        "Consultar evidencia específica en la Matriz v1.9.3 §2"
+      ],
+      [
+        "RF-004",
+        "IMPLEMENTADO",
+        "SOFTWARE; sin estado físico ni RF_REAL"
+      ],
+      [
+        "RF-005",
+        "APROBADO",
+        "Consultar evidencia específica en la Matriz v1.9.3 §2"
+      ],
+      [
+        "RF-006",
+        "APROBADO",
+        "Consultar evidencia específica en la Matriz v1.9.3 §2"
+      ],
+      [
+        "RF-007",
+        "APROBADO",
+        "Consultar evidencia específica en la Matriz v1.9.3 §2"
+      ],
+      [
+        "TEC-001",
+        "EN DESARROLLO",
+        "Consultar evidencia específica en la Matriz v1.9.3 §2"
+      ],
+      [
+        "TEC-002",
+        "EN DESARROLLO",
+        "Consultar evidencia específica en la Matriz v1.9.3 §2"
+      ],
+      [
+        "DAT-001",
+        "IMPLEMENTADO",
+        "SOFTWARE; sin estado físico ni RF_REAL"
+      ],
+      [
+        "DAT-002",
+        "EN DESARROLLO",
+        "Consultar evidencia específica en la Matriz v1.9.3 §2"
+      ],
+      [
+        "DAT-003",
+        "EN DESARROLLO",
+        "Consultar evidencia específica en la Matriz v1.9.3 §2"
+      ],
+      [
+        "VAL-003",
+        "EN DESARROLLO",
+        "Criterio software verificado; Pruebas formales pendientes"
+      ]
+    ],
+    "widths": [
+      23,
+      29,
+      48
+    ]
+  },
+  {
+    "kind": "h",
+    "text": "Evaluación del gate de fase"
+  },
+  {
+    "kind": "p",
+    "text": "Se mantiene la fase formal DISEÑO. La construcción del software del MVP está materializada mediante I1-I5; no se presenta como trabajo futuro. La Propuesta aprobada, p. 6, define Diseño con arquitectura física, lógica y operativa, modelo, flujos y reglas de evento. I3-I5 acreditan persistencia, sesiones, eventos, deduplicación y consultas, pero no acreditan cierre del diseño físico ni aprobación de la regla operativa: P2 sigue pendiente de punto único, actores, geometría, rutas, red, energía y permisos. El núcleo lógico construido no basta para declarar terminada la fase completa."
+  },
+  {
+    "kind": "p",
+    "text": "Se revisó DEC-018, cuya fecha de revisión es «Al cerrar Diseño / iniciar MVP» (Registro histórico v1.8.2, p. 11). Esa condición obliga a evaluar el estado; no impone una transición automática por número de incrementos. La alternativa MVP EN CONSTRUCCIÓN describe correctamente el avance técnico, pero usarla como sustituto de la fase formal y declarar Diseño cerrado, sin resolver sus entregables físicos y operativos, ampliaría lo demostrado. La falta de hardware no impide seguir desarrollando software conforme a DEC-009/017; no se convierte P1 en un nuevo prerrequisito de programación."
+  },
+  {
+    "kind": "p",
+    "text": "No se crea DEC-024 ni se formaliza el gate Diseño -> MVP en esta consolidación. I3 ejecuta DEC-014/015/022; I4 ejecuta DEC-014/015; I5 materializa las consultas RF-004 conforme a DEC-015/022. Son actualizaciones de evidencia y estado, sin nueva regla transversal. Una futura formalización del gate deberá acreditar o delimitar expresamente la deuda de diseño y revisar DEC-018; solo si introduce una condición transversal no cubierta se justificará una nueva DEC. No se reserva ni aprueba ahora esa numeración."
+  },
+  {
+    "kind": "h",
+    "text": "Convención para el estado de VAL 003"
+  },
+  {
+    "kind": "p",
+    "text": "Convención adoptada para VAL-003: EN DESARROLLO — criterio software verificado (alternativa B). La Matriz v1.9.2 usa Aprobado, En desarrollo, Implementado y Cerrado, pero no define una reserva explícita de Implementado para los requisitos de Validación. La alternativa A sería defendible para el criterio lógico aislado; se elige B, coherente con la recomendación técnica I4, porque la evidencia corresponde a pruebas de desarrollo del motor y permanece pendiente su comprobación integrada con las funciones restantes del MVP en Pruebas formales. No se añade una exigencia RF_REAL al criterio de cero duplicados ni se aplaza el reconocimiento del resultado software. Es una convención de reporte de estado, no una nueva meta de aceptación ni una DEC."
+  },
+  {
+    "kind": "h",
+    "text": "Estado del MVP y próxima acción"
+  },
+  {
+    "kind": "p",
+    "text": "Próxima acción software: RF-005 — Verificación de esperados vs detectados. Sigue APROBADO hasta comenzar su implementación real. Después: sustitución temporal RF-007, contingencia RF-006 y cierre del MVP; Pruebas controladas -> Piloto -> Validación. El adaptador real se integra cuando P1 lo permita; no se implementa por esta consolidación. En paralelo continúan P1/P2; las prepruebas RF_REAL preceden a P3 y al piloto. P3 permanece PENDIENTE y no se fijan nuevos umbrales."
+  },
+  {
+    "kind": "p",
+    "text": "P1 continúa EN CURSO: hardware UHF autorizado, modelo/firmware, runtime, SDK funcional, configuración y primera lectura EPC física reproducible pendientes. P2 continúa EN CURSO: único punto, actores/roles, geometría, rutas, red, energía, permisos y regla operativa final por confirmar. P3 está PENDIENTE: metas después de prepruebas RF_REAL y antes del piloto. El piloto requiere además MVP completo, Pruebas controladas y autorizaciones; los 169 tests no lo habilitan."
+  },
+  {
+    "kind": "h",
+    "text": "Cronograma y línea base preservados"
+  },
+  {
+    "kind": "p",
+    "text": "La Propuesta aprobada, p. 8, mantiene 24 semanas: Caracterización 1-4; Requisitos 5-6; Diseño 7-9; Desarrollo del MVP 10-15; Pruebas controladas 16-18; Piloto 19-21; Validación y cierre 22-24. La deuda de ejecución actual comprende cierre del diseño físico/operativo, funciones restantes, integración física condicionada y fases posteriores. No se recalculan ni sustituyen fechas aprobadas, no se comprimen fases ni se oculta la deuda. No se cuantifica una desviación en semanas sin conciliar el calendario académico oficial."
+  },
+  {
+    "kind": "p",
+    "text": "Presupuesto vigente: COP $43.724.342; desembolso personal del estudiante $0. No cambian objetivos, alcance, metodología, cronograma, presupuesto, piloto, validación, integración AM ni stack. DEC-022 conserva Java 21 LTS + Maven + JDBC + SQLite + Flyway + JUnit 5. No se agregan requisitos, puntos piloto, GPS/RTLS, medicamentos/insumos ni metas físicas P3."
+  },
+  {
+    "kind": "h",
+    "text": "Control de cambios de v1.9.3"
+  },
+  {
+    "kind": "p",
+    "text": "13/09/2026. Antecedente inmediato: v1.9.2 ACTUAL del 09/09/2026, preservado íntegro. Se incorporan cierres I3, I4 e I5 y suite total 169/0/0/0. Cambian AC-004 y RF-003 de APROBADO a EN DESARROLLO; RF-004 de APROBADO a IMPLEMENTADO en SOFTWARE; DAT-001 de EN DESARROLLO a IMPLEMENTADO en SOFTWARE; VAL-003 de APROBADO a EN DESARROLLO con criterio software verificado. Los demás estados y todas las prioridades se conservan. RF_REAL sigue PENDIENTE; P1/P2 EN CURSO y P3 PENDIENTE. No se crea DEC-024; no cambia la fase formal DISEÑO. El software del MVP está en construcción; el MVP completo no está cerrado."
+  },
+  {
+    "kind": "h",
+    "text": "Fuentes de la consolidación post I5"
+  },
+  {
+    "kind": "p",
+    "text": "Autoridad: Propuesta_Juan_Cortes_20262.pdf, pp. 3-9; Maestro v1.9.2, §§2-4 y 9; Matriz v1.9.2, §§2-5 y 7; Registro v1.9.2, §§2-9. Las tres copias v1.9.2 y la Propuesta se verifican por SHA-256; las versiones históricas mantienen su contenido y nombres. Los archivos de control se consultan en docs/control_local y los históricos en docs/control_local/historico."
+  },
+  {
+    "kind": "p",
+    "text": "Soporte técnico subordinado: docs/desarrollo/incremento_i3.md (12/09/2026), Diseño adoptado antes de V3, Verificación, Trazabilidad y deuda; incremento_i4.md (implementación 12/09 y cierre documental 13/09/2026), Diseño congelado, Verificación reproducible y Evidencia de VAL-003; incremento_i5.md (13/09/2026), Diseño congelado, Pruebas y verificación final y Evidencia RF-004 solicitada. Se cotejan 18 XML existentes de target/surefire-reports y tmp/i5-clean-verify.log: 169/0/0/0. Esta consolidación no ejecuta Maven ni modifica código."
+  },
+  {
+    "kind": "p",
+    "text": "DEC-018 se consulta en el Registro histórico v1.8.2, p. 11. El archivo conserva encabezados históricos v1.8 y referencias v1.7; se identifica por ruta y contenido, sin corregir retrospectivamente esa discrepancia. No se localizó un archivo v1.9 independiente ni el original AP-021; no se inventan decisiones ni evidencias. Informe auxiliar AM/remodelación y anexos permanecen subordinados."
+  }
+]
