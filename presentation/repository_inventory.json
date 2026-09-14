@@ -1,0 +1,2614 @@
+{
+  "captured_at": "2026-09-10T22:37:15.755608+00:00",
+  "scope": "Workspace files during configuration; excludes .git metadata. Inventory is not proof of full content review.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 112
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 800
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 16522
+    },
+    {
+      "path": "README.md",
+      "bytes": 5312
+    },
+    {
+      "path": "mvnw",
+      "bytes": 11790
+    },
+    {
+      "path": "mvnw.cmd",
+      "bytes": 8481
+    },
+    {
+      "path": "pom.xml",
+      "bytes": 2737
+    },
+    {
+      "path": ".mvn/wrapper/maven-wrapper.properties",
+      "bytes": 171
+    },
+    {
+      "path": "Java For PC/开发包说明文档.docx",
+      "bytes": 309962
+    },
+    {
+      "path": "Java For PC/API/ReaderAPI20250926.jar",
+      "bytes": 444433
+    },
+    {
+      "path": "Java For PC/API/doc/doc/allclasses-frame.html",
+      "bytes": 29911
+    },
+    {
+      "path": "Java For PC/API/doc/doc/allclasses-noframe.html",
+      "bytes": 26431
+    },
+    {
+      "path": "Java For PC/API/doc/doc/constant-values.html",
+      "bytes": 24570
+    },
+    {
+      "path": "Java For PC/API/doc/doc/deprecated-list.html",
+      "bytes": 4573
+    },
+    {
+      "path": "Java For PC/API/doc/doc/help-doc.html",
+      "bytes": 8466
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index.html",
+      "bytes": 2998
+    },
+    {
+      "path": "Java For PC/API/doc/doc/overview-frame.html",
+      "bytes": 2629
+    },
+    {
+      "path": "Java For PC/API/doc/doc/overview-summary.html",
+      "bytes": 9618
+    },
+    {
+      "path": "Java For PC/API/doc/doc/overview-tree.html",
+      "bytes": 58561
+    },
+    {
+      "path": "Java For PC/API/doc/doc/package-list",
+      "bytes": 459
+    },
+    {
+      "path": "Java For PC/API/doc/doc/script.js",
+      "bytes": 857
+    },
+    {
+      "path": "Java For PC/API/doc/doc/stylesheet.css",
+      "bytes": 13416
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/Test.html",
+      "bytes": 6853
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/package-frame.html",
+      "bytes": 762
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/package-summary.html",
+      "bytes": 4557
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/package-tree.html",
+      "bytes": 4355
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/CardReaderUtils.html",
+      "bytes": 18302
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/ConnectionState.html",
+      "bytes": 13457
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/Device.html",
+      "bytes": 9663
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/DeviceAPI.html",
+      "bytes": 377835
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/PSAM.html",
+      "bytes": 18189
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithISO14443A.html",
+      "bytes": 24295
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithISO14443B.html",
+      "bytes": 17758
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithISO15693.html",
+      "bytes": 24774
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithUHFBase.html",
+      "bytes": 20641
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithUHFNetworkA4.html",
+      "bytes": 215884
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithUHFNetworkA8.html",
+      "bytes": 211286
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithUHFNetworkAccessGate.html",
+      "bytes": 247600
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithUHFNetworkR3.html",
+      "bytes": 121767
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithUHFNetworkUR4.html",
+      "bytes": 170204
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithUHFSerialPortA4.html",
+      "bytes": 215007
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithUHFSerialPortA8.html",
+      "bytes": 210398
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithUHFSerialPortAccessGate.html",
+      "bytes": 251992
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithUHFSerialPortUR4.html",
+      "bytes": 161881
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/RFIDWithUHFUsb.html",
+      "bytes": 137357
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/SocketManageAxHttp.html",
+      "bytes": 20085
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/SocketUdp.html",
+      "bytes": 10115
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/UHFBleProtocolParse.html",
+      "bytes": 34902
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/UHFProtocolParseAxFromJava.html",
+      "bytes": 194730
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/UHFProtocolParseFromJava.html",
+      "bytes": 171339
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/UHFUsbProtocolParse.html",
+      "bytes": 41101
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/VersionInfo.html",
+      "bytes": 8944
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/package-frame.html",
+      "bytes": 3859
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/package-summary.html",
+      "bytes": 17790
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/package-tree.html",
+      "bytes": 13195
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/ble/BleAPI.html",
+      "bytes": 18472
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/ble/BleLibrary.disconnectDeviceCallback.html",
+      "bytes": 9025
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/ble/BleLibrary.html",
+      "bytes": 16789
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/ble/BleLibrary.readDataCallback.html",
+      "bytes": 9143
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/ble/BleLibrary.scanDeviceCallback.html",
+      "bytes": 9221
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/ble/RFIDWithUHFBLEOfLiunx.html",
+      "bytes": 149349
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/ble/package-frame.html",
+      "bytes": 1772
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/ble/package-summary.html",
+      "bytes": 6520
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/ble/package-tree.html",
+      "bytes": 6661
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/customized/RFIDWithUHFUsbOfIR.TAGObject.html",
+      "bytes": 14053
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/customized/RFIDWithUHFUsbOfIR.html",
+      "bytes": 27106
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/customized/package-frame.html",
+      "bytes": 892
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/customized/package-summary.html",
+      "bytes": 4990
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/customized/package-tree.html",
+      "bytes": 6033
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/AfterNetworkDisconnectedEntity.html",
+      "bytes": 9889
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/AlarmEntity.html",
+      "bytes": 13344
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/AntennaConnectState.html",
+      "bytes": 10633
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/AntennaNameEnum.html",
+      "bytes": 21374
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/AntennaPowerEntity.html",
+      "bytes": 12350
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/AntennaState.html",
+      "bytes": 10484
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/BlueLightEntity.html",
+      "bytes": 9884
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/BuzzerEntity.html",
+      "bytes": 9832
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/DeviceInfo.html",
+      "bytes": 13844
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/DuplicateTagFilterEntity.html",
+      "bytes": 11001
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/FastInventoryEntity.html",
+      "bytes": 10671
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/FilterEntity.html",
+      "bytes": 15058
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/GPIOInfo.html",
+      "bytes": 12138
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/GPIStateEntity.html",
+      "bytes": 17376
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/GPITriggerInventoryEntity.html",
+      "bytes": 13822
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/GPOEntity.html",
+      "bytes": 15601
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/GateWorkTimeEntity.html",
+      "bytes": 14529
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/Gen2Entity.html",
+      "bytes": 32410
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/HF14443RequestEntity.html",
+      "bytes": 9637
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/HF15693RequestEntity.Builder.html",
+      "bytes": 12292
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/HF15693RequestEntity.TagType.html",
+      "bytes": 16231
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/HF15693RequestEntity.html",
+      "bytes": 11161
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/HeartbeatPacketEntity.html",
+      "bytes": 11099
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/InventoryModeEntity.Builder.html",
+      "bytes": 12333
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/InventoryModeEntity.html",
+      "bytes": 26546
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/InventoryParameter.html",
+      "bytes": 11651
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/InventoryResultData.html",
+      "bytes": 10724
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/JsonDataInfo.Builder.html",
+      "bytes": 13056
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/JsonDataInfo.html",
+      "bytes": 13132
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/M775AuthenticationInfo.html",
+      "bytes": 12863
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/MqttEntity.html",
+      "bytes": 14679
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/ReaderIPEntity.html",
+      "bytes": 24944
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/ReaderInfo.html",
+      "bytes": 11464
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/ReaderWorkModeEntity.GpiTriggerMode.Gpi.DelayTime.html",
+      "bytes": 11013
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/ReaderWorkModeEntity.GpiTriggerMode.Gpi.SignalValue.html",
+      "bytes": 12273
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/ReaderWorkModeEntity.GpiTriggerMode.Gpi.html",
+      "bytes": 14711
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/ReaderWorkModeEntity.GpiTriggerMode.StartInventoryCondition.html",
+      "bytes": 11621
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/ReaderWorkModeEntity.GpiTriggerMode.StopInventoryCondition.html",
+      "bytes": 11585
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/ReaderWorkModeEntity.GpiTriggerMode.html",
+      "bytes": 15522
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/ReaderWorkModeEntity.RemoteServerEndpoint.html",
+      "bytes": 11510
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/ReaderWorkModeEntity.html",
+      "bytes": 17798
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/RedLightEntity.html",
+      "bytes": 9924
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/ResultEntity.ResultCode.html",
+      "bytes": 10319
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/ResultEntity.html",
+      "bytes": 15184
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/ReturnLossEntity.html",
+      "bytes": 12663
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/RssiFilterEntity.html",
+      "bytes": 12337
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/StartInventoryConditionEntity.html",
+      "bytes": 11630
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/StartWorkTimeEntity.html",
+      "bytes": 10374
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/StopInventoryConditionEntity.html",
+      "bytes": 12720
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/StopInventoryDelayTimeEntity.html",
+      "bytes": 10582
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/StopWorkTimeEntity.html",
+      "bytes": 10314
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/TagInfoRule.html",
+      "bytes": 13844
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/TagMatchEntity.html",
+      "bytes": 10764
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/TagReportingEntity.DuplicateTagFilter.html",
+      "bytes": 11551
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/TagReportingEntity.RssiFilter.html",
+      "bytes": 11455
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/TagReportingEntity.html",
+      "bytes": 14950
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/TagReportingModeEntity.html",
+      "bytes": 11745
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/TcpServicePortEntity.html",
+      "bytes": 11030
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/TriggerInventoryEntity.html",
+      "bytes": 15490
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/TriggerStartInventoryEntity.html",
+      "bytes": 10148
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/TriggerStopInventoryEntity.html",
+      "bytes": 10108
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/UHFTAGInfo.html",
+      "bytes": 28659
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/URxDeviceInfo.html",
+      "bytes": 12910
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/UrxTriggerEntity.html",
+      "bytes": 13341
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/VersionEntity.html",
+      "bytes": 14008
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/WifiConfig.html",
+      "bytes": 18402
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/package-frame.html",
+      "bytes": 9894
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/package-summary.html",
+      "bytes": 21065
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/entity/package-tree.html",
+      "bytes": 20124
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/ConnectionStateCallback.html",
+      "bytes": 7898
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/DeviceCallbank.html",
+      "bytes": 8025
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IAccessGate.html",
+      "bytes": 54963
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IAccessGateState.html",
+      "bytes": 10344
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IAccessGateStateDataCallback.html",
+      "bytes": 7897
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/ICheckConnectState.html",
+      "bytes": 8088
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IGPIStateCallback.html",
+      "bytes": 8084
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IMultipleAntenna.html",
+      "bytes": 15699
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IObserver.html",
+      "bytes": 8678
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IPSAM.html",
+      "bytes": 10348
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IRFIDWithHFBase.html",
+      "bytes": 9984
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IRFIDWithISO14443A.html",
+      "bytes": 12172
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IRFIDWithISO14443B.html",
+      "bytes": 10138
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IRFIDWithISO15693.html",
+      "bytes": 14003
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IReader.html",
+      "bytes": 13446
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/ISingleAntenna.html",
+      "bytes": 9351
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHF.html",
+      "bytes": 107703
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHFA4.html",
+      "bytes": 28151
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHFA8.html",
+      "bytes": 25375
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHFAx.html",
+      "bytes": 56443
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHFAxJson.html",
+      "bytes": 21524
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHFInventoryCallback.html",
+      "bytes": 8098
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHFProtocolJson.html",
+      "bytes": 133543
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHFProtocolParse.html",
+      "bytes": 88571
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHFProtocolParseA4.html",
+      "bytes": 30991
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHFProtocolParseAx.html",
+      "bytes": 74643
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHFProtocolParseBase.html",
+      "bytes": 61382
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHFProtocolParseRx.html",
+      "bytes": 31564
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHFProtocolParseUartx.html",
+      "bytes": 23905
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUHFProtocolParseUrx.html",
+      "bytes": 51791
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUR4.html",
+      "bytes": 41919
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUhfBle.html",
+      "bytes": 19018
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUhfReader.html",
+      "bytes": 14669
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/IUpgradeProgress.html",
+      "bytes": 8211
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/KeyEventCallback.html",
+      "bytes": 8399
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/ScanBTCallback.html",
+      "bytes": 7946
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/package-frame.html",
+      "bytes": 6772
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/package-summary.html",
+      "bytes": 13572
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/interfaces/package-tree.html",
+      "bytes": 20570
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/jsonprotoocol/UHFProtocolJson.html",
+      "bytes": 203271
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/jsonprotoocol/package-frame.html",
+      "bytes": 898
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/jsonprotoocol/package-summary.html",
+      "bytes": 5017
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/jsonprotoocol/package-tree.html",
+      "bytes": 5031
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/LinuxUHFAndHFAPI.OnDataReceived.html",
+      "bytes": 9225
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/LinuxUHFAndHFAPI.disconnectDeviceCallback.html",
+      "bytes": 9177
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/LinuxUHFAndHFAPI.html",
+      "bytes": 96078
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/LoadUHFAndHFSO.html",
+      "bytes": 11535
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/package-frame.html",
+      "bytes": 1511
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/package-summary.html",
+      "bytes": 6154
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/package-tree.html",
+      "bytes": 5737
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/serialport/SPUR4Linux.html",
+      "bytes": 170457
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/serialport/package-frame.html",
+      "bytes": 909
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/serialport/package-summary.html",
+      "bytes": 5083
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/serialport/package-tree.html",
+      "bytes": 5496
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/usb/HF_15693_UsbForLinux.html",
+      "bytes": 19991
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/usb/HF_A_UsbForLinux.html",
+      "bytes": 17212
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/usb/HF_B_UsbForLinux.html",
+      "bytes": 13851
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/usb/PSAMForLinux.html",
+      "bytes": 14318
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/usb/UsbLinux.html",
+      "bytes": 144696
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/usb/UsbLinuxDeviceAPI.html",
+      "bytes": 124900
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/usb/package-frame.html",
+      "bytes": 1529
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/usb/package-summary.html",
+      "bytes": 6403
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/linux/usb/package-tree.html",
+      "bytes": 7928
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/observable/Observable.html",
+      "bytes": 12200
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/observable/package-frame.html",
+      "bytes": 876
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/observable/package-summary.html",
+      "bytes": 4980
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/observable/package-tree.html",
+      "bytes": 4799
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/udp/SocketUdpUR4SearchDevice.html",
+      "bytes": 10142
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/udp/package-frame.html",
+      "bytes": 876
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/udp/package-summary.html",
+      "bytes": 4971
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/udp/package-tree.html",
+      "bytes": 4783
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/uhfparse/UHFBleDataHandle.html",
+      "bytes": 15429
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/uhfparse/UHFDataHandleBase.CMDInfo.html",
+      "bytes": 10982
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/uhfparse/UHFDataHandleBase.html",
+      "bytes": 18204
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/uhfparse/UHFJsonDataHandleBase.html",
+      "bytes": 16537
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/uhfparse/UHFUR4DataHandle.html",
+      "bytes": 14294
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/uhfparse/UHFUrAxDataHandle.html",
+      "bytes": 16142
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/uhfparse/UHFUrAxJsonDataHandle.html",
+      "bytes": 9871
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/uhfparse/UHFUsbDataHandle.html",
+      "bytes": 13978
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/uhfparse/package-frame.html",
+      "bytes": 1678
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/uhfparse/package-summary.html",
+      "bytes": 6400
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/uhfparse/package-tree.html",
+      "bytes": 6474
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/serialport/SPUR4Windows.TagInfo.html",
+      "bytes": 12414
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/serialport/SPUR4Windows.html",
+      "bytes": 184460
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/serialport/package-frame.html",
+      "bytes": 1068
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/serialport/package-summary.html",
+      "bytes": 5372
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/serialport/package-tree.html",
+      "bytes": 5794
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/usb/HF14443AUsbForWindows.html",
+      "bytes": 17044
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/usb/HF14443BUsbForWindows.html",
+      "bytes": 14018
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/usb/HF15693UsbForWindows.html",
+      "bytes": 20369
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/usb/LoadUHFAndHFDLL.html",
+      "bytes": 12096
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/usb/PSAMForWindows.html",
+      "bytes": 14402
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/usb/UsbWindows.html",
+      "bytes": 147554
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/usb/WinUHFAndHFAPI.DisconnectDeviceCallback.html",
+      "bytes": 9289
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/usb/WinUHFAndHFAPI.OnDataReceived.html",
+      "bytes": 9013
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/usb/WinUHFAndHFAPI.html",
+      "bytes": 100760
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/usb/package-frame.html",
+      "bytes": 2224
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/usb/package-summary.html",
+      "bytes": 7467
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/deviceapi/windows/usb/package-tree.html",
+      "bytes": 8613
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/utility/CheckUtils.html",
+      "bytes": 9796
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/utility/CommUtils.html",
+      "bytes": 8765
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/utility/FileUtils.html",
+      "bytes": 9651
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/utility/LogUtility.html",
+      "bytes": 15640
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/utility/Logger.html",
+      "bytes": 13079
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/utility/StringUtility.html",
+      "bytes": 33107
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/utility/SystemOut.html",
+      "bytes": 9867
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/utility/package-frame.html",
+      "bytes": 1443
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/utility/package-summary.html",
+      "bytes": 5850
+    },
+    {
+      "path": "Java For PC/API/doc/doc/com/rscja/utility/package-tree.html",
+      "bytes": 5575
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-1.html",
+      "bytes": 19735
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-10.html",
+      "bytes": 7341
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-11.html",
+      "bytes": 14925
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-12.html",
+      "bytes": 35008
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-13.html",
+      "bytes": 26860
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-14.html",
+      "bytes": 5988
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-15.html",
+      "bytes": 25492
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-16.html",
+      "bytes": 144060
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-17.html",
+      "bytes": 102429
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-18.html",
+      "bytes": 370428
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-19.html",
+      "bytes": 21778
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-2.html",
+      "bytes": 49489
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-20.html",
+      "bytes": 208295
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-21.html",
+      "bytes": 9545
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-22.html",
+      "bytes": 28455
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-3.html",
+      "bytes": 44177
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-4.html",
+      "bytes": 18701
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-5.html",
+      "bytes": 31368
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-6.html",
+      "bytes": 19327
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-7.html",
+      "bytes": 294358
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-8.html",
+      "bytes": 30067
+    },
+    {
+      "path": "Java For PC/API/doc/doc/index-files/index-9.html",
+      "bytes": 85064
+    },
+    {
+      "path": "Java For PC/APP/URA4DemoV1.4.jar",
+      "bytes": 5761693
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo.rar",
+      "bytes": 5230288
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/build.gradle",
+      "bytes": 1096
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/gradlew",
+      "bytes": 5766
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/gradlew.bat",
+      "bytes": 2763
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/ip.txt",
+      "bytes": 19
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/rxtxParallel.dll",
+      "bytes": 84992
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/rxtxSerial.dll",
+      "bytes": 129536
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/settings.gradle",
+      "bytes": 33
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/6.8/gc.properties",
+      "bytes": 0
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/6.8/executionHistory/executionHistory.bin",
+      "bytes": 38799
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/6.8/executionHistory/executionHistory.lock",
+      "bytes": 17
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/6.8/fileChanges/last-build.bin",
+      "bytes": 1
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/6.8/fileHashes/fileHashes.bin",
+      "bytes": 21997
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/6.8/fileHashes/fileHashes.lock",
+      "bytes": 17
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/6.8/fileHashes/resourceHashesCache.bin",
+      "bytes": 18973
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/6.8/javaCompile/classAnalysis.bin",
+      "bytes": 1070525
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/6.8/javaCompile/jarAnalysis.bin",
+      "bytes": 525500
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/6.8/javaCompile/javaCompile.lock",
+      "bytes": 17
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/6.8/javaCompile/taskHistory.bin",
+      "bytes": 20253
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/buildOutputCleanup/buildOutputCleanup.lock",
+      "bytes": 17
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/buildOutputCleanup/cache.properties",
+      "bytes": 51
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/buildOutputCleanup/outputFiles.bin",
+      "bytes": 18911
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/checksums/checksums.lock",
+      "bytes": 17
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/configuration-cache/gc.properties",
+      "bytes": 0
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.gradle/vcs-1/gc.properties",
+      "bytes": 0
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.idea/.gitignore",
+      "bytes": 184
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.idea/.name",
+      "bytes": 8
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.idea/compiler.xml",
+      "bytes": 175
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.idea/gradle.xml",
+      "bytes": 651
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.idea/jarRepositories.xml",
+      "bytes": 858
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.idea/misc.xml",
+      "bytes": 422
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/.idea/workspace.xml",
+      "bytes": 9829
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 59203
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 281
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/libs/RXTXcomm.jar",
+      "bytes": 60984
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/libs/ReaderAPI20250926.jar",
+      "bytes": 444433
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/libs/commons-beanutils-1.8.0.jar",
+      "bytes": 231320
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/libs/commons-collections-3.2.1.jar",
+      "bytes": 575389
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/libs/commons-lang-2.6.jar",
+      "bytes": 284220
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/libs/commons-logging-1.1.1.jar",
+      "bytes": 60841
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/libs/ezmorph-1.0.6.jar",
+      "bytes": 86487
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/libs/jna-5.4.0.jar",
+      "bytes": 1506245
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/libs/jna-platform-5.4.0.jar",
+      "bytes": 2624748
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/libs/json-lib-2.4-jdk15.jar",
+      "bytes": 159123
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/libs/jxl.jar",
+      "bytes": 704543
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/libs/xom-1.2.6.jar",
+      "bytes": 310345
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/UHFMainForm.java",
+      "bytes": 27767
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/UHFMainForm.jfd",
+      "bytes": 6689
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/META-INF/MANIFEST.MF",
+      "bytes": 58
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/ConfigForm.java",
+      "bytes": 71660
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/ConfigForm.jfd",
+      "bytes": 25757
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/ConfigForm2.java",
+      "bytes": 54891
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/ConfigForm2.jfd",
+      "bytes": 19866
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/FirmwareUpgradeForm.java",
+      "bytes": 13757
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/FirmwareUpgradeForm.jfd",
+      "bytes": 1991
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/GPIOForm.java",
+      "bytes": 12083
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/GPIOForm.jfd",
+      "bytes": 6470
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/IPv6Form.java",
+      "bytes": 11072
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/IPv6Form.jfd",
+      "bytes": 6571
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/InventoryForm.java",
+      "bytes": 28659
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/InventoryForm.jfd",
+      "bytes": 10387
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/LockKillForm.java",
+      "bytes": 30737
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/LockKillForm.jfd",
+      "bytes": 12270
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/ReadWriteForm.java",
+      "bytes": 23784
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/ReadWriteForm.jfd",
+      "bytes": 9376
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/SearchDeviceForm.java",
+      "bytes": 23308
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/SearchDeviceForm.jfd",
+      "bytes": 8882
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/TemperatureForm.java",
+      "bytes": 2650
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/TemperatureForm.jfd",
+      "bytes": 940
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/UHFInfoForm.java",
+      "bytes": 4772
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/UHFInfoForm.jfd",
+      "bytes": 1959
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/WifiAndInterForm.java",
+      "bytes": 39734
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/form/WifiAndInterForm.jfd",
+      "bytes": 15706
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/model/InventoryTableModel.java",
+      "bytes": 4462
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/model/SearchTableModel.java",
+      "bytes": 2756
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/utils/ExportUtils.java",
+      "bytes": 2068
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/utils/FileUtils.java",
+      "bytes": 1904
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/java/com/uhf/utils/StringUtils.java",
+      "bytes": 1104
+    },
+    {
+      "path": "Java For PC/demo source code/A4JavaDemo/A4JavaDemo/src/main/resources/META-INF/MANIFEST.MF",
+      "bytes": 58
+    },
+    {
+      "path": "data/emi.db",
+      "bytes": 53248
+    },
+    {
+      "path": "docs/FUENTES_DE_VERDAD.md",
+      "bytes": 18083
+    },
+    {
+      "path": "docs/analisis/ANALISIS_SDK_CHAINWAY_U300.md",
+      "bytes": 71644
+    },
+    {
+      "path": "docs/analisis/INFORME_TECNICO_I2_FUENTE_RFID_SIMULADA.md",
+      "bytes": 23303
+    },
+    {
+      "path": "docs/analisis/PROPUESTA_ACTUALIZACION_CONTROL_v1.9.2.md",
+      "bytes": 22323
+    },
+    {
+      "path": "docs/anexos/Transcripcion_Entrevista_Trazabilidad_Biomedica (1).docx",
+      "bytes": 67747
+    },
+    {
+      "path": "docs/control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.9.2_ACTUAL.pdf",
+      "bytes": 92341
+    },
+    {
+      "path": "docs/control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.9.2_ACTUAL.pdf",
+      "bytes": 89633
+    },
+    {
+      "path": "docs/control_local/Propuesta_Juan_Cortes_20262.pdf",
+      "bytes": 215585
+    },
+    {
+      "path": "docs/control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.9.2_ACTUAL.pdf",
+      "bytes": 84251
+    },
+    {
+      "path": "docs/control_local/decisiones_individuales/DEC-022_Adenda_Registro_Decisiones_Proyecto_EMI_2026-09-05.pdf",
+      "bytes": 31929
+    },
+    {
+      "path": "docs/control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.8.1_ACTUAL.pdf",
+      "bytes": 134869
+    },
+    {
+      "path": "docs/control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.8.2_ACTUAL.pdf",
+      "bytes": 182625
+    },
+    {
+      "path": "docs/control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.8.pdf",
+      "bytes": 394828
+    },
+    {
+      "path": "docs/control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.9.1_ACTUAL.pdf",
+      "bytes": 141160
+    },
+    {
+      "path": "docs/control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.8.1_ACTUAL.pdf",
+      "bytes": 461355
+    },
+    {
+      "path": "docs/control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.8.2_ACTUAL.pdf",
+      "bytes": 465471
+    },
+    {
+      "path": "docs/control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.8.pdf",
+      "bytes": 651889
+    },
+    {
+      "path": "docs/control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.9.1_ACTUAL.pdf",
+      "bytes": 180364
+    },
+    {
+      "path": "docs/control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.8.1_ACTUAL.pdf",
+      "bytes": 130459
+    },
+    {
+      "path": "docs/control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.8.2_ACTUAL.pdf",
+      "bytes": 133817
+    },
+    {
+      "path": "docs/control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.8.pdf",
+      "bytes": 404299
+    },
+    {
+      "path": "docs/control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.9.1_ACTUAL.pdf",
+      "bytes": 130801
+    },
+    {
+      "path": "docs/desarrollo/arquitectura.md",
+      "bytes": 2914
+    },
+    {
+      "path": "docs/desarrollo/casos_de_uso_i1.md",
+      "bytes": 7690
+    },
+    {
+      "path": "docs/desarrollo/modelo_datos.md",
+      "bytes": 3448
+    },
+    {
+      "path": "docs/soporte/Checklist_P1_v0.1_ACTUALIZABLE.xlsx",
+      "bytes": 20601
+    },
+    {
+      "path": "docs/soporte/Informe_Cierre_P0_Proyecto_EMI_2026-09-03.docx",
+      "bytes": 54470
+    },
+    {
+      "path": "docs/soporte/Informe_Hallazgos_Operativos_AM_RFID_EMI_2026-09-09.pdf",
+      "bytes": 2078594
+    },
+    {
+      "path": "docs/soporte/Informe_Tecnico_Avance_I1_Proyecto_EMI_v0.1_2026-09-06.pdf",
+      "bytes": 344457
+    },
+    {
+      "path": "docs/soporte/Informe_Tecnico_Avance_P1_v0.1_2026-09-05.pdf",
+      "bytes": 535248
+    },
+    {
+      "path": "docs/soporte/Informe_Tecnico_Cierre_I1_Proyecto_EMI_v0.2_2026-09-06.pdf",
+      "bytes": 317595
+    },
+    {
+      "path": "presentation/deck_spec.md",
+      "bytes": 5746
+    },
+    {
+      "path": "presentation/evidence_matrix.md",
+      "bytes": 9129
+    },
+    {
+      "path": "presentation/presentation_brief.md",
+      "bytes": 7694
+    },
+    {
+      "path": "presentation/source_review.md",
+      "bytes": 6926
+    },
+    {
+      "path": "presentation/storyboard.md",
+      "bytes": 15648
+    },
+    {
+      "path": "skills/didactic-slide-design/SKILL.md",
+      "bytes": 2268
+    },
+    {
+      "path": "skills/emi-presentation-architect/SKILL.md",
+      "bytes": 2353
+    },
+    {
+      "path": "skills/emi-source-of-truth/SKILL.md",
+      "bytes": 2898
+    },
+    {
+      "path": "skills/pptxgenjs-production/SKILL.md",
+      "bytes": 2755
+    },
+    {
+      "path": "skills/slide-qa/SKILL.md",
+      "bytes": 2762
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/EmiApplication.java",
+      "bytes": 1073
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/aplicacion/ErrorAplicacion.java",
+      "bytes": 532
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/aplicacion/ServicioI1.java",
+      "bytes": 5253
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/aplicacion/puertos/FuenteLecturasRFID.java",
+      "bytes": 1217
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/aplicacion/puertos/RepositorioI1.java",
+      "bytes": 981
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/aplicacion/puertos/UnidadDeTrabajo.java",
+      "bytes": 285
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/dominio/AsignacionEtiqueta.java",
+      "bytes": 895
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/dominio/Equipo.java",
+      "bytes": 538
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/dominio/EstadoEtiqueta.java",
+      "bytes": 95
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/dominio/EtiquetaRFID.java",
+      "bytes": 532
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/dominio/LecturaEntradaRFID.java",
+      "bytes": 1134
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/dominio/OrigenDatos.java",
+      "bytes": 173
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/entrada/ConsolaEmi.java",
+      "bytes": 3820
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/infraestructura/persistencia/BaseDatos.java",
+      "bytes": 1260
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/infraestructura/persistencia/JdbcRepositorioI1.java",
+      "bytes": 5675
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/infraestructura/persistencia/JdbcUnidadDeTrabajo.java",
+      "bytes": 1212
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/infraestructura/rfid/FuenteSimulada.java",
+      "bytes": 2911
+    },
+    {
+      "path": "src/main/resources/db/migration/V1__inicializar_persistencia.sql",
+      "bytes": 143
+    },
+    {
+      "path": "src/main/resources/db/migration/V2__crear_entidades_i1.sql",
+      "bytes": 1778
+    },
+    {
+      "path": "src/presentation/README.md",
+      "bytes": 1585
+    },
+    {
+      "path": "src/presentation/geometry.mjs",
+      "bytes": 1038
+    },
+    {
+      "path": "src/presentation/theme.mjs",
+      "bytes": 908
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/aplicacion/ServicioI1Test.java",
+      "bytes": 13629
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/dominio/LecturaEntradaRFIDTest.java",
+      "bytes": 2126
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/entrada/ConsolaEmiTest.java",
+      "bytes": 2415
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/infraestructura/persistencia/BaseDatosTest.java",
+      "bytes": 1069
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/infraestructura/persistencia/EsquemaI1Test.java",
+      "bytes": 6344
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/infraestructura/rfid/AislamientoI2Test.java",
+      "bytes": 1681
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/infraestructura/rfid/FuenteSimuladaTest.java",
+      "bytes": 7691
+    },
+    {
+      "path": "target/i2-verify.log",
+      "bytes": 56959
+    },
+    {
+      "path": "target/original-trazabilidad-0.1.0-SNAPSHOT.jar",
+      "bytes": 32867
+    },
+    {
+      "path": "target/trazabilidad-0.1.0-SNAPSHOT-shaded.jar",
+      "bytes": 17434064
+    },
+    {
+      "path": "target/trazabilidad-0.1.0-SNAPSHOT.jar",
+      "bytes": 17434064
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/EmiApplication.class",
+      "bytes": 2619
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/aplicacion/ErrorAplicacion$Codigo.class",
+      "bytes": 1471
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/aplicacion/ErrorAplicacion.class",
+      "bytes": 1095
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/aplicacion/ServicioI1.class",
+      "bytes": 10375
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/aplicacion/puertos/FuenteLecturasRFID$Estado.class",
+      "bytes": 1482
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/aplicacion/puertos/FuenteLecturasRFID.class",
+      "bytes": 560
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/aplicacion/puertos/RepositorioI1.class",
+      "bytes": 1320
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/aplicacion/puertos/UnidadDeTrabajo.class",
+      "bytes": 359
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/dominio/AsignacionEtiqueta.class",
+      "bytes": 2899
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/dominio/Equipo.class",
+      "bytes": 2176
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/dominio/EstadoEtiqueta.class",
+      "bytes": 1178
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/dominio/EtiquetaRFID.class",
+      "bytes": 2329
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/dominio/LecturaEntradaRFID.class",
+      "bytes": 3094
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/dominio/OrigenDatos.class",
+      "bytes": 1160
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/entrada/ConsolaEmi.class",
+      "bytes": 5832
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/infraestructura/persistencia/BaseDatos.class",
+      "bytes": 2921
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/infraestructura/persistencia/JdbcRepositorioI1$Mapeo.class",
+      "bytes": 581
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/infraestructura/persistencia/JdbcRepositorioI1.class",
+      "bytes": 10446
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/infraestructura/persistencia/JdbcUnidadDeTrabajo.class",
+      "bytes": 2648
+    },
+    {
+      "path": "target/classes/co/emi/trazabilidad/infraestructura/rfid/FuenteSimulada.class",
+      "bytes": 3412
+    },
+    {
+      "path": "target/classes/db/migration/V1__inicializar_persistencia.sql",
+      "bytes": 143
+    },
+    {
+      "path": "target/classes/db/migration/V2__crear_entidades_i1.sql",
+      "bytes": 1778
+    },
+    {
+      "path": "target/maven-archiver/pom.properties",
+      "bytes": 65
+    },
+    {
+      "path": "target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst",
+      "bytes": 1145
+    },
+    {
+      "path": "target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst",
+      "bytes": 1445
+    },
+    {
+      "path": "target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst",
+      "bytes": 560
+    },
+    {
+      "path": "target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst",
+      "bytes": 637
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.aplicacion.ServicioI1Test.xml",
+      "bytes": 48688
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.dominio.LecturaEntradaRFIDTest.xml",
+      "bytes": 10102
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.entrada.ConsolaEmiTest.xml",
+      "bytes": 12999
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.infraestructura.persistencia.BaseDatosTest.xml",
+      "bytes": 11927
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.infraestructura.persistencia.EsquemaI1Test.xml",
+      "bytes": 22090
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.infraestructura.rfid.AislamientoI2Test.xml",
+      "bytes": 9647
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.infraestructura.rfid.FuenteSimuladaTest.xml",
+      "bytes": 12271
+    },
+    {
+      "path": "target/surefire-reports/co.emi.trazabilidad.aplicacion.ServicioI1Test.txt",
+      "bytes": 345
+    },
+    {
+      "path": "target/surefire-reports/co.emi.trazabilidad.dominio.LecturaEntradaRFIDTest.txt",
+      "bytes": 354
+    },
+    {
+      "path": "target/surefire-reports/co.emi.trazabilidad.entrada.ConsolaEmiTest.txt",
+      "bytes": 338
+    },
+    {
+      "path": "target/surefire-reports/co.emi.trazabilidad.infraestructura.persistencia.BaseDatosTest.txt",
+      "bytes": 378
+    },
+    {
+      "path": "target/surefire-reports/co.emi.trazabilidad.infraestructura.persistencia.EsquemaI1Test.txt",
+      "bytes": 378
+    },
+    {
+      "path": "target/surefire-reports/co.emi.trazabilidad.infraestructura.rfid.AislamientoI2Test.txt",
+      "bytes": 370
+    },
+    {
+      "path": "target/surefire-reports/co.emi.trazabilidad.infraestructura.rfid.FuenteSimuladaTest.txt",
+      "bytes": 373
+    },
+    {
+      "path": "target/test-classes/co/emi/trazabilidad/aplicacion/ServicioI1Test$RelojContado.class",
+      "bytes": 1091
+    },
+    {
+      "path": "target/test-classes/co/emi/trazabilidad/aplicacion/ServicioI1Test.class",
+      "bytes": 21270
+    },
+    {
+      "path": "target/test-classes/co/emi/trazabilidad/dominio/LecturaEntradaRFIDTest.class",
+      "bytes": 4674
+    },
+    {
+      "path": "target/test-classes/co/emi/trazabilidad/entrada/ConsolaEmiTest.class",
+      "bytes": 3650
+    },
+    {
+      "path": "target/test-classes/co/emi/trazabilidad/infraestructura/persistencia/BaseDatosTest.class",
+      "bytes": 2433
+    },
+    {
+      "path": "target/test-classes/co/emi/trazabilidad/infraestructura/persistencia/EsquemaI1Test.class",
+      "bytes": 10866
+    },
+    {
+      "path": "target/test-classes/co/emi/trazabilidad/infraestructura/rfid/AislamientoI2Test.class",
+      "bytes": 4457
+    },
+    {
+      "path": "target/test-classes/co/emi/trazabilidad/infraestructura/rfid/FuenteSimuladaTest$1.class",
+      "bytes": 1371
+    },
+    {
+      "path": "target/test-classes/co/emi/trazabilidad/infraestructura/rfid/FuenteSimuladaTest.class",
+      "bytes": 14041
+    },
+    {
+      "path": "tmp/bootstrap-smoke.db",
+      "bytes": 53248
+    },
+    {
+      "path": "tmp/demo-casos-7345334bb7e340ef8b5a866da033ffe1.db",
+      "bytes": 53248
+    },
+    {
+      "path": "tmp/diff-documental-previo.txt",
+      "bytes": 14612
+    },
+    {
+      "path": "tmp/diff-sincronizacion-i1.txt",
+      "bytes": 48259
+    },
+    {
+      "path": "tmp/documentacion-i1-protegidos.xml",
+      "bytes": 8856
+    },
+    {
+      "path": "tmp/i1-casos-verify.log",
+      "bytes": 56516
+    },
+    {
+      "path": "tmp/i1-jar-demo.log",
+      "bytes": 7440
+    },
+    {
+      "path": "tmp/maven.zip",
+      "bytes": 9278421
+    },
+    {
+      "path": "tmp/shade-antes.log",
+      "bytes": 21905
+    },
+    {
+      "path": "tmp/shade-clean.log",
+      "bytes": 17896
+    },
+    {
+      "path": "tmp/shade-incremental.log",
+      "bytes": 17603
+    },
+    {
+      "path": "tmp/verify-commit-cli.log",
+      "bytes": 56518
+    },
+    {
+      "path": "tmp/verify-commit-nucleo.log",
+      "bytes": 53296
+    },
+    {
+      "path": "tmp/verify-post-commits-i1.log",
+      "bytes": 56521
+    },
+    {
+      "path": "tmp/verify-sincronizacion-i1.log",
+      "bytes": 56520
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/LICENSE",
+      "bytes": 8389
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/NOTICE",
+      "bytes": 4854
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/README.txt",
+      "bytes": 1279
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/bin/m2.conf",
+      "bytes": 327
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/bin/mvn",
+      "bytes": 6184
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/bin/mvn.cmd",
+      "bytes": 6778
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/bin/mvnDebug",
+      "bytes": 1684
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/bin/mvnDebug.cmd",
+      "bytes": 2169
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/bin/mvnyjp",
+      "bytes": 1611
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/boot/plexus-classworlds-2.9.0.jar",
+      "bytes": 54086
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/boot/plexus-classworlds.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/conf/settings.xml",
+      "bytes": 10528
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/conf/toolchains.xml",
+      "bytes": 3645
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/conf/logging/simplelogger.properties",
+      "bytes": 1338
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/aopalliance-1.0.jar",
+      "bytes": 4467
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/aopalliance.license",
+      "bytes": 13
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/asm-9.8.jar",
+      "bytes": 126113
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/asm.license",
+      "bytes": 1626
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/commons-cli-1.9.0.jar",
+      "bytes": 75479
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/commons-cli.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/commons-codec-1.18.0.jar",
+      "bytes": 373045
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/commons-codec.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/error_prone_annotations-2.38.0.jar",
+      "bytes": 20389
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/error_prone_annotations.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/failureaccess-1.0.3.jar",
+      "bytes": 10763
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/failureaccess.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/gson-2.13.1.jar",
+      "bytes": 286972
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/gson.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/guava-33.4.8-jre.jar",
+      "bytes": 3023797
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/guava.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/guice-5.1.0-classes.jar",
+      "bytes": 656919
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/guice.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/httpclient-4.5.14.jar",
+      "bytes": 785639
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/httpclient.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/httpcore-4.4.16.jar",
+      "bytes": 327891
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/httpcore.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/jansi-2.4.2.jar",
+      "bytes": 256537
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/jansi.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/javax.annotation-api-1.3.2.jar",
+      "bytes": 26586
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/javax.annotation-api.license",
+      "bytes": 39395
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/javax.inject-1.jar",
+      "bytes": 2497
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/javax.inject.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/jcl-over-slf4j-1.7.36.jar",
+      "bytes": 16555
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/jcl-over-slf4j.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/jspecify-1.0.0.jar",
+      "bytes": 3819
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/jspecify.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-artifact-3.9.11.jar",
+      "bytes": 58821
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-builder-support-3.9.11.jar",
+      "bytes": 14351
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-compat-3.9.11.jar",
+      "bytes": 288160
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-core-3.9.11.jar",
+      "bytes": 713140
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-embedder-3.9.11.jar",
+      "bytes": 117172
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-model-3.9.11.jar",
+      "bytes": 217939
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-model-builder-3.9.11.jar",
+      "bytes": 208642
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-plugin-api-3.9.11.jar",
+      "bytes": 47119
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-repository-metadata-3.9.11.jar",
+      "bytes": 28530
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-resolver-api-1.9.24.jar",
+      "bytes": 157239
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-resolver-connector-basic-1.9.24.jar",
+      "bytes": 40355
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-resolver-impl-1.9.24.jar",
+      "bytes": 320116
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-resolver-named-locks-1.9.24.jar",
+      "bytes": 37937
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-resolver-provider-3.9.11.jar",
+      "bytes": 79012
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-resolver-spi-1.9.24.jar",
+      "bytes": 51655
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-resolver-transport-file-1.9.24.jar",
+      "bytes": 16213
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-resolver-transport-http-1.9.24.jar",
+      "bytes": 62893
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-resolver-transport-wagon-1.9.24.jar",
+      "bytes": 32466
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-resolver-util-1.9.24.jar",
+      "bytes": 195913
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-settings-3.9.11.jar",
+      "bytes": 44672
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-settings-builder-3.9.11.jar",
+      "bytes": 42356
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-shared-utils-3.4.2.jar",
+      "bytes": 151103
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/maven-slf4j-provider-3.9.11.jar",
+      "bytes": 23672
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/org.eclipse.sisu.inject-0.9.0.M4.jar",
+      "bytes": 305040
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/org.eclipse.sisu.inject.license",
+      "bytes": 14196
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/org.eclipse.sisu.plexus-0.9.0.M4.jar",
+      "bytes": 215833
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/org.eclipse.sisu.plexus.license",
+      "bytes": 14196
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/plexus-cipher-2.0.jar",
+      "bytes": 13003
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/plexus-cipher.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/plexus-component-annotations-2.2.0.jar",
+      "bytes": 4151
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/plexus-component-annotations.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/plexus-interpolation-1.28.jar",
+      "bytes": 87143
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/plexus-interpolation.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/plexus-sec-dispatcher-2.0.jar",
+      "bytes": 23604
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/plexus-sec-dispatcher.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/plexus-utils-3.6.0.jar",
+      "bytes": 271773
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/plexus-utils.license",
+      "bytes": 11358
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/slf4j-api-1.7.36.jar",
+      "bytes": 41125
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/slf4j-api.license",
+      "bytes": 1154
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/wagon-file-3.5.3.jar",
+      "bytes": 11350
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/wagon-http-3.5.3.jar",
+      "bytes": 9405
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/wagon-http-shared-3.5.3.jar",
+      "bytes": 40832
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/wagon-provider-api-3.5.3.jar",
+      "bytes": 55101
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/ext/README.txt",
+      "bytes": 143
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/ext/hazelcast/README.txt",
+      "bytes": 300
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/ext/redisson/README.txt",
+      "bytes": 295
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/jansi-native/README.txt",
+      "bytes": 490
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/jansi-native/Windows/arm64/jansi.dll",
+      "bytes": 81408
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/jansi-native/Windows/x86/jansi.dll",
+      "bytes": 115972
+    },
+    {
+      "path": "tmp/apache-maven-3.9.11/lib/jansi-native/Windows/x86_64/jansi.dll",
+      "bytes": 130522
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/.gitattributes",
+      "bytes": 112
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/.gitignore",
+      "bytes": 647
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/AGENTS.md",
+      "bytes": 5888
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/README.md",
+      "bytes": 2303
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/mvnw",
+      "bytes": 11790
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/mvnw.cmd",
+      "bytes": 8481
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/pom.xml",
+      "bytes": 2737
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/.mvn/wrapper/maven-wrapper.properties",
+      "bytes": 171
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/docs/FUENTES_DE_VERDAD.md",
+      "bytes": 7329
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/docs/desarrollo/arquitectura.md",
+      "bytes": 1162
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/docs/desarrollo/modelo_datos.md",
+      "bytes": 2099
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/java/co/emi/trazabilidad/EmiApplication.java",
+      "bytes": 468
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/java/co/emi/trazabilidad/aplicacion/ErrorAplicacion.java",
+      "bytes": 515
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/java/co/emi/trazabilidad/aplicacion/ServicioI1.java",
+      "bytes": 5133
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/java/co/emi/trazabilidad/aplicacion/puertos/RepositorioI1.java",
+      "bytes": 960
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/java/co/emi/trazabilidad/aplicacion/puertos/UnidadDeTrabajo.java",
+      "bytes": 277
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/java/co/emi/trazabilidad/dominio/AsignacionEtiqueta.java",
+      "bytes": 873
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/java/co/emi/trazabilidad/dominio/Equipo.java",
+      "bytes": 526
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/java/co/emi/trazabilidad/dominio/EstadoEtiqueta.java",
+      "bytes": 90
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/java/co/emi/trazabilidad/dominio/EtiquetaRFID.java",
+      "bytes": 520
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/java/co/emi/trazabilidad/infraestructura/persistencia/BaseDatos.java",
+      "bytes": 1225
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/java/co/emi/trazabilidad/infraestructura/persistencia/JdbcRepositorioI1.java",
+      "bytes": 5578
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/java/co/emi/trazabilidad/infraestructura/persistencia/JdbcUnidadDeTrabajo.java",
+      "bytes": 1182
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/resources/db/migration/V1__inicializar_persistencia.sql",
+      "bytes": 140
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/main/resources/db/migration/V2__crear_entidades_i1.sql",
+      "bytes": 1738
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/test/java/co/emi/trazabilidad/aplicacion/ServicioI1Test.java",
+      "bytes": 13418
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/test/java/co/emi/trazabilidad/infraestructura/persistencia/BaseDatosTest.java",
+      "bytes": 1044
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/src/test/java/co/emi/trazabilidad/infraestructura/persistencia/EsquemaI1Test.java",
+      "bytes": 6234
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/original-trazabilidad-0.1.0-SNAPSHOT.jar",
+      "bytes": 23902
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/trazabilidad-0.1.0-SNAPSHOT.jar",
+      "bytes": 17424967
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/EmiApplication.class",
+      "bytes": 1587
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/aplicacion/ErrorAplicacion$Codigo.class",
+      "bytes": 1471
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/aplicacion/ErrorAplicacion.class",
+      "bytes": 1095
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/aplicacion/ServicioI1.class",
+      "bytes": 10375
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/aplicacion/puertos/RepositorioI1.class",
+      "bytes": 1320
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/aplicacion/puertos/UnidadDeTrabajo.class",
+      "bytes": 359
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/dominio/AsignacionEtiqueta.class",
+      "bytes": 2899
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/dominio/Equipo.class",
+      "bytes": 2176
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/dominio/EstadoEtiqueta.class",
+      "bytes": 1178
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/dominio/EtiquetaRFID.class",
+      "bytes": 2329
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/infraestructura/persistencia/BaseDatos.class",
+      "bytes": 2921
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/infraestructura/persistencia/JdbcRepositorioI1$Mapeo.class",
+      "bytes": 581
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/infraestructura/persistencia/JdbcRepositorioI1.class",
+      "bytes": 10446
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/co/emi/trazabilidad/infraestructura/persistencia/JdbcUnidadDeTrabajo.class",
+      "bytes": 2648
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/db/migration/V1__inicializar_persistencia.sql",
+      "bytes": 140
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/classes/db/migration/V2__crear_entidades_i1.sql",
+      "bytes": 1738
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/maven-archiver/pom.properties",
+      "bytes": 65
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst",
+      "bytes": 804
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst",
+      "bytes": 1589
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst",
+      "bytes": 255
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst",
+      "bytes": 421
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/surefire-reports/TEST-co.emi.trazabilidad.aplicacion.ServicioI1Test.xml",
+      "bytes": 49027
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/surefire-reports/TEST-co.emi.trazabilidad.infraestructura.persistencia.BaseDatosTest.xml",
+      "bytes": 12276
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/surefire-reports/TEST-co.emi.trazabilidad.infraestructura.persistencia.EsquemaI1Test.xml",
+      "bytes": 22435
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/surefire-reports/co.emi.trazabilidad.aplicacion.ServicioI1Test.txt",
+      "bytes": 345
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/surefire-reports/co.emi.trazabilidad.infraestructura.persistencia.BaseDatosTest.txt",
+      "bytes": 378
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/surefire-reports/co.emi.trazabilidad.infraestructura.persistencia.EsquemaI1Test.txt",
+      "bytes": 378
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/test-classes/co/emi/trazabilidad/aplicacion/ServicioI1Test$RelojContado.class",
+      "bytes": 1091
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/test-classes/co/emi/trazabilidad/aplicacion/ServicioI1Test.class",
+      "bytes": 21270
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/test-classes/co/emi/trazabilidad/infraestructura/persistencia/BaseDatosTest.class",
+      "bytes": 2433
+    },
+    {
+      "path": "tmp/commit-i1-d8e9d79150bb4266abae15cdc997e33a/target/test-classes/co/emi/trazabilidad/infraestructura/persistencia/EsquemaI1Test.class",
+      "bytes": 10866
+    },
+    {
+      "path": "tmp/revision-final-i1/clean-verify.log",
+      "bytes": 56518
+    },
+    {
+      "path": "tmp/revision-final-i1/git-diff-stat.txt",
+      "bytes": 438
+    },
+    {
+      "path": "tmp/revision-final-i1/git-diff.txt",
+      "bytes": 35441
+    },
+    {
+      "path": "tmp/revision-final-i1/git-nuevos.txt",
+      "bytes": 667
+    },
+    {
+      "path": "tmp/revision-final-i1/git-status.txt",
+      "bytes": 1012
+    },
+    {
+      "path": "tmp/revision-final-i1/hashes-actual.json",
+      "bytes": 291
+    }
+  ]
+}

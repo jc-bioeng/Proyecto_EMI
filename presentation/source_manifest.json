@@ -1,0 +1,425 @@
+{
+  "cutoff": "2026-09-10",
+  "control_version": "1.9.2",
+  "hash_algorithm": "SHA-256",
+  "note": "Identity and inventory only; review scope is documented in source_review.md. Local institutional sources remain excluded from Git.",
+  "sources": [
+    {
+      "path": "docs/analisis/ANALISIS_SDK_CHAINWAY_U300.md",
+      "bytes": 71644,
+      "sha256": "31b524196f624736abb26393323b483205332362ae930c876d37490ec0a66fae",
+      "authority": "subordinate_evidence"
+    },
+    {
+      "path": "docs/analisis/INFORME_TECNICO_I2_FUENTE_RFID_SIMULADA.md",
+      "bytes": 23303,
+      "sha256": "fa1fc747b74ada61eabfa40cc2654d628de4e8f6ca0202d90316ecc7dd387df1",
+      "authority": "subordinate_evidence"
+    },
+    {
+      "path": "docs/analisis/PROPUESTA_ACTUALIZACION_CONTROL_v1.9.2.md",
+      "bytes": 22323,
+      "sha256": "a2343c4c9d7d4a5d762bee5a1576f6673e575a2f7dd9dfa0db2e64536043db27",
+      "authority": "subordinate_evidence"
+    },
+    {
+      "path": "docs/anexos/Transcripcion_Entrevista_Trazabilidad_Biomedica (1).docx",
+      "bytes": 67747,
+      "sha256": "aa69f0fed5b1524689171b6620e026ade76334ae37ce3569accf3eb40ff666d4",
+      "authority": "subordinate_evidence"
+    },
+    {
+      "path": "docs/control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.9.2_ACTUAL.pdf",
+      "bytes": 92341,
+      "sha256": "58ea6a6701908317bd24474da65b3f9e924caf9b2d46e041b72171bb55be3404",
+      "authority": "current_internal_control",
+      "pages": 6
+    },
+    {
+      "path": "docs/control_local/decisiones_individuales/DEC-022_Adenda_Registro_Decisiones_Proyecto_EMI_2026-09-05.pdf",
+      "bytes": 31929,
+      "sha256": "6bd582e52fbf46d6cfeb502c7e3e419152c31322d4aa155ddb31d9878804baed",
+      "authority": "historical",
+      "pages": 2
+    },
+    {
+      "path": "docs/control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.8.1_ACTUAL.pdf",
+      "bytes": 134869,
+      "sha256": "96e4fdde6a89756abcc636c9ca3499d961d12fb29dd3d3b2a07e4c283a5158fe",
+      "authority": "historical",
+      "pages": 17
+    },
+    {
+      "path": "docs/control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.8.2_ACTUAL.pdf",
+      "bytes": 182625,
+      "sha256": "ea06903afbe6269ac9a6c01cf9cab1e777364a8a87fa9eff9eb356909829b52b",
+      "authority": "historical",
+      "pages": 20
+    },
+    {
+      "path": "docs/control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.8.pdf",
+      "bytes": 394828,
+      "sha256": "d2e02e281c90835f69437e79fd14c33cf727b66a00f95eca899e93876a786823",
+      "authority": "historical",
+      "pages": 14
+    },
+    {
+      "path": "docs/control_local/historico/Arquitecto_Proyecto_Documento_Maestro_v1.9.1_ACTUAL.pdf",
+      "bytes": 141160,
+      "sha256": "3abcca3310d1d356589ec1e491bdca38fa9963ef8cba88c0636eccb8426316f5",
+      "authority": "historical",
+      "pages": 3
+    },
+    {
+      "path": "docs/control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.8.1_ACTUAL.pdf",
+      "bytes": 461355,
+      "sha256": "911ece87230bae62f2e6684243c8200e9c0e1bd50ccde7812e92cdfaa1bcfb50",
+      "authority": "historical",
+      "pages": 22
+    },
+    {
+      "path": "docs/control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.8.2_ACTUAL.pdf",
+      "bytes": 465471,
+      "sha256": "b4ccf7a291e2c7b8ad17ade1047d676dd5127a9b6076e7cb3c54352781a97060",
+      "authority": "historical",
+      "pages": 25
+    },
+    {
+      "path": "docs/control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.8.pdf",
+      "bytes": 651889,
+      "sha256": "011cb5de269ae197aba01cf7f66150401315f9fab7977a58fcaa6f7bddd1ab50",
+      "authority": "historical",
+      "pages": 19
+    },
+    {
+      "path": "docs/control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.9.1_ACTUAL.pdf",
+      "bytes": 180364,
+      "sha256": "760bb1fe1d9137bd0f3a21aff984c0464eb7043b830a0fe4ade71397642ddbe7",
+      "authority": "historical",
+      "pages": 3
+    },
+    {
+      "path": "docs/control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.8.1_ACTUAL.pdf",
+      "bytes": 130459,
+      "sha256": "bb4f3169497b976b75db940764ef1856fec85a1dfaa0e2a2ad0cdecb05e5b2d4",
+      "authority": "historical",
+      "pages": 15
+    },
+    {
+      "path": "docs/control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.8.2_ACTUAL.pdf",
+      "bytes": 133817,
+      "sha256": "efcc5c69ce799e87ad0ab1b4c300f34c6ddec12cfc168eec2861cf9a9565dcc8",
+      "authority": "historical",
+      "pages": 17
+    },
+    {
+      "path": "docs/control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.8.pdf",
+      "bytes": 404299,
+      "sha256": "7df691fc6cf9b8e7524454386f056e319e50df657046621f36e86c66a1a6ef8f",
+      "authority": "historical",
+      "pages": 13
+    },
+    {
+      "path": "docs/control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.9.1_ACTUAL.pdf",
+      "bytes": 130801,
+      "sha256": "a5e5c9b13fc2463045e2a8aade707bad44417071f9429589e0c672c4dbcfee3e",
+      "authority": "historical",
+      "pages": 3
+    },
+    {
+      "path": "docs/control_local/historico/Matriz_Requisitos_Proyecto_EMI_v1.9.2_ACTUAL.pdf",
+      "bytes": 89633,
+      "sha256": "3511de35796da873ccca60b4a50b923aa91b1ea4afbef8130dbf43cde9376a20",
+      "authority": "current_internal_control",
+      "pages": 6
+    },
+    {
+      "path": "docs/control_local/Propuesta_Juan_Cortes_20262.pdf",
+      "bytes": 215585,
+      "sha256": "1c5fdc97d18a6b3616c321e7ec17e3bad070eb71b1e9b35a0d2accb0fa135f11",
+      "authority": "approved_baseline",
+      "pages": 11
+    },
+    {
+      "path": "docs/control_local/historico/Registro_Decisiones_Proyecto_EMI_v1.9.2_ACTUAL.pdf",
+      "bytes": 84251,
+      "sha256": "16e0873dcbf252152dfe5a111516040d6a20c29d20bac2eebb2018c71de67205",
+      "authority": "current_internal_control",
+      "pages": 4
+    },
+    {
+      "path": "docs/desarrollo/arquitectura.md",
+      "bytes": 2914,
+      "sha256": "4885abbbdcd5ddbccf936c27b9535b3deefa85a329d3f324fae273cbe6246edf",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "docs/desarrollo/casos_de_uso_i1.md",
+      "bytes": 7690,
+      "sha256": "04d2c6eab87da0f18fa3c92cac12cc851227bab5598a8e4fe597265e76f982f2",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "docs/desarrollo/modelo_datos.md",
+      "bytes": 3448,
+      "sha256": "0e83218c47f8e1786b49f90db828b9b37acbda9a24f69e878d66304847bc8cd4",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "docs/FUENTES_DE_VERDAD.md",
+      "bytes": 18083,
+      "sha256": "076d1a3016da76275f3b6fc060b2067bab85c98dd33bb76b8c2f270474b46e6d",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "docs/soporte/Checklist_P1_v0.1_ACTUALIZABLE.xlsx",
+      "bytes": 20601,
+      "sha256": "a381881b0815ebb1fe8001dbd07d871938db9deee0d76a7b8fde02beb1eddde4",
+      "authority": "subordinate_evidence"
+    },
+    {
+      "path": "docs/soporte/Informe_Cierre_P0_Proyecto_EMI_2026-09-03.docx",
+      "bytes": 54470,
+      "sha256": "4e307367177ed42f4984abc6a74422eb2a04aadb51099a6ba3104b898f0bef78",
+      "authority": "subordinate_evidence"
+    },
+    {
+      "path": "docs/soporte/Informe_Hallazgos_Operativos_AM_RFID_EMI_2026-09-09.pdf",
+      "bytes": 2078594,
+      "sha256": "a73dcbfe3fea988cd4463889ab6c81f73e9dbae050fbb40d20a48e722762582a",
+      "authority": "subordinate_evidence",
+      "pages": 9
+    },
+    {
+      "path": "docs/soporte/Informe_Tecnico_Avance_I1_Proyecto_EMI_v0.1_2026-09-06.pdf",
+      "bytes": 344457,
+      "sha256": "40a6d4354514f6533f4da29c44690f889a10f750fe3b15ff409fc28bf316e5e0",
+      "authority": "subordinate_evidence",
+      "pages": 12
+    },
+    {
+      "path": "docs/soporte/Informe_Tecnico_Avance_P1_v0.1_2026-09-05.pdf",
+      "bytes": 535248,
+      "sha256": "158ee06e0bf5e93f07a0ca42488234065ce4bdfea8aa7616f529ddb77b4b8231",
+      "authority": "subordinate_evidence",
+      "pages": 7
+    },
+    {
+      "path": "docs/soporte/Informe_Tecnico_Cierre_I1_Proyecto_EMI_v0.2_2026-09-06.pdf",
+      "bytes": 317595,
+      "sha256": "b9fa3aaa39e33f72609bbea4c5565185ae4393948727a4018a64473e7f726d7b",
+      "authority": "subordinate_evidence",
+      "pages": 6
+    },
+    {
+      "path": "pom.xml",
+      "bytes": 2737,
+      "sha256": "02944709a9e91fe8f14accd828bdf502ed9a526a5a0a5fca450a7ef3b847072b",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5312,
+      "sha256": "7274989797e7338f479faf901df04b5688e5b35d761eecd9ccc7fef4754c2841",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/aplicacion/ErrorAplicacion.java",
+      "bytes": 532,
+      "sha256": "acb5f96f9d8f79fbd4bb99160c93701e2c4d446a6b1d409dca7e508a15e62a03",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/aplicacion/puertos/FuenteLecturasRFID.java",
+      "bytes": 1217,
+      "sha256": "c94126d670d34e67994a1d538007f486c5ab91aaa600423465f79f0640cc5573",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/aplicacion/puertos/RepositorioI1.java",
+      "bytes": 981,
+      "sha256": "b87c26b8f9a05b8f35d043357652d72a6660883d5017d473094a810f8ff04cdc",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/aplicacion/puertos/UnidadDeTrabajo.java",
+      "bytes": 285,
+      "sha256": "91937fd357cdd20ba6ae5cef16e43bdb872f0d77ddb91e680f6b440c0e7c5b96",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/aplicacion/ServicioI1.java",
+      "bytes": 5253,
+      "sha256": "caf12154f709bb76449ad063cf88915e73dc73f50d92cc77e6656a8575aef846",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/dominio/AsignacionEtiqueta.java",
+      "bytes": 895,
+      "sha256": "17ca42478619957480eba673b85a1bcb728a4d345a5de7e8eba893a1612ea74e",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/dominio/Equipo.java",
+      "bytes": 538,
+      "sha256": "88636e807bf9376b95e0455895ba8c582205c7ff3f4d6fb31bae2707edd84841",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/dominio/EstadoEtiqueta.java",
+      "bytes": 95,
+      "sha256": "35d3c477e80812015d869311c94d3fdd6d51f023be62f53b620c3afe0d807d13",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/dominio/EtiquetaRFID.java",
+      "bytes": 532,
+      "sha256": "fecc6c00ebe25dab6f86521b230347cc148a972de5b583059c91582b536aa27d",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/dominio/LecturaEntradaRFID.java",
+      "bytes": 1134,
+      "sha256": "69b874b950b0c485f69a5b9a916b4bb55cf69bbee9b2134350379a6ef48c60db",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/dominio/OrigenDatos.java",
+      "bytes": 173,
+      "sha256": "52d8b507c9f24bc170367053963ef06b864694e18cdc7e6c9fb693dd985098d7",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/EmiApplication.java",
+      "bytes": 1073,
+      "sha256": "962408230b54bdca993e4b73e70d3681d7b39879ee59c1ca2b8294e7a23cf591",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/entrada/ConsolaEmi.java",
+      "bytes": 3820,
+      "sha256": "8df7a113008f18f2113ac17d233d742d02faaca363a8626a06ee42ea6d141541",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/infraestructura/persistencia/BaseDatos.java",
+      "bytes": 1260,
+      "sha256": "6c31319a9267861cdf0433f42cae7cd3f29995155afc230be2f7bc676c21ecb2",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/infraestructura/persistencia/JdbcRepositorioI1.java",
+      "bytes": 5675,
+      "sha256": "fc9b0342927e31b2f92532cfc0245d811d7bda2a612c32f114aeca0bd2b0acad",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/infraestructura/persistencia/JdbcUnidadDeTrabajo.java",
+      "bytes": 1212,
+      "sha256": "7c62bf95b466eb0d7b541b0d9523245a7cf48fbfca11a71858f44d7ec07a43d9",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/java/co/emi/trazabilidad/infraestructura/rfid/FuenteSimulada.java",
+      "bytes": 2911,
+      "sha256": "b66a864f26fbf6281f1e8cbf8718641d2218387645b8ca02b50ea612500f5398",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/resources/db/migration/V1__inicializar_persistencia.sql",
+      "bytes": 143,
+      "sha256": "5b800bf5bf394fecd576aeb21ebad79293ca1672cb3e1c7cddeb61b6e1b0da1d",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/main/resources/db/migration/V2__crear_entidades_i1.sql",
+      "bytes": 1778,
+      "sha256": "4590f422e54350a3658b99e2047cc4b5640b1c1ab99fcd1a4cd7f10f88d987a8",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/aplicacion/ServicioI1Test.java",
+      "bytes": 13629,
+      "sha256": "b7ebad28c29636c912b4bf19867faa57bf593fed043efcbc4abb579e750448b1",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/dominio/LecturaEntradaRFIDTest.java",
+      "bytes": 2126,
+      "sha256": "38939c8c21ed73cceae9d161b6a636ee0a8944d9d29197b2929177635abe7d68",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/entrada/ConsolaEmiTest.java",
+      "bytes": 2415,
+      "sha256": "95d212d81f13378e39df4cc559f80b7d5caa21c8bfd48da20fe8b744e6b594b0",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/infraestructura/persistencia/BaseDatosTest.java",
+      "bytes": 1069,
+      "sha256": "8d3aacb363358bc5bf3f1ed408c40f6df7ce062f2d6ffb51d379444652079dec",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/infraestructura/persistencia/EsquemaI1Test.java",
+      "bytes": 6344,
+      "sha256": "ad0889b9ccb9bd86d9db31eb3c0e2a25bbd1b9eb063402c22fb98e006790bbc6",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/infraestructura/rfid/AislamientoI2Test.java",
+      "bytes": 1681,
+      "sha256": "5c3bd1cf8d722ba6ee24c5c3ca216fea958dc12870ed056b3e12a31ff6380233",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "src/test/java/co/emi/trazabilidad/infraestructura/rfid/FuenteSimuladaTest.java",
+      "bytes": 7691,
+      "sha256": "04980cf53f1081f98296437a950b7a564ea2b1a3132878f2b495899f8381838b",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.aplicacion.ServicioI1Test.xml",
+      "bytes": 48688,
+      "sha256": "c652d81ffa6fa519ceeaac11139125281d63a48cd92b24972ca2b5138f5cb900",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.dominio.LecturaEntradaRFIDTest.xml",
+      "bytes": 10102,
+      "sha256": "8c57c49e67dd2e0e0d2ceadfd32cbf01507c324231ebb866a228f81f37680ac1",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.entrada.ConsolaEmiTest.xml",
+      "bytes": 12999,
+      "sha256": "41cccb887a13cd35887be7f9ec33535aebcfb2662ea564c23aab1aae46d50158",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.infraestructura.persistencia.BaseDatosTest.xml",
+      "bytes": 11927,
+      "sha256": "440cf866c2350ee6c4dfdee077a3e81109c4884f10cde8032c7c813eb02897f8",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.infraestructura.persistencia.EsquemaI1Test.xml",
+      "bytes": 22090,
+      "sha256": "dd60a1fce2528729747921e32d675d1dfc8faab807e7f27f29b3895577ea8ec1",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.infraestructura.rfid.AislamientoI2Test.xml",
+      "bytes": 9647,
+      "sha256": "e6495d0632f0ee1fbca9660835871776108c993ebba6bdc5bf29daac6b0f0520",
+      "authority": "technical_or_context_support"
+    },
+    {
+      "path": "target/surefire-reports/TEST-co.emi.trazabilidad.infraestructura.rfid.FuenteSimuladaTest.xml",
+      "bytes": 12271,
+      "sha256": "6500ff5c12ac69e63ef78b65a6ea0e5640645c8b67149b6883ee16fe809e00ac",
+      "authority": "technical_or_context_support"
+    }
+  ]
+}

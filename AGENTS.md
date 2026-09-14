@@ -8,6 +8,8 @@ Leer primero `docs/FUENTES_DE_VERDAD.md`.
 Jerarquía:
 Propuesta aprobada → Documento Maestro ACTUAL → Matriz ACTUAL → Registro ACTUAL → soporte → anexos.
 
+Para la producción de la presentación, aplicar además la precedencia de observaciones formales del asesor indicada en la sección «Sistema de presentación académica». La diferencia respecto al control documental está registrada explícitamente allí y en `presentation/source_review.md`.
+
 No modificar silenciosamente objetivos, alcance, metodología, cronograma, presupuesto, piloto o validación.
 
 ## Estado
@@ -203,3 +205,42 @@ Clasificar cada resultado:
 | PENDIENTE | Evidencia insuficiente. |
 | CALCULADA | Resultado matemático/geométrico con entradas y supuestos explícitos. |
 | PENDIENTE_RF_REAL | Afirmación que requiere prueba física RFID. |
+
+## Sistema de presentación académica — encargo del 10/09/2026
+
+Esta sección añade reglas editoriales; no cambia versión formal v1.9.2, decisiones, requisitos ni estados. Preservar todas las reglas técnicas anteriores.
+
+### Autoridad y contradicciones
+
+El encargo posterior establece para la presentación: Propuesta aprobada → Maestro ACTUAL → observaciones formales del profesor/asesores → Matriz ACTUAL → Registro ACTUAL → anexos e informes técnicos → entrevistas y evidencias preliminares. Es una diferencia explícita frente a la jerarquía de los PDF y `docs/FUENTES_DE_VERDAD.md`, que no incluye ese nivel de observaciones. Se aplica la instrucción posterior al trabajo editorial, sin reescribir el control formal. No se ha localizado un acta independiente de observaciones formales; una conversación informal o un informe auxiliar no ocupa ese nivel. La Propuesta cita AP-021 del 31/07/2026, cuyo original está pendiente de localizar.
+
+Ante discrepancia: registrar las dos afirmaciones, ruta, versión, localizador, autoridad, alcance temporal y efecto sobre la presentación en `presentation/source_review.md`; aplicar la fuente superior; conservar la discrepancia visible. Si implica cambiar objetivos, alcance, arquitectura aprobada, metodología, cronograma, presupuesto o validación, formular el cambio para revisión, sin ejecutarlo por inferencia. Una observación no equivale a autorización de implementación ni a nueva DEC.
+
+### Línea editorial permanente
+
+- Audiencia: asesor interno de Bioingeniería de la Universidad de Antioquia; explicar evolución del proyecto desde aprobación, sin ordenar por informes.
+- Mantener Diagnóstico → Requisitos → Diseño → MVP → Pruebas → Piloto → Validación. P0 cerrado; el diagnóstico adicional debe resolver bloqueos concretos. Resultado previsto: MVP funcional, pruebas, piloto delimitado y validación, con las condiciones de hardware/autorización de la Propuesta.
+- Título formal: «Desarrollo y validación de un prototipo de trazabilidad basado en RFID pasivo para equipos biomédicos administrados por EMI Medellín».
+- Una diapositiva, una idea; título con conclusión sustentada; diagramas explicativos antes que tablas, bullets o párrafos. No decorar sin propósito. Diagramas, texto, tablas y gráficos editables.
+- No presentar simulación, SDK inspeccionado, cálculo RF o fotografías como validación física. Lectura cruda ≠ evento ≠ verificación ≠ sustitución temporal ≠ contingencia. Antena ≠ dirección de movimiento.
+- Clasificar por separado estado de implementación, madurez de evidencia y ámbito SOFTWARE / SIMULACION / RF_REAL; usar NO APLICA para control o contexto. «CONFIRMADA» solo cubre la afirmación concreta sustentada.
+- No sumar 32 + 57: 57 es el total documentado (32 de I1 + 25 nuevas de I2). No confundir pruebas automatizadas con fase formal de Pruebas cerrada, ni historial de asociaciones con historial operativo implementado.
+- No inventar porcentajes de avance, métricas RF, fechas de aprobación, responsables, fechas futuras, dimensiones, potencias, compras o permisos. El presupuesto no acredita disponibilidad; un reporte repetido no constituye fuente independiente.
+- Conservar `raqui`, `férula espinal`, códigos RF/TEC/DAT/VAL y DEC existentes. En prosa puede usarse «simulación»; el identificador técnico es `SIMULACION`. La prohibición INACTIVA continúa pendiente.
+- Cada afirmación principal lleva ID editorial E y fuente con versión/localizador en `presentation/evidence_matrix.md`; los ID E y C editoriales no son requisitos ni decisiones. Notas futuras: fuente, evidencia, explicación y límite; límites esenciales también visibles.
+- Mantener datos personales innecesarios, firmas, teléfonos e identificaciones fuera de las diapositivas. Fotos institucionales: conservar procedencia y contexto; no generar ni alterar evidencia con IA.
+- Usar PDF ACTUAL verificados por contenido y ruta, nunca solo por sufijo. No borrar históricos ni redistribuir fuentes institucionales/SDK automáticamente. Respetar `.gitignore`.
+
+### Skills locales y ejecución
+
+Para tareas de presentación, leer explícitamente los skills del repositorio que correspondan; su ubicación `skills/` es deliberada y no presupone instalación global ni descubrimiento automático:
+
+1. `skills/emi-source-of-truth/SKILL.md`: inventario, autoridad y evidencia.
+2. `skills/emi-presentation-architect/SKILL.md`: brief, matriz y narrativa.
+3. `skills/didactic-slide-design/SKILL.md`: especificación visual y pedagogía.
+4. `skills/pptxgenjs-production/SKILL.md`: futura producción editable con PptxGenJS, por elección explícita del usuario.
+5. `skills/slide-qa/SKILL.md`: exactitud y revisión visual.
+
+Documentos de trabajo: `presentation/presentation_brief.md`, `evidence_matrix.md`, `storyboard.md`, `deck_spec.md`, `source_review.md` y `source_manifest.json`. Código editorial en `src/presentation/`, sin tocar `src/main/`, `src/test/`, V1/V2 ni dependencias Maven por una tarea editorial.
+
+El encargo actual es autoconfiguración: no generar todavía diapositivas ni PPTX. Una solicitud posterior de producción habilitará el flujo PptxGenJS → render → revisión → corrección → entrega. La QA documental actual no acredita render ni apertura en PowerPoint.
