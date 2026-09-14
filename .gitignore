@@ -3,6 +3,9 @@
 /docs/soporte/
 /docs/anexos/
 
+# SDK propietario del lector: conservar solo en el entorno local.
+/Java For PC/
+
 # Datos, respaldos y salidas locales
 /data/
 /backups/
