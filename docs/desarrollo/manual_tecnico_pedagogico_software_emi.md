@@ -1514,7 +1514,3 @@ PENDIENTES:    Adaptador UHF real | Prepruebas RF_REAL | Piloto
 ---
 
 *Documento generado a partir del código fuente del repositorio. No se modificó ningún archivo del proyecto.*
-
-
-
-
