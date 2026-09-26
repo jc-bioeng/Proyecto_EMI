@@ -37,7 +37,7 @@ class EsquemaI5Test {
         }return salida;
     }
     @Test void migracionDesdeCeroSoloAgregaDosIndicesSinTablasNuevas()throws Exception {
-        var base=new BaseDatos(temporal.resolve("nueva.db"));base.migrar();base.migrar();
+        var archivo=temporal.resolve("nueva.db");var base=new BaseDatos(archivo);migrarHastaI5(archivo);migrarHastaI5(archivo);
         try(var c=base.abrir()) {
             assertEquals(5,contar(c,"SELECT count(*) FROM flyway_schema_history WHERE success=1"));
             assertEquals(9,contar(c,"SELECT count(*) FROM sqlite_master WHERE type='table'"));
@@ -51,12 +51,17 @@ class EsquemaI5Test {
         var base=new BaseDatos(archivo);var datos=poblar(base,4);var antes=checksums(base);
         var i4=new ServicioI4(new JdbcUnidadDeTrabajo(base),Clock.fixed(T,ZoneOffset.UTC));var respaldos=i4.evidenciasDeEvento(datos.evento.eventoId());
         var cerrada=new ServicioI3(new JdbcUnidadDeTrabajo(base),Clock.fixed(T,ZoneOffset.UTC)).cerrarSesion(datos.sesion.sesionId());
-        base.migrar();base.migrar();var despues=checksums(base);assertEquals(5,despues.size());antes.forEach((k,v)->assertEquals(v,despues.get(k)));
+        migrarHastaI5(archivo);migrarHastaI5(archivo);var despues=checksums(base);assertEquals(5,despues.size());antes.forEach((k,v)->assertEquals(v,despues.get(k)));
         var consulta=new ServicioI5(new JdbcUnidadDeTrabajo(base));
         assertEquals(datos.lecturas,consulta.historialLecturasPorEquipo(datos.equipo.equipoId()).stream().map(v->v.lectura()).toList());
         assertEquals(datos.evento,consulta.ultimoEventoPorEquipo(datos.equipo.equipoId()).orElseThrow());
         assertEquals(respaldos,consulta.evidenciasDeEvento(datos.evento.eventoId()));
         assertEquals(cerrada,consulta.historialEventosPorEquipo(datos.equipo.equipoId()).getFirst().sesion());
+    }
+    /** Fixture historico V5, como V3/V4; MigracionMvpTest cubre V8. */
+    private static void migrarHastaI5(Path archivo) {
+        Flyway.configure().dataSource("jdbc:sqlite:"+archivo,null,null)
+            .locations("classpath:db/migration").target("5").load().migrate();
     }
     private static List<String> plan(Connection c,String sql,long id)throws SQLException {
         List<String> salida=new ArrayList<>();try(var s=c.prepareStatement("EXPLAIN QUERY PLAN "+sql)) {
