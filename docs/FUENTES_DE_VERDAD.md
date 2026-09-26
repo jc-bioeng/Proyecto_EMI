@@ -1,20 +1,20 @@
 # Fuentes de verdad del Proyecto EMI
 
-Versión de inventario y control interno: **v1.9.3 ACTUAL**.
+Versión de inventario y control interno: **v1.9.4 ACTUAL**.
 
-Fecha de consolidación: **13/09/2026**. Antecedente inmediato: **v1.9.2 del 09/09/2026**, conservado íntegro en `control_local/historico/`.
+Fecha de consolidación: **15/09/2026**. Antecedente inmediato: **v1.9.3 del 13/09/2026**, conservado íntegro en `control_local/historico/`.
 
 ## Jerarquía documental vigente
 
 1. `control_local/Propuesta_Juan_Cortes_20262.pdf` — línea base formal aprobada, sin cambios.
-2. `control_local/Arquitecto_Proyecto_Documento_Maestro_v1.9.3_ACTUAL.pdf`.
-3. `control_local/Matriz_Requisitos_Proyecto_EMI_v1.9.3_ACTUAL.pdf`.
-4. `control_local/Registro_Decisiones_Proyecto_EMI_v1.9.3_ACTUAL.pdf`.
-5. Informes técnicos I3, I4 e I5, como evidencia subordinada de estado técnico.
+2. `control_local/Arquitecto_Proyecto_Documento_Maestro_v1.9.4_ACTUAL.pdf`.
+3. `control_local/Matriz_Requisitos_Proyecto_EMI_v1.9.4_ACTUAL.pdf`.
+4. `control_local/Registro_Decisiones_Proyecto_EMI_v1.9.4_ACTUAL.pdf`.
+5. Informes técnicos I3, I4, I5 e I6-I8, como evidencia subordinada de estado técnico.
 6. Documentación de desarrollo, código y pruebas.
 7. Anexos y evidencia auxiliar.
 
-Los tres documentos ACTUAL constituyen una consolidación única. Sus versiones editables son los archivos `.docx` con el mismo nombre base, versión y contenido. Los PDF se exportaron desde esos DOCX con Word y se revisaron visualmente. La autorización corresponde a la consolidación documental post-I5 solicitada por el usuario; no introduce funcionalidades ni cambia la Propuesta.
+Los tres documentos ACTUAL constituyen una consolidación única. Sus versiones editables son los archivos `.docx` con el mismo nombre base, versión y contenido. Los PDF se exportaron desde esos DOCX con Word y se revisaron visualmente. La autorización corresponde a la actualización documental post-I8 autorizada por el usuario el 15/09/2026; no introduce funcionalidades ni cambia la Propuesta.
 
 Ante contradicción, aplicar la autoridad superior y registrar el efecto. Los nombres históricos que conservan ACTUAL no les dan vigencia. Para tareas de presentación se conserva la precedencia editorial especial ya documentada en AGENTS.md, sin reescribir su histórico por esta tarea.
 
@@ -31,7 +31,8 @@ Ante contradicción, aplicar la autoridad superior y registrar el efecto. Los no
 | I3 | CERRADO técnicamente; 82 pruebas totales SOFTWARE / SIMULACION |
 | I4 | CERRADO técnicamente; 134 pruebas totales SOFTWARE / SIMULACION |
 | I5 | CERRADO técnicamente; 169 pruebas totales SOFTWARE / SIMULACION |
-| Suite vigente | 169 pruebas, 0 fallos, 0 errores, 0 omitidas |
+| I6-I8 | CERRADOS técnicamente; 243 pruebas totales en el cierre conjunto SOFTWARE / SIMULACION |
+| Suite vigente | 243 pruebas, 0 fallos, 0 errores, 0 omitidas |
 | P1 | EN CURSO |
 | P2 | EN CURSO |
 | P3 | PENDIENTE |
@@ -41,11 +42,11 @@ Ante contradicción, aplicar la autoridad superior y registrar el efecto. Los no
 | Validación final | PENDIENTE |
 | DEC-024 | NO CREADA |
 
-Los totales 32 -> 57 -> 82 -> 134 -> 169 no se suman entre sí. Esta consolidación coteja informes y 18 XML Surefire existentes: no es una nueva ejecución de Maven ni el cierre de la fase formal de Pruebas.
+Los totales 32 -> 57 -> 82 -> 134 -> 169 -> 243 no se suman entre sí. Esta consolidación coteja informes y 24 XML Surefire existentes: no es una nueva ejecución de Maven ni el cierre de la fase formal de Pruebas.
 
 ## Evaluación de fase y decisiones
 
-Se mantiene DISEÑO como fase formal y se reconoce explícitamente el software del MVP en construcción. La Propuesta p.6 define Diseño con arquitectura física, lógica y operativa; P2 no acredita aún cierre físico ni aprobación de regla operativa, actores, punto y condiciones. I1-I5 demuestran construcción lógica, sin cerrar esos entregables.
+Se mantiene DISEÑO como fase formal y se reconoce explícitamente el software del MVP en construcción. La Propuesta p.6 define Diseño con arquitectura física, lógica y operativa; P2 no acredita aún cierre físico ni aprobación de regla operativa, actores, punto y condiciones. I1-I8 demuestran construcción lógica, sin cerrar esos entregables.
 
 Se revisó DEC-018 en el Registro histórico v1.8.2 p.11: «Al cerrar Diseño / iniciar MVP». No establece una transición automática por número de incrementos. P1 no se convierte en una prohibición de seguir programando: DEC-009/017 permiten avanzar con simulación. No se formaliza el gate ni se crea DEC-024. Una formalización futura deberá justificar cualquier condición transversal nueva; no se aprueba ni reserva ahora esa numeración.
 
@@ -53,7 +54,7 @@ DEC-001 a DEC-023 preservan identidad, estado y significado. I3 ejecuta DEC-014/
 
 ## Estados de requisitos
 
-La Matriz v1.9.3 conserva los 29 identificadores, criterios y prioridades. Cambios de estado: AC-004 y RF-003 pasan a EN DESARROLLO; RF-004 y DAT-001 pasan a IMPLEMENTADO en SOFTWARE; VAL-003 pasa a EN DESARROLLO con criterio software verificado. Los demás estados se conservan.
+La Matriz v1.9.4 conserva los 29 identificadores, criterios y prioridades. RF-005, RF-006 y RF-007 pasan de APROBADO a IMPLEMENTADO en SOFTWARE; mantienen Should, Should y Must. Los otros 26 estados se conservan. DAT-002 y DAT-003 siguen EN DESARROLLO: este corte no evalúa su cierre integral; V6-V8 ya materializan las tres entidades antes faltantes.
 
 | ID | Estado vigente |
 | --- | --- |
@@ -66,9 +67,9 @@ La Matriz v1.9.3 conserva los 29 identificadores, criterios y prioridades. Cambi
 | RF-002 | EN DESARROLLO |
 | RF-003 | EN DESARROLLO |
 | RF-004 | IMPLEMENTADO |
-| RF-005 | APROBADO |
-| RF-006 | APROBADO |
-| RF-007 | APROBADO |
+| RF-005 | IMPLEMENTADO |
+| RF-006 | IMPLEMENTADO |
+| RF-007 | IMPLEMENTADO |
 | TEC-001 | EN DESARROLLO |
 | TEC-002 | EN DESARROLLO |
 | DAT-001 | IMPLEMENTADO |
@@ -87,7 +88,7 @@ La Matriz v1.9.3 conserva los 29 identificadores, criterios y prioridades. Cambi
 | RSK-001 | APROBADO |
 | RSK-002 | APROBADO |
 
-VAL-003 adopta la convención B: criterio lógico verificado por I4, comprobación integrada en Pruebas formales pendiente. No se añade RF_REAL como condición del criterio de cero duplicados; la Propuesta permite evidencia simulada para lógica. La taxonomía anterior no definía una reserva explícita de Implementado para Validación; se deja la convención explicada en los tres documentos.
+VAL-003 adopta la convención B: criterio lógico verificado por I4 y comprobación integrada automatizada de desarrollo por I6-I8; Pruebas formales pendientes. No se añade RF_REAL como condición del criterio de cero duplicados; la Propuesta permite evidencia simulada para lógica. La taxonomía anterior no definía una reserva explícita de Implementado para Validación; se deja la convención explicada en los tres documentos.
 
 ## Arquitectura y evidencia construidas
 
@@ -97,13 +98,18 @@ VAL-003 adopta la convención B: criterio lógico verificado por I4, comprobaci�
 - I4: EventoOperativo, asociación histórica EPC-equipo y evento_lectura; V4. Procesamiento explícito, deduplicación solo de eventos, idempotencia, concurrencia y rollback. 20 callbacks simulados -> 20 lecturas -> 1 evento -> 20 respaldos. Reejecución sin nuevo evento.
 - I5: última lectura, último evento e historiales por equipo; asociación histórica y reasignaciones respetadas, consultas sin escritura. V5 añade exclusivamente dos índices.
 
+- I6 / RF-005 / V6: esperados vs detectados, asociación histórica, evidencia por lectura y reintentos con resultados preservados.
+- I7 / RF-007 / V7: sustitución temporal, consulta activa/historial y devolución; una activa por equipo.
+- I8 / RF-006 / V8: contingencia manual por omisión tras reintento o fuera de ruta, actor/contexto/motivo y confirmación explícita; sin crear lectura ni evento.
+- I6-I8: 74 pruebas nuevas y 243 totales. Migraciones desde cero/V5/V6/V7 e integración SOFTWARE / SIMULACION verificadas. Fuente: `desarrollo/incrementos_i6_i8.md`.
+
 Lectura RFID cruda != Evento operativo != Verificación != Sustitución temporal != Contingencia.
 
 SIMULACION != RF_REAL. Deduplicar eventos no borra lecturas. Última lectura != último evento != estado físico actual del equipo. Una consulta histórica no es localización en tiempo real ni acredita disponibilidad física. El valor OrigenDatos.RF_REAL construido en tests no es evidencia RF_REAL. Antena no determina INGRESO/SALIDA; la dirección procede del contexto de sesión.
 
 ## Próxima acción y pendientes
 
-**RF-005 — Verificación de esperados vs detectados**, APROBADO hasta iniciar implementación real. Después: sustitución temporal RF-007, contingencia RF-006, cierre del MVP, Pruebas controladas, Piloto y Validación. El adaptador real sigue condicionado a P1; no se implementa por esta consolidación. No reabrir I1-I5 sin defecto demostrado.
+**I6-I8 implementados y verificados técnicamente.** Resolver P1/P2 para integrar una fuente UHF real compatible y completar el MVP; después, Pruebas controladas, Piloto y Validación. El adaptador real sigue condicionado a P1. No reabrir I1-I8 sin defecto demostrado. Esta actualización no implementa hardware ni aprueba reglas operativas institucionales.
 
 P1 EN CURSO: UHF autorizado, unidad/firmware, runtime/SDK funcional, configuración y EPC físico reproducible. P2 EN CURSO: único punto, actores/roles, geometría, rutas, red, energía, permisos y regla operativa final. P3 PENDIENTE: después de prepruebas RF_REAL y antes del piloto. No se fijan nuevos umbrales.
 
@@ -114,21 +120,20 @@ Cronograma aprobado de 24 semanas intacto: Caracterización 1-4, Requisitos 5-6,
 - `desarrollo/incremento_i3.md`: cierre del 12/09/2026, 82/0/0/0.
 - `desarrollo/incremento_i4.md`: implementación del 12/09/2026 y cierre documental del 13/09/2026, 134/0/0/0; sección Evidencia de VAL-003.
 - `desarrollo/incremento_i5.md`: cierre del 13/09/2026, 169/0/0/0; escenario RF-004.
+- `desarrollo/incrementos_i6_i8.md`: cierre conjunto del 14/09/2026; 243/0/0/0, 74 nuevas. Log final existente y 24 XML cotejados; Maven no se ejecuta en este corte documental.
+- `control_local/consolidacion_v1.9.4/INFORME_CONSOLIDACION_v1.9.4.md`: cambios autorizados y comprobaciones.
+- `control_local/consolidacion_v1.9.4/manifest.json`: SHA-256 de entradas, salidas y preservación histórica.
 - `control_local/INFORME_CONSOLIDACION_v1.9.3.md`: diagnóstico previo, inconsistencias, revisión de cada requisito, tabla Antes/Después y verificación cruzada.
 - `control_local/consolidacion_v1.9.3/VERIFICACION_CRUZADA_v1.9.3.json`: cotejos de contenido y estado.
 - `control_local/consolidacion_v1.9.3/manifest.json`: SHA-256, archivos de entrada y salida, preservación histórica.
 
 ## Histórico preservado
 
-Los tres PDF v1.9.2 se trasladan íntegros a `control_local/historico/`, conservando nombre y contenido:
+Los seis originales PDF/DOCX v1.9.3 se preservan íntegros, con sus nombres, en `control_local/historico/`. También se conservan copias del índice, AGENTS.md y README anteriores con sufijo `pre_consolidacion_2026-09-15.md`. El manifiesto coteja sus SHA-256.
 
-- `Arquitecto_Proyecto_Documento_Maestro_v1.9.2_ACTUAL.pdf`.
-- `Matriz_Requisitos_Proyecto_EMI_v1.9.2_ACTUAL.pdf`.
-- `Registro_Decisiones_Proyecto_EMI_v1.9.2_ACTUAL.pdf`.
+Las versiones v1.8, v1.8.1, v1.8.2, v1.9.1 y v1.9.2 continúan en el histórico. v1.9 es antecedente citado sin archivo independiente localizado. El original AP-021 sigue sin localizar. DEC-018: Registro histórico v1.8.2 p.11, con encabezados v1.8 y referencias v1.7 preservados.
 
-El índice previo se conserva íntegro en `control_local/historico/FUENTES_DE_VERDAD_v1.9.2_pre_consolidacion_2026-09-13.md`. Las versiones v1.8, v1.8.1, v1.8.2 y v1.9.1 continúan en el histórico. v1.9 se cita como antecedente, pero no se localizó un archivo independiente; no se confunde con v1.9.1. DEC-018 está en el Registro histórico v1.8.2 p.11, cuyo contenido conserva encabezados v1.8 y referencias v1.7. No se corrige esa discrepancia histórica por inferencia.
-
-El índice histórico conserva las rutas y el contexto anterior completos. AGENTS.md, README, documentación histórica y materiales de presentación preexistentes pueden describir v1.9.2 o estados previos; no sustituyen los documentos ACTUAL v1.9.3. La presente tarea no los reescribe.
+AGENTS.md y README se sincronizan con v1.9.4. Los informes de implementación y materiales de presentación anteriores conservan su fecha y contexto; sus estados históricos no sustituyen este control vigente. Esta tarea no produce ni actualiza diapositivas.
 
 ## Condiciones heredadas que siguen vigentes
 
@@ -202,7 +207,7 @@ No afirmar cobertura automática de activos que no atraviesan el punto. Las cate
 
 La omisión inicial no determina una falla final; aplicar reintento controlado cuando corresponda. Si persiste, contingencia con equipo, actor, fecha/hora, sesión/contexto, motivo y origen manual explícito. Para activos fuera de ruta: `Manual/Contingencia -> Confirmación`. Nunca crear lectura RFID ficticia para justificar un movimiento. Preferir selección por código institucional/equipo a escritura de EPC hexadecimal. No incorporar lector manual ni tercer SDK sin autorización.
 
-Este flujo es una directriz de diseño; no declara RF-006 implementado, no modifica su prioridad Should ni adelanta la contingencia en la secuencia de incrementos.
+El flujo se materializa en I6/I8 y RF-006 pasa a IMPLEMENTADO en SOFTWARE. Se conserva Should; la corroboración de actores, rutas y aplicación institucional sigue pendiente en P2. V8 registra origen MANUAL separado de OrigenDatos, sin lecturas ficticias.
 
 ## Siguiente tarea P2 — análisis geométrico/RF especializado
 

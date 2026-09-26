@@ -1,8 +1,14 @@
 # Proyecto EMI
 
+## Estado vigente v1.9.4 — I6-I8
+
+I6 verificación, I7 sustitución temporal e I8 contingencia manual están implementados y verificados en SOFTWARE / SIMULACION. Suite documentada: **243 pruebas, 0 fallos, 0 errores, 0 omitidas** (169 anteriores + 74 nuevas). Consulte [informe I6-I8](docs/desarrollo/incrementos_i6_i8.md) y [control vigente v1.9.4](docs/FUENTES_DE_VERDAD.md).
+
+La actualización documental autorizada del 15/09/2026 reconoce RF-005, RF-006 y RF-007 como IMPLEMENTADOS en SOFTWARE. Fase formal Diseño; P1/P2 en curso; sin evidencia RF_REAL; MVP completo, Pruebas formales, Piloto y Validación pendientes. Los apartados de incrementos previos conservan su contexto histórico.
+
 ## Incremento I5
 
-I5 CERRADO técnicamente: última lectura, último evento e historiales por equipo con asociación histórica de etiquetas. Consulte el [diseño, API Java, V5 y 169 pruebas de I5](docs/desarrollo/incremento_i5.md). Las consultas preservan la evidencia y no generan eventos. Última lectura != último evento != estado físico actual. Evidencia SOFTWARE / SIMULACION; RF-004 implementado en software como recomendación técnica, sin modificar el control ACTUAL ni cerrar el MVP.
+I5 CERRADO técnicamente: última lectura, último evento e historiales por equipo con asociación histórica de etiquetas. Consulte el [diseño, API Java, V5 y 169 pruebas de I5](docs/desarrollo/incremento_i5.md). Las consultas preservan la evidencia y no generan eventos. Última lectura != último evento != estado físico actual. Evidencia SOFTWARE / SIMULACION; RF-004 implementado en software, consolidado formalmente desde v1.9.3, sin cierre del MVP.
 
 ## Incremento I4
 
@@ -10,7 +16,7 @@ I4 CERRADO técnicamente: motor de eventos y deduplicación sobre lecturas persi
 
 ## Estado técnico posterior: I3
 
-I3 implementa persistencia de `SesionOperacion` y `LecturaRFID`. Consulte el [diseño, uso Java, pruebas y trazabilidad de I3](docs/desarrollo/incremento_i3.md). Las secciones I1 siguientes se conservan como antecedentes; para el control formal vigente prevalece `docs/FUENTES_DE_VERDAD.md` (v1.9.2, I1/I2 cerrados). I3 no cierra el MVP ni acredita RF_REAL.
+I3 implementa persistencia de `SesionOperacion` y `LecturaRFID`. Consulte el [diseño, uso Java, pruebas y trazabilidad de I3](docs/desarrollo/incremento_i3.md). Las secciones I1 siguientes se conservan como antecedentes; para el control formal vigente prevalece `docs/FUENTES_DE_VERDAD.md` (v1.9.4, I1-I8 cerrados técnicamente). I3 no cierra el MVP ni acredita RF_REAL.
 
 Prototipo de trazabilidad RFID UHF pasivo para equipos biomedicos. I1 IMPLEMENTADO Y VERIFICADO TÉCNICAMENTE conforme a DEC-022: bootstrap, tres entidades y esquema relacional disponibles. Los siete casos de uso de asociacion y sus comandos de consola estan implementados y verificados. El bootstrap utiliza Java 21, Maven, SQLite/JDBC, Flyway y JUnit 5. No integra hardware RFID ni cierra P1.
 
